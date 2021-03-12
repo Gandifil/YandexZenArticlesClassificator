@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 import ReactLoading from 'react-loading';
+import { TagViewItem } from '../rows/TagViewItem';
 
 export class ArticleViewPage extends Component {
     constructor(props) {
         super(props);
         this.id = this.props.match.params.id;
-        this.state = { loading: true, data: null};
+        this.state = { loading: true, data: null, loadingTags: true, tags: null};
 
         this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
@@ -24,7 +25,7 @@ export class ArticleViewPage extends Component {
                 <FormGroup row>
                     <Label sm={2}>ID</Label>
                     <Col sm={10}>
-                        <Input> {article.id} </Input >
+                        <Label> {article.id} </Label >
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -58,13 +59,27 @@ export class ArticleViewPage extends Component {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
+                    <Label sm={2}>Теги</Label>
+                    <Col>
+                        {this.renderTags()}
+                    </Col>
+                </FormGroup>
+                <FormGroup row>
                     <Label sm={2}>Текст</Label>
                     <Col sm={10}>
-                        <Input value={article.text} />
+                        <textarea value={article.text} rows="20" cols="130" />
                     </Col>
                 </FormGroup>
             <Button>Submit</Button>
         </Form>);
+    }
+
+    renderTags() {
+        const contents = this.state.loadingTags
+            ? <ReactLoading type="cylon" color="black" height={66} width={37} />
+            : this.state.tags.map(x => <TagViewItem tag={x} />);
+
+        return contents;
     }
 
     render() {
@@ -75,11 +90,34 @@ export class ArticleViewPage extends Component {
         return contents;
     }
 
-    async populateData() {
-        this.setState({ loading: true, data: null });
-        const url = 'api/article/'+this.id;
+    populateData() {
+        this.populateArticle();
+        this.populateTags();
+    }
+
+    async populateArticle() {
+        this.state.loading = true;
+        this.setState(this.state);
+
+        const url = 'api/article/' + this.id;
         const response = await fetch(url);
         const data = await response.json();
-        this.setState({ loading: false, data: data});
+
+        this.state.loading = false;
+        this.state.data = data;
+        this.setState(this.state);
+    }
+
+    async populateTags() {
+        this.state.loadingTags = true;
+        this.setState(this.state);
+
+        const url = 'api/article/' + this.id + '/tags';
+        const response = await fetch(url);
+        const data = await response.json();
+
+        this.state.loadingTags = false;
+        this.state.tags = data;
+        this.setState(this.state);
     }
 }
