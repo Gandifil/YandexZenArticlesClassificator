@@ -8,8 +8,20 @@ from .models import Article
 from django.http.response import JsonResponse
 import json
 
+
+#def getAll(id):
+#    return JsonResponse([Article.objects.filter(pk=id)[:1].values()], safe=False)
+
 # Create your views here.
 class ArticleView(APIView):
+
+    def get(self, request, id):
+        if request.method == 'GET':
+            articles = Article.objects.filter(pk=id).values();
+            return JsonResponse(list(articles)[0], safe=False)
+
+# Create your views here.
+class ArticlesView(APIView):
     """API endpoint /api/model/ для обработки запросов на определение класса для передаваемого текста"""
 
     def get(self, request):

@@ -14,7 +14,7 @@ export class ArticleRow extends Component {
                 <td>{article.title}</td>
                 <td>{article.author}</td>
                 <td>{article.classkey}</td>
-                <td><Link to={'/articles/' + article.id} className="btn btn-primary">Открыть</Link></td>
+                <td><Link to={'/article/' + article.id} className="btn btn-primary">Открыть</Link></td>
             </tr>
         );
     }

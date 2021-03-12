@@ -7,6 +7,7 @@ export class Layout extends Component {
     return (
       <div>
         <NavMenu />
+            <span aria-hidden>&ensp;</span>
         <Container>
           {this.props.children}
         </Container>
