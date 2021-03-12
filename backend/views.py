@@ -19,6 +19,10 @@ class ArticleView(APIView):
             tag = request.GET.get('tag', '')
             articles = Article.objects.all()
             if title is not '':
-                articles = articles.filter(title).filter(title__contains=title)
+                articles = articles.filter(title__icontains=title)
+            if author is not '':
+                articles = articles.filter(author__icontains=author)
+            if tag is not '':
+                articles = articles.filter(keywords__name__icontains=tag)
             ##serialized_queryset = serializers.serialize('json', articles)
             return JsonResponse(list(articles[:10].values()), safe=False)

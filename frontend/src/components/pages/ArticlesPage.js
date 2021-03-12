@@ -11,15 +11,11 @@ export class ArticlesPage extends Component {
         this.modal = React.createRef();
 
         this.handleClick = (e) => this.modal.current.show();
-        this.handleModalSubmit = (e) => this.populateData(e)
+        this.handleModalSubmit = (e) => this.populateData();
     }
 
     componentDidMount() {
-        this.populateData("");
-    }
-
-    search(value, event) {
-        this.populateData(value);
+        this.populateData();
     }
 
     render() {
@@ -30,17 +26,17 @@ export class ArticlesPage extends Component {
         return (
             <div>
                 <Button color="primary" size="lg" block onClick={this.handleClick}>Фильтрация</Button>
-                <ArticleSearchModal ref={this.modal} />
+                <ArticleSearchModal ref={this.modal} onSubmit={ this.handleModalSubmit } />
                 {contents}
             </div>
             );
     }
 
-    async populateData(value) {
-        this.setState({ articles: [], loading: true});
-        let url = 'api/articles';
-        if (value)
-            url = url + '?name=' + value;
+    async populateData() {
+        this.setState({ articles: [], loading: true });
+        const filter = this.modal.current.state.item;
+
+        const url = 'api/articles?title=' + filter.title + '&author=' + filter.author + '&tag=' + filter.tag;
         const response = await fetch(url);
         const data = await response.json();
         this.setState({ articles: data, loading: false});

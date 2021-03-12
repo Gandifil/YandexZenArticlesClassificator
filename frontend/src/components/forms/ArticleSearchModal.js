@@ -40,10 +40,10 @@ export class ArticleSearchModal extends Component {
         this.setState(this.state);
     }
 
-    submit() {
+    submit() { 
         this.hide();
         console.log("Установлен фильтр", this.state.item);
-        //this.pros.onSubmit(this.state.item);
+        this.props.onSubmit(this);
     }
 
     render() {
