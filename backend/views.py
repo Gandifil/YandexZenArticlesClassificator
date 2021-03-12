@@ -64,7 +64,7 @@ class TagsView(APIView):
             results = list();
             for x in keywords:
                 obj = dict()
-                ibj["id"] = x.id
+                obj["id"] = x.id
                 obj["name"] = x.name
                 obj["countTags"] = Article.objects.filter(keywords__name=x.name).count()
                 obj["countClasskeys"] = Article.objects.filter(classkey=x.name).count()

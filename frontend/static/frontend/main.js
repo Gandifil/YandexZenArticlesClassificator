@@ -20,7 +20,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => /* binding */ App\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Layout */ \"./src/components/Layout.js\");\n/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Home */ \"./src/components/Home.js\");\n/* harmony import */ var _components_pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/ArticlesPage */ \"./src/components/pages/ArticlesPage.js\");\n/* harmony import */ var _components_pages_ArticleViewPage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/ArticleViewPage */ \"./src/components/pages/ArticleViewPage.js\");\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(App, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__.Layout, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {\n        exact: true,\n        path: \"/\",\n        component: _components_Home__WEBPACK_IMPORTED_MODULE_7__.Home\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {\n        exact: true,\n        path: \"/articles\",\n        component: _components_pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_8__.ArticlesPage\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {\n        exact: true,\n        path: \"/article/:id\",\n        component: _components_pages_ArticleViewPage__WEBPACK_IMPORTED_MODULE_9__.ArticleViewPage\n      }));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_5__.Component);\n\n\n\n//# sourceURL=webpack://frontend/./src/App.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => /* binding */ App\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-router */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/Layout */ \"./src/components/Layout.js\");\n/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Home */ \"./src/components/Home.js\");\n/* harmony import */ var _components_pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/ArticlesPage */ \"./src/components/pages/ArticlesPage.js\");\n/* harmony import */ var _components_pages_ArticleViewPage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/ArticleViewPage */ \"./src/components/pages/ArticleViewPage.js\");\n/* harmony import */ var _components_pages_TagsPage__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/TagsPage */ \"./src/components/pages/TagsPage.js\");\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\n\n\n\n\n\nvar App = /*#__PURE__*/function (_React$Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(App, _React$Component);\n\n  var _super = _createSuper(App);\n\n  function App() {\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, App);\n\n    return _super.apply(this, arguments);\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(App, [{\n    key: \"render\",\n    value: function render() {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_6__.Layout, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_11__.Route, {\n        exact: true,\n        path: \"/\",\n        component: _components_Home__WEBPACK_IMPORTED_MODULE_7__.Home\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_11__.Route, {\n        exact: true,\n        path: \"/articles\",\n        component: _components_pages_ArticlesPage__WEBPACK_IMPORTED_MODULE_8__.ArticlesPage\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_11__.Route, {\n        exact: true,\n        path: \"/tags\",\n        component: _components_pages_TagsPage__WEBPACK_IMPORTED_MODULE_10__.TagsPage\n      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_router__WEBPACK_IMPORTED_MODULE_11__.Route, {\n        exact: true,\n        path: \"/article/:id\",\n        component: _components_pages_ArticleViewPage__WEBPACK_IMPORTED_MODULE_9__.ArticleViewPage\n      }));\n    }\n  }]);\n\n  return App;\n}(react__WEBPACK_IMPORTED_MODULE_5__.Component);\n\n\n\n//# sourceURL=webpack://frontend/./src/App.js?");
 
 /***/ }),
 
@@ -110,7 +110,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ArticleViewPage\": () => /* binding */ ArticleViewPage\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Form.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/FormGroup.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Label.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Col.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Input.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Button.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-loading */ \"./node_modules/react-loading/dist/react-loading.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_loading__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _rows_TagViewItem__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../rows/TagViewItem */ \"./src/components/rows/TagViewItem.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\n\n\n\nvar ArticleViewPage = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__.default)(ArticleViewPage, _Component);\n\n  var _super = _createSuper(ArticleViewPage);\n\n  function ArticleViewPage(props) {\n    var _this;\n\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__.default)(this, ArticleViewPage);\n\n    _this = _super.call(this, props);\n    _this.id = _this.props.match.params.id;\n    _this.state = {\n      loading: true,\n      data: null,\n      loadingTags: true,\n      tags: null,\n      deleted: false,\n      editing: false\n    };\n\n    _this.handleClick = function (e) {\n      return _this.modal.current.show();\n    };\n\n    _this.handleModalSubmit = function (e) {\n      return _this.populateData();\n    };\n\n    _this.handleDelete = function (e) {\n      return _this[\"delete\"]();\n    };\n\n    _this.handleSave = function (e) {\n      return _this.save();\n    };\n\n    _this.handleEdit = function (e) {\n      _this.state.editing = true;\n\n      _this.setState(_this.state);\n    }; // variables\n\n\n    _this.handleTitle = function (e) {\n      return _this.setTitle(e.target.value);\n    };\n\n    _this.handleAuthor = function (e) {\n      return _this.setAuthor(e.target.value);\n    };\n\n    _this.handleClasskey = function (e) {\n      return _this.setClasskey(e.target.value);\n    };\n\n    _this.handleText = function (e) {\n      return _this.setText(e.target.value);\n    };\n\n    _this.handleMiddleReadingTime = function (e) {\n      return _this.setMiddleReadingTime(e.target.value);\n    };\n\n    _this.handleLikeCount = function (e) {\n      return _this.setLikeCount(e.target.value);\n    };\n\n    return _this;\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__.default)(ArticleViewPage, [{\n    key: \"setTitle\",\n    value: function setTitle(value) {\n      if (this.state.editing) {\n        this.state.data.title = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setAuthor\",\n    value: function setAuthor(value) {\n      if (this.state.editing) {\n        this.state.data.author = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setClasskey\",\n    value: function setClasskey(value) {\n      if (this.state.editing) {\n        this.state.data.classkey = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setText\",\n    value: function setText(value) {\n      if (this.state.editing) {\n        this.state.data.text = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setMiddleReadingTime\",\n    value: function setMiddleReadingTime(value) {\n      if (this.state.editing) {\n        this.state.data.middleReadingTime = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setLikeCount\",\n    value: function setLikeCount(value) {\n      if (this.state.editing) {\n        this.state.data.likeCount = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.populateData();\n    }\n  }, {\n    key: \"save\",\n    value: function save() {\n      var article = this.state.data;\n      console.log(\"Редактируем статью\", article);\n      var url = 'api/article/' + this.id;\n      var response = fetch(url, {\n        method: 'PATCH',\n        body: JSON.stringify(article),\n        headers: {\n          'Content-Type': 'application/json'\n        }\n      });\n      this.state.editing = false;\n      this.setState(this.state);\n    }\n  }, {\n    key: \"delete\",\n    value: function _delete() {\n      var url = 'api/article/' + this.id;\n      var response = fetch(url, {\n        method: 'DELETE'\n      });\n      this.state.deleted = true;\n      this.setState(this.state);\n    }\n  }, {\n    key: \"renderArticle\",\n    value: function renderArticle() {\n      var article = this.state.data;\n      console.log(\"Открываю статью\", article);\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"fieldset\", {\n        disabled: this.state.deleted\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"header\", {\n        className: \"modal-title\"\n      }, \"\\u0421\\u0442\\u0430\\u0442\\u044C\\u044F\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"ID\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, null, \" \", article.id, \" \"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041D\\u0430\\u0437\\u0432\\u0430\\u043D\\u0438\\u0435\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.title,\n        onChange: this.handleTitle\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0410\\u0432\\u0442\\u043E\\u0440\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.author,\n        onChange: this.handleAuthor\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041A\\u043B\\u0430\\u0441\\u0441\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.classkey,\n        onChange: this.handleClasskey\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0421\\u0440\\u0435\\u0434\\u043D\\u0435\\u0435 \\u0432\\u0440\\u0435\\u043C\\u044F \\u0447\\u0442\\u0435\\u043D\\u0438\\u044F\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.middleReadingTime,\n        onChange: this.handleMiddleReadingTime\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041A\\u043E\\u043B\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043E \\u043B\\u0430\\u0439\\u043A\\u043E\\u0432\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        type: \"number\",\n        value: article.likeCount,\n        onChange: this.handleLikeCount\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0422\\u0435\\u0433\\u0438\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, null, this.renderTags())), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0422\\u0435\\u043A\\u0441\\u0442\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"textarea\", {\n        value: article.text,\n        onChange: this.handleText,\n        rows: \"20\",\n        cols: \"130\"\n      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.Link, {\n        to: '/articles',\n        className: \"btn btn-secondary btn-lg m-2\"\n      }, \"\\u041D\\u0430\\u0437\\u0430\\u0434\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"danger\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: this.state.deleted,\n        onClick: this.handleDelete\n      }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"warning\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: this.state.deleted || this.state.editing,\n        onClick: this.handleEdit\n      }, \"\\u0418\\u0437\\u043C\\u0435\\u043D\\u0438\\u0442\\u044C\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"primary\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: !this.state.editing,\n        onClick: this.handleSave\n      }, \"\\u0421\\u043E\\u0445\\u0440\\u0430\\u043D\\u0438\\u0442\\u044C\"));\n    } //  <Button color=\"secondary\" size=\"lg\" onClick={useHistory().goBack}>Назад</Button>\n\n  }, {\n    key: \"renderTags\",\n    value: function renderTags() {\n      var contents = this.state.loadingTags ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement((react_loading__WEBPACK_IMPORTED_MODULE_8___default()), {\n        type: \"cylon\",\n        color: \"black\",\n        height: 66,\n        width: 37\n      }) : this.state.tags.map(function (x) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(_rows_TagViewItem__WEBPACK_IMPORTED_MODULE_9__.TagViewItem, {\n          tag: x\n        });\n      });\n      return contents;\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var contents = this.state.loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement((react_loading__WEBPACK_IMPORTED_MODULE_8___default()), {\n        type: \"cylon\",\n        color: \"black\",\n        height: 667,\n        width: 375\n      }) : this.renderArticle();\n      return contents;\n    }\n  }, {\n    key: \"populateData\",\n    value: function populateData() {\n      this.populateArticle();\n      this.populateTags();\n    }\n  }, {\n    key: \"populateArticle\",\n    value: function () {\n      var _populateArticle = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee() {\n        var url, response, data;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                this.state.loading = true;\n                this.setState(this.state);\n                url = 'api/article/' + this.id;\n                _context.next = 5;\n                return fetch(url);\n\n              case 5:\n                response = _context.sent;\n                _context.next = 8;\n                return response.json();\n\n              case 8:\n                data = _context.sent;\n                this.state.loading = false;\n                this.state.data = data;\n                this.setState(this.state);\n\n              case 12:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this);\n      }));\n\n      function populateArticle() {\n        return _populateArticle.apply(this, arguments);\n      }\n\n      return populateArticle;\n    }()\n  }, {\n    key: \"populateTags\",\n    value: function () {\n      var _populateTags = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee2() {\n        var url, response, data;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                this.state.loadingTags = true;\n                this.setState(this.state);\n                url = 'api/article/' + this.id + '/tags';\n                _context2.next = 5;\n                return fetch(url);\n\n              case 5:\n                response = _context2.sent;\n                _context2.next = 8;\n                return response.json();\n\n              case 8:\n                data = _context2.sent;\n                this.state.loadingTags = false;\n                this.state.tags = data;\n                this.setState(this.state);\n\n              case 12:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, this);\n      }));\n\n      function populateTags() {\n        return _populateTags.apply(this, arguments);\n      }\n\n      return populateTags;\n    }()\n  }]);\n\n  return ArticleViewPage;\n}(react__WEBPACK_IMPORTED_MODULE_7__.Component);\n\n//# sourceURL=webpack://frontend/./src/components/pages/ArticleViewPage.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ArticleViewPage\": () => /* binding */ ArticleViewPage\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Form.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/FormGroup.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Label.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Col.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Input.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Button.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-loading */ \"./node_modules/react-loading/dist/react-loading.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_loading__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _rows_TagViewItem__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../rows/TagViewItem */ \"./src/components/rows/TagViewItem.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\n\n\n\nvar ArticleViewPage = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__.default)(ArticleViewPage, _Component);\n\n  var _super = _createSuper(ArticleViewPage);\n\n  function ArticleViewPage(props) {\n    var _this;\n\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__.default)(this, ArticleViewPage);\n\n    _this = _super.call(this, props);\n    _this.id = _this.props.match.params.id;\n    _this.state = {\n      loading: true,\n      data: null,\n      loadingTags: true,\n      tags: null,\n      deleted: false,\n      editing: false\n    };\n\n    _this.handleClick = function (e) {\n      return _this.modal.current.show();\n    };\n\n    _this.handleModalSubmit = function (e) {\n      return _this.populateData();\n    };\n\n    _this.handleDelete = function (e) {\n      return _this[\"delete\"]();\n    };\n\n    _this.handleSave = function (e) {\n      return _this.save();\n    };\n\n    _this.handleEdit = function (e) {\n      _this.state.editing = true;\n\n      _this.setState(_this.state);\n    }; // variables\n\n\n    _this.handleTitle = function (e) {\n      return _this.setTitle(e.target.value);\n    };\n\n    _this.handleAuthor = function (e) {\n      return _this.setAuthor(e.target.value);\n    };\n\n    _this.handleClasskey = function (e) {\n      return _this.setClasskey(e.target.value);\n    };\n\n    _this.handleText = function (e) {\n      return _this.setText(e.target.value);\n    };\n\n    _this.handleMiddleReadingTime = function (e) {\n      return _this.setMiddleReadingTime(e.target.value);\n    };\n\n    _this.handleLikeCount = function (e) {\n      return _this.setLikeCount(e.target.value);\n    };\n\n    return _this;\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__.default)(ArticleViewPage, [{\n    key: \"setTitle\",\n    value: function setTitle(value) {\n      if (this.state.editing) {\n        this.state.data.title = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setAuthor\",\n    value: function setAuthor(value) {\n      if (this.state.editing) {\n        this.state.data.author = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setClasskey\",\n    value: function setClasskey(value) {\n      if (this.state.editing) {\n        this.state.data.classkey = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setText\",\n    value: function setText(value) {\n      if (this.state.editing) {\n        this.state.data.text = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setMiddleReadingTime\",\n    value: function setMiddleReadingTime(value) {\n      if (this.state.editing) {\n        this.state.data.middleReadingTime = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"setLikeCount\",\n    value: function setLikeCount(value) {\n      if (this.state.editing) {\n        this.state.data.likeCount = value;\n        this.setState(this.state);\n      }\n    }\n  }, {\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.populateData();\n    }\n  }, {\n    key: \"save\",\n    value: function save() {\n      var article = this.state.data;\n      console.log(\"Редактируем статью\", article);\n      var url = 'api/article/' + this.id;\n      var response = fetch(url, {\n        method: 'PATCH',\n        body: JSON.stringify(article),\n        headers: {\n          'Content-Type': 'application/json'\n        }\n      });\n      this.state.editing = false;\n      this.setState(this.state);\n    }\n  }, {\n    key: \"delete\",\n    value: function _delete() {\n      var url = 'api/article/' + this.id;\n      var response = fetch(url, {\n        method: 'DELETE'\n      });\n      this.state.deleted = true;\n      this.setState(this.state);\n    }\n  }, {\n    key: \"renderArticle\",\n    value: function renderArticle() {\n      var article = this.state.data;\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_10__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"fieldset\", {\n        disabled: this.state.deleted\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"header\", {\n        className: \"modal-title\"\n      }, \"\\u0421\\u0442\\u0430\\u0442\\u044C\\u044F\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"ID\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, null, \" \", article.id, \" \"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041D\\u0430\\u0437\\u0432\\u0430\\u043D\\u0438\\u0435\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.title,\n        onChange: this.handleTitle\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0410\\u0432\\u0442\\u043E\\u0440\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.author,\n        onChange: this.handleAuthor\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041A\\u043B\\u0430\\u0441\\u0441\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.classkey,\n        onChange: this.handleClasskey\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0421\\u0440\\u0435\\u0434\\u043D\\u0435\\u0435 \\u0432\\u0440\\u0435\\u043C\\u044F \\u0447\\u0442\\u0435\\u043D\\u0438\\u044F\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        value: article.middleReadingTime,\n        onChange: this.handleMiddleReadingTime\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u041A\\u043E\\u043B\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043E \\u043B\\u0430\\u0439\\u043A\\u043E\\u0432\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_14__.default, {\n        type: \"number\",\n        value: article.likeCount,\n        onChange: this.handleLikeCount\n      }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0422\\u0435\\u0433\\u0438\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, null, this.renderTags())), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        row: true\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_12__.default, {\n        sm: 2\n      }, \"\\u0422\\u0435\\u043A\\u0441\\u0442\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_13__.default, {\n        sm: 10\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"textarea\", {\n        value: article.text,\n        onChange: this.handleText,\n        rows: \"20\",\n        cols: \"130\"\n      })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_15__.Link, {\n        to: '/articles',\n        className: \"btn btn-secondary btn-lg m-2\"\n      }, \"\\u041D\\u0430\\u0437\\u0430\\u0434\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"danger\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: this.state.deleted,\n        onClick: this.handleDelete\n      }, \"\\u0423\\u0434\\u0430\\u043B\\u0438\\u0442\\u044C\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"warning\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: this.state.deleted || this.state.editing,\n        onClick: this.handleEdit\n      }, \"\\u0418\\u0437\\u043C\\u0435\\u043D\\u0438\\u0442\\u044C\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_16__.default, {\n        color: \"primary\",\n        size: \"lg\",\n        className: \"m-2\",\n        disabled: !this.state.editing,\n        onClick: this.handleSave\n      }, \"\\u0421\\u043E\\u0445\\u0440\\u0430\\u043D\\u0438\\u0442\\u044C\"));\n    } //  <Button color=\"secondary\" size=\"lg\" onClick={useHistory().goBack}>Назад</Button>\n\n  }, {\n    key: \"renderTags\",\n    value: function renderTags() {\n      var _this2 = this;\n\n      var contents = this.state.loadingTags ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement((react_loading__WEBPACK_IMPORTED_MODULE_8___default()), {\n        type: \"cylon\",\n        color: \"black\",\n        height: 66,\n        width: 37\n      }) : this.state.tags.map(function (x) {\n        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(_rows_TagViewItem__WEBPACK_IMPORTED_MODULE_9__.TagViewItem, {\n          tag: x,\n          canDelete: _this2.state.editing\n        });\n      });\n      return contents;\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var contents = this.state.loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement((react_loading__WEBPACK_IMPORTED_MODULE_8___default()), {\n        type: \"cylon\",\n        color: \"black\",\n        height: 667,\n        width: 375\n      }) : this.renderArticle();\n      return contents;\n    }\n  }, {\n    key: \"populateData\",\n    value: function populateData() {\n      this.populateArticle();\n      this.populateTags();\n    }\n  }, {\n    key: \"populateArticle\",\n    value: function () {\n      var _populateArticle = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee() {\n        var url, response, data;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                this.state.loading = true;\n                this.setState(this.state);\n                url = 'api/article/' + this.id;\n                _context.next = 5;\n                return fetch(url);\n\n              case 5:\n                response = _context.sent;\n                _context.next = 8;\n                return response.json();\n\n              case 8:\n                data = _context.sent;\n                this.state.loading = false;\n                this.state.data = data;\n                this.setState(this.state);\n                console.log(\"Открываю статью\", data);\n\n              case 13:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this);\n      }));\n\n      function populateArticle() {\n        return _populateArticle.apply(this, arguments);\n      }\n\n      return populateArticle;\n    }()\n  }, {\n    key: \"populateTags\",\n    value: function () {\n      var _populateTags = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee2() {\n        var url, response, data;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee2$(_context2) {\n          while (1) {\n            switch (_context2.prev = _context2.next) {\n              case 0:\n                this.state.loadingTags = true;\n                this.setState(this.state);\n                url = 'api/article/' + this.id + '/tags';\n                _context2.next = 5;\n                return fetch(url);\n\n              case 5:\n                response = _context2.sent;\n                _context2.next = 8;\n                return response.json();\n\n              case 8:\n                data = _context2.sent;\n                this.state.loadingTags = false;\n                this.state.tags = data;\n                this.setState(this.state);\n\n              case 12:\n              case \"end\":\n                return _context2.stop();\n            }\n          }\n        }, _callee2, this);\n      }));\n\n      function populateTags() {\n        return _populateTags.apply(this, arguments);\n      }\n\n      return populateTags;\n    }()\n  }]);\n\n  return ArticleViewPage;\n}(react__WEBPACK_IMPORTED_MODULE_7__.Component);\n\n//# sourceURL=webpack://frontend/./src/components/pages/ArticleViewPage.js?");
 
 /***/ }),
 
@@ -126,6 +126,21 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ArticlesPage\": () => /* binding */ ArticlesPage\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Button.js\");\n/* harmony import */ var _forms_ArticleTable__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../forms/ArticleTable */ \"./src/components/forms/ArticleTable.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-loading */ \"./node_modules/react-loading/dist/react-loading.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_loading__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _forms_ArticleSearchModal__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../forms/ArticleSearchModal */ \"./src/components/forms/ArticleSearchModal.js\");\n\n\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\n\nvar ArticlesPage = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__.default)(ArticlesPage, _Component);\n\n  var _super = _createSuper(ArticlesPage);\n\n  function ArticlesPage(props) {\n    var _this;\n\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__.default)(this, ArticlesPage);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      articles: [],\n      loading: true\n    };\n    _this.modal = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createRef();\n\n    _this.handleClick = function (e) {\n      return _this.modal.current.show();\n    };\n\n    _this.handleModalSubmit = function (e) {\n      return _this.populateData();\n    };\n\n    return _this;\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__.default)(ArticlesPage, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.populateData();\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var contents = this.state.loading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement((react_loading__WEBPACK_IMPORTED_MODULE_9___default()), {\n        type: \"cylon\",\n        color: \"black\",\n        height: 667,\n        width: 375\n      }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(_forms_ArticleTable__WEBPACK_IMPORTED_MODULE_8__.ArticleTable, {\n        articles: this.state.articles\n      });\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__.default, {\n        color: \"primary\",\n        size: \"lg\",\n        block: true,\n        onClick: this.handleClick\n      }, \"\\u0424\\u0438\\u043B\\u044C\\u0442\\u0440\\u0430\\u0446\\u0438\\u044F\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(_forms_ArticleSearchModal__WEBPACK_IMPORTED_MODULE_10__.ArticleSearchModal, {\n        ref: this.modal,\n        onSubmit: this.handleModalSubmit\n      }), contents);\n    }\n  }, {\n    key: \"populateData\",\n    value: function () {\n      var _populateData = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee() {\n        var filter, url, response, data;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                this.setState({\n                  articles: [],\n                  loading: true\n                });\n                filter = this.modal.current.state.item;\n                url = 'api/articles?title=' + filter.title + '&author=' + filter.author + '&tag=' + filter.tag;\n                _context.next = 5;\n                return fetch(url);\n\n              case 5:\n                response = _context.sent;\n                _context.next = 8;\n                return response.json();\n\n              case 8:\n                data = _context.sent;\n                this.setState({\n                  articles: data,\n                  loading: false\n                });\n\n              case 10:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this);\n      }));\n\n      function populateData() {\n        return _populateData.apply(this, arguments);\n      }\n\n      return populateData;\n    }()\n  }]);\n\n  return ArticlesPage;\n}(react__WEBPACK_IMPORTED_MODULE_7__.Component);\n\n//# sourceURL=webpack://frontend/./src/components/pages/ArticlesPage.js?");
+
+/***/ }),
+
+/***/ "./src/components/pages/TagsPage.js":
+/*!******************************************!*\
+  !*** ./src/components/pages/TagsPage.js ***!
+  \******************************************/
+/*! namespace exports */
+/*! export TagsPage [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TagsPage\": () => /* binding */ TagsPage\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ \"./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js\");\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/regenerator */ \"./node_modules/@babel/runtime/regenerator/index.js\");\n/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-loading */ \"./node_modules/react-loading/dist/react-loading.js\");\n/* harmony import */ var react_loading__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_loading__WEBPACK_IMPORTED_MODULE_8__);\n\n\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\nvar TagsPage = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_3__.default)(TagsPage, _Component);\n\n  var _super = _createSuper(TagsPage);\n\n  function TagsPage(props) {\n    var _this;\n\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__.default)(this, TagsPage);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      tags: [],\n      loading: true\n    };\n    return _this;\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__.default)(TagsPage, [{\n    key: \"componentDidMount\",\n    value: function componentDidMount() {\n      this.populateData();\n    }\n  }, {\n    key: \"renderTag\",\n    value: function renderTag(tag) {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"tr\", {\n        key: tag.id\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"td\", null, tag.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"td\", null, tag.countTags), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"td\", null, tag.countClasskeys));\n    }\n  }, {\n    key: \"renderTable\",\n    value: function renderTable() {\n      var _this2 = this;\n\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"table\", {\n        className: \"table table-striped\",\n        \"aria-labelledby\": \"tabelLabel\"\n      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"thead\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"tr\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"th\", null, \"ID\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"th\", null, \"\\u0422\\u0435\\u043A\\u0441\\u0442\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"th\", null, \"\\u041A\\u043E\\u043B\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043E \\u0441\\u0442\\u0430\\u0442\\u0435\\u0439 \\u0441 \\u044D\\u0442\\u0438\\u043C \\u0442\\u0435\\u0433\\u043E\\u043C\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"th\", null, \"\\u041A\\u043E\\u043B\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043E \\u0441\\u0442\\u0430\\u0442\\u0435\\u0439 \\u0441 \\u044D\\u0442\\u0438\\u043C \\u043A\\u043B\\u0430\\u0441\\u0441\\u043E\\u043C\"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7__.createElement(\"tbody\", null, this.state.tags.map(function (x) {\n        return _this2.renderTag(x);\n      })));\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      if (this.state.loading) return null;else return this.renderTable();\n    }\n  }, {\n    key: \"populateData\",\n    value: function () {\n      var _populateData = (0,_babel_runtime_helpers_asyncToGenerator__WEBPACK_IMPORTED_MODULE_0__.default)( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().mark(function _callee() {\n        var _this3 = this;\n\n        var url;\n        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_6___default().wrap(function _callee$(_context) {\n          while (1) {\n            switch (_context.prev = _context.next) {\n              case 0:\n                this.setState({\n                  tags: null,\n                  loading: true\n                });\n                url = 'api/tags';\n                fetch(url).then(function (response) {\n                  return response.json();\n                }).then(function (result) {\n                  return _this3.setState({\n                    tags: result,\n                    loading: false\n                  });\n                })[\"catch\"](function (e) {\n                  console.log(e);\n\n                  _this3.setState({\n                    tags: null,\n                    loading: false,\n                    error: e\n                  });\n                });\n\n              case 3:\n              case \"end\":\n                return _context.stop();\n            }\n          }\n        }, _callee, this);\n      }));\n\n      function populateData() {\n        return _populateData.apply(this, arguments);\n      }\n\n      return populateData;\n    }()\n  }]);\n\n  return TagsPage;\n}(react__WEBPACK_IMPORTED_MODULE_7__.Component);\n\n//# sourceURL=webpack://frontend/./src/components/pages/TagsPage.js?");
 
 /***/ }),
 
@@ -151,11 +166,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! namespace exports */
 /*! export TagViewItem [provided] [no usage info] [missing usage info prevents renaming] */
 /*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TagViewItem\": () => /* binding */ TagViewItem\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Button.js\");\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\nvar TagViewItem = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(TagViewItem, _Component);\n\n  var _super = _createSuper(TagViewItem);\n\n  function TagViewItem(props) {\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, TagViewItem);\n\n    return _super.call(this, props);\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(TagViewItem, [{\n    key: \"render\",\n    value: function render() {\n      var tag = this.props.tag;\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_6__.default, {\n        outline: true,\n        color: \"danger\",\n        className: \"m-1\"\n      }, tag.name);\n    }\n  }]);\n\n  return TagViewItem;\n}(react__WEBPACK_IMPORTED_MODULE_5__.Component); //<td><Button color=\"danger\">Удалить</Button></td>\n\n//# sourceURL=webpack://frontend/./src/components/rows/TagViewItem.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TagViewItem\": () => /* binding */ TagViewItem\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ \"./node_modules/@babel/runtime/helpers/esm/inherits.js\");\n/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ \"./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js\");\n/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ \"./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/es/Button.js\");\n/* harmony import */ var react_confirm_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-confirm-bootstrap */ \"./node_modules/react-confirm-bootstrap/lib/Confirm.js\");\n/* harmony import */ var react_confirm_bootstrap__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_confirm_bootstrap__WEBPACK_IMPORTED_MODULE_6__);\n\n\n\n\n\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0,_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0,_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__.default)(this, result); }; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\n\n\n\n\nvar TagViewItem = /*#__PURE__*/function (_Component) {\n  (0,_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__.default)(TagViewItem, _Component);\n\n  var _super = _createSuper(TagViewItem);\n\n  function TagViewItem(props) {\n    var _this;\n\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__.default)(this, TagViewItem);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      confirmVisible: false\n    };\n\n    _this.handleClick = function (e) {\n      return _this.click();\n    };\n\n    _this.handleCloseModal = function (e) {\n      return _this.setState({\n        confirmVisible: false\n      });\n    };\n\n    _this.handleConfirm = function (e) {\n      return _this.confirm();\n    };\n\n    return _this;\n  }\n\n  (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__.default)(TagViewItem, [{\n    key: \"confirm\",\n    value: function confirm() {\n      var url = 'api/tag/' + this.props.tag.id;\n      var response = fetch(url, {\n        method: 'DELETE'\n      });\n    }\n  }, {\n    key: \"click\",\n    value: function click() {\n      console.log('Попытка удалить тег', this.props.canDelete);\n\n      if (this.props.canDelete) {\n        this.setState({\n          confirmVisible: true\n        });\n      }\n    }\n  }, {\n    key: \"renderButton\",\n    value: function renderButton() {\n      var tag = this.props.tag;\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_7__.default, {\n        outline: true,\n        color: \"danger\",\n        className: \"m-1\"\n      }, tag.name);\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var tag = this.props.tag;\n      return this.props.canDelete ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5__.createElement(react_confirm_bootstrap__WEBPACK_IMPORTED_MODULE_6__.Confirm, {\n        onConfirm: this.handleConfirm,\n        onClose: this.handleCloseModal,\n        body: \"\\u0412\\u044B \\u0443\\u0432\\u0435\\u0440\\u0435\\u043D\\u044B, \\u0447\\u0442\\u043E \\u0445\\u043E\\u0442\\u0438\\u0442\\u0435 \\u044D\\u0442\\u043E\\u0433\\u043E? \\u0422\\u043E\\u0447\\u043D\\u043E-\\u0442\\u043E\\u0447\\u043D\\u043E?\",\n        confirmText: \"\\u041F\\u043E\\u0434\\u0442\\u0432\\u0435\\u0440\\u0434\\u0438\\u0442\\u044C\",\n        visible: this.state.confirmVisible,\n        cancelText: \"\\u041D\\u0430\\u0437\\u0430\\u0434\",\n        title: \"Удаление \" + tag.name + \"из списка тегов \"\n      }, this.renderButton()) : this.renderButton();\n      ;\n    }\n  }]);\n\n  return TagViewItem;\n}(react__WEBPACK_IMPORTED_MODULE_5__.Component); //<td><Button color=\"danger\">Удалить</Button></td>\n\n//# sourceURL=webpack://frontend/./src/components/rows/TagViewItem.js?");
 
 /***/ }),
 
@@ -170,6 +185,269 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ \"./src/App.js\");\n\n\n\n\n\nvar baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');\nvar rootElement = document.getElementById('root');\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, {\n  basename: \"/\"\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_App__WEBPACK_IMPORTED_MODULE_2__.default, null)), rootElement);\n\n//# sourceURL=webpack://frontend/./src/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/assign.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ \"./node_modules/core-js/library/fn/object/assign.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/assign.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
+  \**********************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/create.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ \"./node_modules/core-js/library/fn/object/create.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
+  \*******************************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/define-property.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ \"./node_modules/core-js/library/fn/object/define-property.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/entries.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/entries.js ***!
+  \***********************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/entries.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/entries */ \"./node_modules/core-js/library/fn/object/entries.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/entries.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/get-own-property-descriptor.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ \"./node_modules/core-js/library/fn/object/get-own-property-descriptor.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  \********************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/keys.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ \"./node_modules/core-js/library/fn/object/keys.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
+  \********************************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/set-prototype-of.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ \"./node_modules/core-js/library/fn/object/set-prototype-of.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/values.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/values.js ***!
+  \**********************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/object/values.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/object/values */ \"./node_modules/core-js/library/fn/object/values.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/object/values.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
+  \***************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/symbol/index.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ \"./node_modules/core-js/library/fn/symbol/index.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/symbol.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
+  \************************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/symbol/iterator.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ \"./node_modules/core-js/library/fn/symbol/iterator.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/weak-map.js ***!
+  \*****************************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/fn/weak-map.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ \"./node_modules/core-js/library/fn/weak-map.js\");\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/core-js/weak-map.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
+  \******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 10:28-42 */
+/***/ ((module) => {
+
+eval("function _assertThisInitialized(self) {\n  if (self === void 0) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return self;\n}\n\nmodule.exports = _assertThisInitialized;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/extends.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/extends.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:2-16 */
+/*! CommonJS bailout: module.exports is used directly at 18:30-44 */
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 23:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ \"./node_modules/@babel/runtime-corejs2/core-js/object/assign.js\");\n\nfunction _extends() {\n  module.exports = _extends = _Object$assign || function (target) {\n    for (var i = 1; i < arguments.length; i++) {\n      var source = arguments[i];\n\n      for (var key in source) {\n        if (Object.prototype.hasOwnProperty.call(source, key)) {\n          target[key] = source[key];\n        }\n      }\n    }\n\n    return target;\n  };\n\n  module.exports.default = module.exports, module.exports.__esModule = true;\n  return _extends.apply(this, arguments);\n}\n\nmodule.exports = _extends;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/extends.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js ***!
+  \**********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 11:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 12:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _Object$create = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/create */ \"./node_modules/@babel/runtime-corejs2/core-js/object/create.js\");\n\nvar setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf.js */ \"./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js\");\n\nfunction _inheritsLoose(subClass, superClass) {\n  subClass.prototype = _Object$create(superClass.prototype);\n  subClass.prototype.constructor = subClass;\n  setPrototypeOf(subClass, superClass);\n}\n\nmodule.exports = _inheritsLoose;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 8:28-42 */
+/***/ ((module) => {
+
+eval("function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
+  \*******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 61:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 62:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _typeof = __webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ \"./node_modules/@babel/runtime-corejs2/helpers/typeof.js\").default;\n\nvar _WeakMap = __webpack_require__(/*! @babel/runtime-corejs2/core-js/weak-map */ \"./node_modules/@babel/runtime-corejs2/core-js/weak-map.js\");\n\nvar _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ \"./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js\");\n\nvar _Object$getOwnPropertyDescriptor = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/get-own-property-descriptor */ \"./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js\");\n\nfunction _getRequireWildcardCache() {\n  if (typeof _WeakMap !== \"function\") return null;\n  var cache = new _WeakMap();\n\n  _getRequireWildcardCache = function _getRequireWildcardCache() {\n    return cache;\n  };\n\n  return cache;\n}\n\nfunction _interopRequireWildcard(obj) {\n  if (obj && obj.__esModule) {\n    return obj;\n  }\n\n  if (obj === null || _typeof(obj) !== \"object\" && typeof obj !== \"function\") {\n    return {\n      \"default\": obj\n    };\n  }\n\n  var cache = _getRequireWildcardCache();\n\n  if (cache && cache.has(obj)) {\n    return cache.get(obj);\n  }\n\n  var newObj = {};\n  var hasPropertyDescriptor = _Object$defineProperty && _Object$getOwnPropertyDescriptor;\n\n  for (var key in obj) {\n    if (Object.prototype.hasOwnProperty.call(obj, key)) {\n      var desc = hasPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : null;\n\n      if (desc && (desc.get || desc.set)) {\n        _Object$defineProperty(newObj, key, desc);\n      } else {\n        newObj[key] = obj[key];\n      }\n    }\n  }\n\n  newObj[\"default\"] = obj;\n\n  if (cache) {\n    cache.set(obj, newObj);\n  }\n\n  return newObj;\n}\n\nmodule.exports = _interopRequireWildcard;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js ***!
+  \*************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 20:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 21:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ \"./node_modules/@babel/runtime-corejs2/core-js/object/keys.js\");\n\nfunction _objectWithoutPropertiesLoose(source, excluded) {\n  if (source == null) return {};\n  var target = {};\n\n  var sourceKeys = _Object$keys(source);\n\n  var key, i;\n\n  for (i = 0; i < sourceKeys.length; i++) {\n    key = sourceKeys[i];\n    if (excluded.indexOf(key) >= 0) continue;\n    target[key] = source[key];\n  }\n\n  return target;\n}\n\nmodule.exports = _objectWithoutPropertiesLoose;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
+  \***********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:2-16 */
+/*! CommonJS bailout: module.exports is used directly at 9:30-44 */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 14:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _Object$setPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/set-prototype-of */ \"./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js\");\n\nfunction _setPrototypeOf(o, p) {\n  module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {\n    o.__proto__ = p;\n    return o;\n  };\n\n  module.exports.default = module.exports, module.exports.__esModule = true;\n  return _setPrototypeOf(o, p);\n}\n\nmodule.exports = _setPrototypeOf;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
+  \***************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 9:4-18 */
+/*! CommonJS bailout: module.exports is used directly at 13:32-46 */
+/*! CommonJS bailout: module.exports is used directly at 15:4-18 */
+/*! CommonJS bailout: module.exports is used directly at 19:32-46 */
+/*! CommonJS bailout: module.exports is used directly at 25:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 26:28-42 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var _Symbol = __webpack_require__(/*! @babel/runtime-corejs2/core-js/symbol */ \"./node_modules/@babel/runtime-corejs2/core-js/symbol.js\");\n\nvar _Symbol$iterator = __webpack_require__(/*! @babel/runtime-corejs2/core-js/symbol/iterator */ \"./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js\");\n\nfunction _typeof(obj) {\n  \"@babel/helpers - typeof\";\n\n  if (typeof _Symbol === \"function\" && typeof _Symbol$iterator === \"symbol\") {\n    module.exports = _typeof = function _typeof(obj) {\n      return typeof obj;\n    };\n\n    module.exports.default = module.exports, module.exports.__esModule = true;\n  } else {\n    module.exports = _typeof = function _typeof(obj) {\n      return obj && typeof _Symbol === \"function\" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? \"symbol\" : typeof obj;\n    };\n\n    module.exports.default = module.exports, module.exports.__esModule = true;\n  }\n\n  return _typeof(obj);\n}\n\nmodule.exports = _typeof;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime-corejs2/helpers/typeof.js?");
 
 /***/ }),
 
@@ -353,6 +631,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
+/*! CommonJS bailout: module.exports is used directly at 8:28-42 */
+/***/ ((module) => {
+
+eval("function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\nmodule.exports.default = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://frontend/./node_modules/@babel/runtime/helpers/interopRequireDefault.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/regenerator/index.js":
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
@@ -378,6 +670,1355 @@ eval("module.exports = __webpack_require__(/*! regenerator-runtime */ \"./node_m
 /***/ ((module, exports) => {
 
 eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n  Copyright (c) 2017 Jed Watson.\n  Licensed under the MIT License (MIT), see\n  http://jedwatson.github.io/classnames\n*/\n/* global define */\n\n(function () {\n\t'use strict';\n\n\tvar hasOwn = {}.hasOwnProperty;\n\n\tfunction classNames () {\n\t\tvar classes = [];\n\n\t\tfor (var i = 0; i < arguments.length; i++) {\n\t\t\tvar arg = arguments[i];\n\t\t\tif (!arg) continue;\n\n\t\t\tvar argType = typeof arg;\n\n\t\t\tif (argType === 'string' || argType === 'number') {\n\t\t\t\tclasses.push(arg);\n\t\t\t} else if (Array.isArray(arg) && arg.length) {\n\t\t\t\tvar inner = classNames.apply(null, arg);\n\t\t\t\tif (inner) {\n\t\t\t\t\tclasses.push(inner);\n\t\t\t\t}\n\t\t\t} else if (argType === 'object') {\n\t\t\t\tfor (var key in arg) {\n\t\t\t\t\tif (hasOwn.call(arg, key) && arg[key]) {\n\t\t\t\t\t\tclasses.push(key);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn classes.join(' ');\n\t}\n\n\tif ( true && module.exports) {\n\t\tclassNames.default = classNames;\n\t\tmodule.exports = classNames;\n\t} else if (true) {\n\t\t// register as 'classnames', consistent with npm package name\n\t\t!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {\n\t\t\treturn classNames;\n\t\t}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n\t} else {}\n}());\n\n\n//# sourceURL=webpack://frontend/./node_modules/classnames/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/assign.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/assign.js ***!
+  \**********************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.assign */ \"./node_modules/core-js/library/modules/es6.object.assign.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.assign;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/assign.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/create.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/create.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.create */ \"./node_modules/core-js/library/modules/es6.object.create.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function create(P, D) {\n  return $Object.create(P, D);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/define-property.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/define-property.js ***!
+  \*******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.define-property */ \"./node_modules/core-js/library/modules/es6.object.define-property.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function defineProperty(it, key, desc) {\n  return $Object.defineProperty(it, key, desc);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/define-property.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/entries.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/entries.js ***!
+  \***********************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es7.object.entries */ \"./node_modules/core-js/library/modules/es7.object.entries.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.entries;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/entries.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.get-own-property-descriptor */ \"./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function getOwnPropertyDescriptor(it, key) {\n  return $Object.getOwnPropertyDescriptor(it, key);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/get-own-property-descriptor.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/keys.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/keys.js ***!
+  \********************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.keys */ \"./node_modules/core-js/library/modules/es6.object.keys.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.keys;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/set-prototype-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/set-prototype-of.js ***!
+  \********************************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ \"./node_modules/core-js/library/modules/es6.object.set-prototype-of.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.setPrototypeOf;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/set-prototype-of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/values.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/values.js ***!
+  \**********************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es7.object.values */ \"./node_modules/core-js/library/modules/es7.object.values.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.values;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/object/values.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/symbol/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/symbol/index.js ***!
+  \*********************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.symbol */ \"./node_modules/core-js/library/modules/es6.symbol.js\");\n__webpack_require__(/*! ../../modules/es6.object.to-string */ \"./node_modules/core-js/library/modules/es6.object.to-string.js\");\n__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ \"./node_modules/core-js/library/modules/es7.symbol.async-iterator.js\");\n__webpack_require__(/*! ../../modules/es7.symbol.observable */ \"./node_modules/core-js/library/modules/es7.symbol.observable.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Symbol;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/symbol/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/symbol/iterator.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/symbol/iterator.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../../modules/es6.string.iterator */ \"./node_modules/core-js/library/modules/es6.string.iterator.js\");\n__webpack_require__(/*! ../../modules/web.dom.iterable */ \"./node_modules/core-js/library/modules/web.dom.iterable.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\").f('iterator');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/symbol/iterator.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/weak-map.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/library/fn/weak-map.js ***!
+  \*****************************************************/
+/*! dynamic exports */
+/*! export __esModule [maybe provided (runtime-defined)] [no usage info] [provision prevents renaming (no use info)] */
+/*! other exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ../modules/es6.object.to-string */ \"./node_modules/core-js/library/modules/es6.object.to-string.js\");\n__webpack_require__(/*! ../modules/web.dom.iterable */ \"./node_modules/core-js/library/modules/web.dom.iterable.js\");\n__webpack_require__(/*! ../modules/es6.weak-map */ \"./node_modules/core-js/library/modules/es6.weak-map.js\");\n__webpack_require__(/*! ../modules/es7.weak-map.of */ \"./node_modules/core-js/library/modules/es7.weak-map.of.js\");\n__webpack_require__(/*! ../modules/es7.weak-map.from */ \"./node_modules/core-js/library/modules/es7.weak-map.from.js\");\nmodule.exports = __webpack_require__(/*! ../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").WeakMap;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/fn/weak-map.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_a-function.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_a-function.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (it) {\n  if (typeof it != 'function') throw TypeError(it + ' is not a function!');\n  return it;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_a-function.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_add-to-unscopables.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_add-to-unscopables.js ***!
+  \*********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function () { /* empty */ };\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_add-to-unscopables.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_an-instance.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_an-instance.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (it, Constructor, name, forbiddenField) {\n  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {\n    throw TypeError(name + ': incorrect invocation!');\n  } return it;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_an-instance.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_an-object.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_an-object.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nmodule.exports = function (it) {\n  if (!isObject(it)) throw TypeError(it + ' is not an object!');\n  return it;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_an-object.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-includes.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-includes.js ***!
+  \*****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// false -> Array#indexOf\n// true  -> Array#includes\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ \"./node_modules/core-js/library/modules/_to-absolute-index.js\");\nmodule.exports = function (IS_INCLUDES) {\n  return function ($this, el, fromIndex) {\n    var O = toIObject($this);\n    var length = toLength(O.length);\n    var index = toAbsoluteIndex(fromIndex, length);\n    var value;\n    // Array#includes uses SameValueZero equality algorithm\n    // eslint-disable-next-line no-self-compare\n    if (IS_INCLUDES && el != el) while (length > index) {\n      value = O[index++];\n      // eslint-disable-next-line no-self-compare\n      if (value != value) return true;\n    // Array#indexOf ignores holes, Array#includes - not\n    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {\n      if (O[index] === el) return IS_INCLUDES || index || 0;\n    } return !IS_INCLUDES && -1;\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_array-includes.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-methods.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-methods.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 0 -> Array#forEach\n// 1 -> Array#map\n// 2 -> Array#filter\n// 3 -> Array#some\n// 4 -> Array#every\n// 5 -> Array#find\n// 6 -> Array#findIndex\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar asc = __webpack_require__(/*! ./_array-species-create */ \"./node_modules/core-js/library/modules/_array-species-create.js\");\nmodule.exports = function (TYPE, $create) {\n  var IS_MAP = TYPE == 1;\n  var IS_FILTER = TYPE == 2;\n  var IS_SOME = TYPE == 3;\n  var IS_EVERY = TYPE == 4;\n  var IS_FIND_INDEX = TYPE == 6;\n  var NO_HOLES = TYPE == 5 || IS_FIND_INDEX;\n  var create = $create || asc;\n  return function ($this, callbackfn, that) {\n    var O = toObject($this);\n    var self = IObject(O);\n    var f = ctx(callbackfn, that, 3);\n    var length = toLength(self.length);\n    var index = 0;\n    var result = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;\n    var val, res;\n    for (;length > index; index++) if (NO_HOLES || index in self) {\n      val = self[index];\n      res = f(val, index, O);\n      if (TYPE) {\n        if (IS_MAP) result[index] = res;   // map\n        else if (res) switch (TYPE) {\n          case 3: return true;             // some\n          case 5: return val;              // find\n          case 6: return index;            // findIndex\n          case 2: result.push(val);        // filter\n        } else if (IS_EVERY) return false; // every\n      }\n    }\n    return IS_FIND_INDEX ? -1 : IS_SOME || IS_EVERY ? IS_EVERY : result;\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_array-methods.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-species-constructor.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-species-constructor.js ***!
+  \****************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar isArray = __webpack_require__(/*! ./_is-array */ \"./node_modules/core-js/library/modules/_is-array.js\");\nvar SPECIES = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('species');\n\nmodule.exports = function (original) {\n  var C;\n  if (isArray(original)) {\n    C = original.constructor;\n    // cross-realm fallback\n    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;\n    if (isObject(C)) {\n      C = C[SPECIES];\n      if (C === null) C = undefined;\n    }\n  } return C === undefined ? Array : C;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_array-species-constructor.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-species-create.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-species-create.js ***!
+  \***********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 9.4.2.3 ArraySpeciesCreate(originalArray, length)\nvar speciesConstructor = __webpack_require__(/*! ./_array-species-constructor */ \"./node_modules/core-js/library/modules/_array-species-constructor.js\");\n\nmodule.exports = function (original, length) {\n  return new (speciesConstructor(original))(length);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_array-species-create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_classof.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_classof.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 14:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// getting tag from 19.1.3.6 Object.prototype.toString()\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\nvar TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n// ES3 wrong here\nvar ARG = cof(function () { return arguments; }()) == 'Arguments';\n\n// fallback for IE11 Script Access Denied error\nvar tryGet = function (it, key) {\n  try {\n    return it[key];\n  } catch (e) { /* empty */ }\n};\n\nmodule.exports = function (it) {\n  var O, T, B;\n  return it === undefined ? 'Undefined' : it === null ? 'Null'\n    // @@toStringTag case\n    : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T\n    // builtinTag case\n    : ARG ? cof(O)\n    // ES3 arguments fallback\n    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_classof.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_cof.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_cof.js ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module) => {
+
+eval("var toString = {}.toString;\n\nmodule.exports = function (it) {\n  return toString.call(it).slice(8, -1);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_cof.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection-weak.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection-weak.js ***!
+  \******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 49:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar redefineAll = __webpack_require__(/*! ./_redefine-all */ \"./node_modules/core-js/library/modules/_redefine-all.js\");\nvar getWeak = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\").getWeak;\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar anInstance = __webpack_require__(/*! ./_an-instance */ \"./node_modules/core-js/library/modules/_an-instance.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\nvar createArrayMethod = __webpack_require__(/*! ./_array-methods */ \"./node_modules/core-js/library/modules/_array-methods.js\");\nvar $has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar validate = __webpack_require__(/*! ./_validate-collection */ \"./node_modules/core-js/library/modules/_validate-collection.js\");\nvar arrayFind = createArrayMethod(5);\nvar arrayFindIndex = createArrayMethod(6);\nvar id = 0;\n\n// fallback for uncaught frozen keys\nvar uncaughtFrozenStore = function (that) {\n  return that._l || (that._l = new UncaughtFrozenStore());\n};\nvar UncaughtFrozenStore = function () {\n  this.a = [];\n};\nvar findUncaughtFrozen = function (store, key) {\n  return arrayFind(store.a, function (it) {\n    return it[0] === key;\n  });\n};\nUncaughtFrozenStore.prototype = {\n  get: function (key) {\n    var entry = findUncaughtFrozen(this, key);\n    if (entry) return entry[1];\n  },\n  has: function (key) {\n    return !!findUncaughtFrozen(this, key);\n  },\n  set: function (key, value) {\n    var entry = findUncaughtFrozen(this, key);\n    if (entry) entry[1] = value;\n    else this.a.push([key, value]);\n  },\n  'delete': function (key) {\n    var index = arrayFindIndex(this.a, function (it) {\n      return it[0] === key;\n    });\n    if (~index) this.a.splice(index, 1);\n    return !!~index;\n  }\n};\n\nmodule.exports = {\n  getConstructor: function (wrapper, NAME, IS_MAP, ADDER) {\n    var C = wrapper(function (that, iterable) {\n      anInstance(that, C, NAME, '_i');\n      that._t = NAME;      // collection type\n      that._i = id++;      // collection id\n      that._l = undefined; // leak store for uncaught frozen objects\n      if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);\n    });\n    redefineAll(C.prototype, {\n      // 23.3.3.2 WeakMap.prototype.delete(key)\n      // 23.4.3.3 WeakSet.prototype.delete(value)\n      'delete': function (key) {\n        if (!isObject(key)) return false;\n        var data = getWeak(key);\n        if (data === true) return uncaughtFrozenStore(validate(this, NAME))['delete'](key);\n        return data && $has(data, this._i) && delete data[this._i];\n      },\n      // 23.3.3.4 WeakMap.prototype.has(key)\n      // 23.4.3.4 WeakSet.prototype.has(value)\n      has: function has(key) {\n        if (!isObject(key)) return false;\n        var data = getWeak(key);\n        if (data === true) return uncaughtFrozenStore(validate(this, NAME)).has(key);\n        return data && $has(data, this._i);\n      }\n    });\n    return C;\n  },\n  def: function (that, key, value) {\n    var data = getWeak(anObject(key), true);\n    if (data === true) uncaughtFrozenStore(that).set(key, value);\n    else data[that._i] = value;\n    return that;\n  },\n  ufstore: uncaughtFrozenStore\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_collection-weak.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 16:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar meta = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\");\nvar fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar redefineAll = __webpack_require__(/*! ./_redefine-all */ \"./node_modules/core-js/library/modules/_redefine-all.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\nvar anInstance = __webpack_require__(/*! ./_an-instance */ \"./node_modules/core-js/library/modules/_an-instance.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar each = __webpack_require__(/*! ./_array-methods */ \"./node_modules/core-js/library/modules/_array-methods.js\")(0);\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\n\nmodule.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {\n  var Base = global[NAME];\n  var C = Base;\n  var ADDER = IS_MAP ? 'set' : 'add';\n  var proto = C && C.prototype;\n  var O = {};\n  if (!DESCRIPTORS || typeof C != 'function' || !(IS_WEAK || proto.forEach && !fails(function () {\n    new C().entries().next();\n  }))) {\n    // create collection constructor\n    C = common.getConstructor(wrapper, NAME, IS_MAP, ADDER);\n    redefineAll(C.prototype, methods);\n    meta.NEED = true;\n  } else {\n    C = wrapper(function (target, iterable) {\n      anInstance(target, C, NAME, '_c');\n      target._c = new Base();\n      if (iterable != undefined) forOf(iterable, IS_MAP, target[ADDER], target);\n    });\n    each('add,clear,delete,forEach,get,has,set,keys,values,entries,toJSON'.split(','), function (KEY) {\n      var IS_ADDER = KEY == 'add' || KEY == 'set';\n      if (KEY in proto && !(IS_WEAK && KEY == 'clear')) hide(C.prototype, KEY, function (a, b) {\n        anInstance(this, C, KEY);\n        if (!IS_ADDER && IS_WEAK && !isObject(a)) return KEY == 'get' ? undefined : false;\n        var result = this._c[KEY](a === 0 ? 0 : a, b);\n        return IS_ADDER ? this : result;\n      });\n    });\n    IS_WEAK || dP(C.prototype, 'size', {\n      get: function () {\n        return this._c.size;\n      }\n    });\n  }\n\n  setToStringTag(C, NAME);\n\n  O[NAME] = C;\n  $export($export.G + $export.W + $export.F, O);\n\n  if (!IS_WEAK) common.setStrong(C, NAME, IS_MAP);\n\n  return C;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_collection.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_core.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_core.js ***!
+  \*******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:11-25 */
+/***/ ((module) => {
+
+eval("var core = module.exports = { version: '2.6.12' };\nif (typeof __e == 'number') __e = core; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_core.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_ctx.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_ctx.js ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// optional / simple context binding\nvar aFunction = __webpack_require__(/*! ./_a-function */ \"./node_modules/core-js/library/modules/_a-function.js\");\nmodule.exports = function (fn, that, length) {\n  aFunction(fn);\n  if (that === undefined) return fn;\n  switch (length) {\n    case 1: return function (a) {\n      return fn.call(that, a);\n    };\n    case 2: return function (a, b) {\n      return fn.call(that, a, b);\n    };\n    case 3: return function (a, b, c) {\n      return fn.call(that, a, b, c);\n    };\n  }\n  return function (/* ...args */) {\n    return fn.apply(that, arguments);\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_ctx.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_defined.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_defined.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module) => {
+
+eval("// 7.2.1 RequireObjectCoercible(argument)\nmodule.exports = function (it) {\n  if (it == undefined) throw TypeError(\"Can't call method on  \" + it);\n  return it;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_defined.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_descriptors.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_descriptors.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// Thank's IE8 for his funny defineProperty\nmodule.exports = !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_descriptors.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_dom-create.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_dom-create.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar document = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").document;\n// typeof document.createElement is 'object' in old IE\nvar is = isObject(document) && isObject(document.createElement);\nmodule.exports = function (it) {\n  return is ? document.createElement(it) : {};\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_dom-create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_enum-bug-keys.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_enum-bug-keys.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module) => {
+
+eval("// IE 8- don't enum bug keys\nmodule.exports = (\n  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'\n).split(',');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_enum-bug-keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_enum-keys.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_enum-keys.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// all enumerable object keys, includes symbols\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPS = __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\");\nvar pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nmodule.exports = function (it) {\n  var result = getKeys(it);\n  var getSymbols = gOPS.f;\n  if (getSymbols) {\n    var symbols = getSymbols(it);\n    var isEnum = pIE.f;\n    var i = 0;\n    var key;\n    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);\n  } return result;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_enum-keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_export.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_export.js ***!
+  \*********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 62:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar PROTOTYPE = 'prototype';\n\nvar $export = function (type, name, source) {\n  var IS_FORCED = type & $export.F;\n  var IS_GLOBAL = type & $export.G;\n  var IS_STATIC = type & $export.S;\n  var IS_PROTO = type & $export.P;\n  var IS_BIND = type & $export.B;\n  var IS_WRAP = type & $export.W;\n  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});\n  var expProto = exports[PROTOTYPE];\n  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];\n  var key, own, out;\n  if (IS_GLOBAL) source = name;\n  for (key in source) {\n    // contains in native\n    own = !IS_FORCED && target && target[key] !== undefined;\n    if (own && has(exports, key)) continue;\n    // export native or passed\n    out = own ? target[key] : source[key];\n    // prevent global pollution for namespaces\n    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]\n    // bind timers to global for call from export context\n    : IS_BIND && own ? ctx(out, global)\n    // wrap global constructors for prevent change them in library\n    : IS_WRAP && target[key] == out ? (function (C) {\n      var F = function (a, b, c) {\n        if (this instanceof C) {\n          switch (arguments.length) {\n            case 0: return new C();\n            case 1: return new C(a);\n            case 2: return new C(a, b);\n          } return new C(a, b, c);\n        } return C.apply(this, arguments);\n      };\n      F[PROTOTYPE] = C[PROTOTYPE];\n      return F;\n    // make static versions for prototype methods\n    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;\n    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%\n    if (IS_PROTO) {\n      (exports.virtual || (exports.virtual = {}))[key] = out;\n      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%\n      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);\n    }\n  }\n};\n// type bitmap\n$export.F = 1;   // forced\n$export.G = 2;   // global\n$export.S = 4;   // static\n$export.P = 8;   // proto\n$export.B = 16;  // bind\n$export.W = 32;  // wrap\n$export.U = 64;  // safe\n$export.R = 128; // real proto method for `library`\nmodule.exports = $export;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_export.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_fails.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_fails.js ***!
+  \********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (exec) {\n  try {\n    return !!exec();\n  } catch (e) {\n    return true;\n  }\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_fails.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_for-of.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_for-of.js ***!
+  \*********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 9:14-28 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar call = __webpack_require__(/*! ./_iter-call */ \"./node_modules/core-js/library/modules/_iter-call.js\");\nvar isArrayIter = __webpack_require__(/*! ./_is-array-iter */ \"./node_modules/core-js/library/modules/_is-array-iter.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ \"./node_modules/core-js/library/modules/core.get-iterator-method.js\");\nvar BREAK = {};\nvar RETURN = {};\nvar exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {\n  var iterFn = ITERATOR ? function () { return iterable; } : getIterFn(iterable);\n  var f = ctx(fn, that, entries ? 2 : 1);\n  var index = 0;\n  var length, step, iterator, result;\n  if (typeof iterFn != 'function') throw TypeError(iterable + ' is not iterable!');\n  // fast case for arrays with default iterator\n  if (isArrayIter(iterFn)) for (length = toLength(iterable.length); length > index; index++) {\n    result = entries ? f(anObject(step = iterable[index])[0], step[1]) : f(iterable[index]);\n    if (result === BREAK || result === RETURN) return result;\n  } else for (iterator = iterFn.call(iterable); !(step = iterator.next()).done;) {\n    result = call(iterator, f, step.value, entries);\n    if (result === BREAK || result === RETURN) return result;\n  }\n};\nexports.BREAK = BREAK;\nexports.RETURN = RETURN;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_for-of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_global.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_global.js ***!
+  \*********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 2:13-27 */
+/***/ ((module) => {
+
+eval("// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028\nvar global = module.exports = typeof window != 'undefined' && window.Math == Math\n  ? window : typeof self != 'undefined' && self.Math == Math ? self\n  // eslint-disable-next-line no-new-func\n  : Function('return this')();\nif (typeof __g == 'number') __g = global; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_global.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_has.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_has.js ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module) => {
+
+eval("var hasOwnProperty = {}.hasOwnProperty;\nmodule.exports = function (it, key) {\n  return hasOwnProperty.call(it, key);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_has.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_hide.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_hide.js ***!
+  \*******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nmodule.exports = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? function (object, key, value) {\n  return dP.f(object, key, createDesc(1, value));\n} : function (object, key, value) {\n  object[key] = value;\n  return object;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_hide.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_html.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_html.js ***!
+  \*******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var document = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").document;\nmodule.exports = document && document.documentElement;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_html.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_ie8-dom-define.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_ie8-dom-define.js ***!
+  \*****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") && !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ \"./node_modules/core-js/library/modules/_dom-create.js\")('div'), 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_ie8-dom-define.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iobject.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iobject.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// fallback for non-array-like ES3 and non-enumerable old V8 strings\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\n// eslint-disable-next-line no-prototype-builtins\nmodule.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {\n  return cof(it) == 'String' ? it.split('') : Object(it);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iobject.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_is-array-iter.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_is-array-iter.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// check on default Array iterator\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar ArrayProto = Array.prototype;\n\nmodule.exports = function (it) {\n  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_is-array-iter.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_is-array.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_is-array.js ***!
+  \***********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 7.2.2 IsArray(argument)\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\nmodule.exports = Array.isArray || function isArray(arg) {\n  return cof(arg) == 'Array';\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_is-array.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_is-object.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_is-object.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (it) {\n  return typeof it === 'object' ? it !== null : typeof it === 'function';\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_is-object.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-call.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-call.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// call something on iterator step with safe closing on error\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nmodule.exports = function (iterator, fn, value, entries) {\n  try {\n    return entries ? fn(anObject(value)[0], value[1]) : fn(value);\n  // 7.4.6 IteratorClose(iterator, completion)\n  } catch (e) {\n    var ret = iterator['return'];\n    if (ret !== undefined) anObject(ret.call(iterator));\n    throw e;\n  }\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iter-call.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-create.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-create.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar create = __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\");\nvar descriptor = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar IteratorPrototype = {};\n\n// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()\n__webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\")(IteratorPrototype, __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator'), function () { return this; });\n\nmodule.exports = function (Constructor, NAME, next) {\n  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });\n  setToStringTag(Constructor, NAME + ' Iterator');\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iter-create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-define.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-define.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 18:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar LIBRARY = __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar redefine = __webpack_require__(/*! ./_redefine */ \"./node_modules/core-js/library/modules/_redefine.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar $iterCreate = __webpack_require__(/*! ./_iter-create */ \"./node_modules/core-js/library/modules/_iter-create.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ \"./node_modules/core-js/library/modules/_object-gpo.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`\nvar FF_ITERATOR = '@@iterator';\nvar KEYS = 'keys';\nvar VALUES = 'values';\n\nvar returnThis = function () { return this; };\n\nmodule.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {\n  $iterCreate(Constructor, NAME, next);\n  var getMethod = function (kind) {\n    if (!BUGGY && kind in proto) return proto[kind];\n    switch (kind) {\n      case KEYS: return function keys() { return new Constructor(this, kind); };\n      case VALUES: return function values() { return new Constructor(this, kind); };\n    } return function entries() { return new Constructor(this, kind); };\n  };\n  var TAG = NAME + ' Iterator';\n  var DEF_VALUES = DEFAULT == VALUES;\n  var VALUES_BUG = false;\n  var proto = Base.prototype;\n  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];\n  var $default = $native || getMethod(DEFAULT);\n  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;\n  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;\n  var methods, key, IteratorPrototype;\n  // Fix native\n  if ($anyNative) {\n    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));\n    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {\n      // Set @@toStringTag to native iterators\n      setToStringTag(IteratorPrototype, TAG, true);\n      // fix for some old engines\n      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);\n    }\n  }\n  // fix Array#{values, @@iterator}.name in V8 / FF\n  if (DEF_VALUES && $native && $native.name !== VALUES) {\n    VALUES_BUG = true;\n    $default = function values() { return $native.call(this); };\n  }\n  // Define iterator\n  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {\n    hide(proto, ITERATOR, $default);\n  }\n  // Plug for library\n  Iterators[NAME] = $default;\n  Iterators[TAG] = returnThis;\n  if (DEFAULT) {\n    methods = {\n      values: DEF_VALUES ? $default : getMethod(VALUES),\n      keys: IS_SET ? $default : getMethod(KEYS),\n      entries: $entries\n    };\n    if (FORCED) for (key in methods) {\n      if (!(key in proto)) redefine(proto, key, methods[key]);\n    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);\n  }\n  return methods;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iter-define.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-step.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-step.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (done, value) {\n  return { value: value, done: !!done };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iter-step.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iterators.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iterators.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = {};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_iterators.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_library.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_library.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = true;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_library.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_meta.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_meta.js ***!
+  \*******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 47:11-25 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var META = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\")('meta');\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar setDesc = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar id = 0;\nvar isExtensible = Object.isExtensible || function () {\n  return true;\n};\nvar FREEZE = !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return isExtensible(Object.preventExtensions({}));\n});\nvar setMeta = function (it) {\n  setDesc(it, META, { value: {\n    i: 'O' + ++id, // object ID\n    w: {}          // weak collections IDs\n  } });\n};\nvar fastKey = function (it, create) {\n  // return primitive with prefix\n  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;\n  if (!has(it, META)) {\n    // can't set metadata to uncaught frozen object\n    if (!isExtensible(it)) return 'F';\n    // not necessary to add metadata\n    if (!create) return 'E';\n    // add missing metadata\n    setMeta(it);\n  // return object ID\n  } return it[META].i;\n};\nvar getWeak = function (it, create) {\n  if (!has(it, META)) {\n    // can't set metadata to uncaught frozen object\n    if (!isExtensible(it)) return true;\n    // not necessary to add metadata\n    if (!create) return false;\n    // add missing metadata\n    setMeta(it);\n  // return hash weak collections IDs\n  } return it[META].w;\n};\n// add metadata on freeze-family methods calling\nvar onFreeze = function (it) {\n  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);\n  return it;\n};\nvar meta = module.exports = {\n  KEY: META,\n  NEED: false,\n  fastKey: fastKey,\n  getWeak: getWeak,\n  onFreeze: onFreeze\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_meta.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-assign.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-assign.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\n// 19.1.2.1 Object.assign(target, source, ...)\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPS = __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\");\nvar pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar $assign = Object.assign;\n\n// should work with symbols and should have deterministic property order (V8 bug)\nmodule.exports = !$assign || __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  var A = {};\n  var B = {};\n  // eslint-disable-next-line no-undef\n  var S = Symbol();\n  var K = 'abcdefghijklmnopqrst';\n  A[S] = 7;\n  K.split('').forEach(function (k) { B[k] = k; });\n  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;\n}) ? function assign(target, source) { // eslint-disable-line no-unused-vars\n  var T = toObject(target);\n  var aLen = arguments.length;\n  var index = 1;\n  var getSymbols = gOPS.f;\n  var isEnum = pIE.f;\n  while (aLen > index) {\n    var S = IObject(arguments[index++]);\n    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);\n    var length = keys.length;\n    var j = 0;\n    var key;\n    while (length > j) {\n      key = keys[j++];\n      if (!DESCRIPTORS || isEnum.call(S, key)) T[key] = S[key];\n    }\n  } return T;\n} : $assign;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-assign.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-create.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-create.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 31:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar dPs = __webpack_require__(/*! ./_object-dps */ \"./node_modules/core-js/library/modules/_object-dps.js\");\nvar enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\");\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\nvar Empty = function () { /* empty */ };\nvar PROTOTYPE = 'prototype';\n\n// Create object with fake `null` prototype: use iframe Object with cleared prototype\nvar createDict = function () {\n  // Thrash, waste and sodomy: IE GC bug\n  var iframe = __webpack_require__(/*! ./_dom-create */ \"./node_modules/core-js/library/modules/_dom-create.js\")('iframe');\n  var i = enumBugKeys.length;\n  var lt = '<';\n  var gt = '>';\n  var iframeDocument;\n  iframe.style.display = 'none';\n  __webpack_require__(/*! ./_html */ \"./node_modules/core-js/library/modules/_html.js\").appendChild(iframe);\n  iframe.src = 'javascript:'; // eslint-disable-line no-script-url\n  // createDict = iframe.contentWindow.Object;\n  // html.removeChild(iframe);\n  iframeDocument = iframe.contentWindow.document;\n  iframeDocument.open();\n  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);\n  iframeDocument.close();\n  createDict = iframeDocument.F;\n  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];\n  return createDict();\n};\n\nmodule.exports = Object.create || function create(O, Properties) {\n  var result;\n  if (O !== null) {\n    Empty[PROTOTYPE] = anObject(O);\n    result = new Empty();\n    Empty[PROTOTYPE] = null;\n    // add \"__proto__\" for Object.getPrototypeOf polyfill\n    result[IE_PROTO] = O;\n  } else result = createDict();\n  return Properties === undefined ? result : dPs(result, Properties);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-dp.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-dp.js ***!
+  \************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("var anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ \"./node_modules/core-js/library/modules/_ie8-dom-define.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar dP = Object.defineProperty;\n\nexports.f = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? Object.defineProperty : function defineProperty(O, P, Attributes) {\n  anObject(O);\n  P = toPrimitive(P, true);\n  anObject(Attributes);\n  if (IE8_DOM_DEFINE) try {\n    return dP(O, P, Attributes);\n  } catch (e) { /* empty */ }\n  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');\n  if ('value' in Attributes) O[P] = Attributes.value;\n  return O;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-dp.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-dps.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-dps.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\n\nmodule.exports = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? Object.defineProperties : function defineProperties(O, Properties) {\n  anObject(O);\n  var keys = getKeys(Properties);\n  var length = keys.length;\n  var i = 0;\n  var P;\n  while (length > i) dP.f(O, P = keys[i++], Properties[P]);\n  return O;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-dps.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopd.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopd.js ***!
+  \**************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("var pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ \"./node_modules/core-js/library/modules/_ie8-dom-define.js\");\nvar gOPD = Object.getOwnPropertyDescriptor;\n\nexports.f = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? gOPD : function getOwnPropertyDescriptor(O, P) {\n  O = toIObject(O);\n  P = toPrimitive(P, true);\n  if (IE8_DOM_DEFINE) try {\n    return gOPD(O, P);\n  } catch (e) { /* empty */ }\n  if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-gopd.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn-ext.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopn-ext.js ***!
+  \******************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, module */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar gOPN = __webpack_require__(/*! ./_object-gopn */ \"./node_modules/core-js/library/modules/_object-gopn.js\").f;\nvar toString = {}.toString;\n\nvar windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames\n  ? Object.getOwnPropertyNames(window) : [];\n\nvar getWindowNames = function (it) {\n  try {\n    return gOPN(it);\n  } catch (e) {\n    return windowNames.slice();\n  }\n};\n\nmodule.exports.f = function getOwnPropertyNames(it) {\n  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-gopn-ext.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopn.js ***!
+  \**************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)\nvar $keys = __webpack_require__(/*! ./_object-keys-internal */ \"./node_modules/core-js/library/modules/_object-keys-internal.js\");\nvar hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\").concat('length', 'prototype');\n\nexports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {\n  return $keys(O, hiddenKeys);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-gopn.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gops.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gops.js ***!
+  \**************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("exports.f = Object.getOwnPropertySymbols;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-gops.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gpo.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gpo.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\nvar ObjectProto = Object.prototype;\n\nmodule.exports = Object.getPrototypeOf || function (O) {\n  O = toObject(O);\n  if (has(O, IE_PROTO)) return O[IE_PROTO];\n  if (typeof O.constructor == 'function' && O instanceof O.constructor) {\n    return O.constructor.prototype;\n  } return O instanceof Object ? ObjectProto : null;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-gpo.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-keys-internal.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-keys-internal.js ***!
+  \***********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar arrayIndexOf = __webpack_require__(/*! ./_array-includes */ \"./node_modules/core-js/library/modules/_array-includes.js\")(false);\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\n\nmodule.exports = function (object, names) {\n  var O = toIObject(object);\n  var i = 0;\n  var result = [];\n  var key;\n  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);\n  // Don't enum bug & hidden keys\n  while (names.length > i) if (has(O, key = names[i++])) {\n    ~arrayIndexOf(result, key) || result.push(key);\n  }\n  return result;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-keys-internal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-keys.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-keys.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.2.14 / 15.2.3.14 Object.keys(O)\nvar $keys = __webpack_require__(/*! ./_object-keys-internal */ \"./node_modules/core-js/library/modules/_object-keys-internal.js\");\nvar enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\");\n\nmodule.exports = Object.keys || function keys(O) {\n  return $keys(O, enumBugKeys);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-pie.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-pie.js ***!
+  \*************************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("exports.f = {}.propertyIsEnumerable;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-pie.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-sap.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-sap.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// most Object methods by ES6 should accept primitives\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nmodule.exports = function (KEY, exec) {\n  var fn = (core.Object || {})[KEY] || Object[KEY];\n  var exp = {};\n  exp[KEY] = exec(fn);\n  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-sap.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-to-array.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-to-array.js ***!
+  \******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar isEnum = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\").f;\nmodule.exports = function (isEntries) {\n  return function (it) {\n    var O = toIObject(it);\n    var keys = getKeys(O);\n    var length = keys.length;\n    var i = 0;\n    var result = [];\n    var key;\n    while (length > i) {\n      key = keys[i++];\n      if (!DESCRIPTORS || isEnum.call(O, key)) {\n        result.push(isEntries ? [key, O[key]] : O[key]);\n      }\n    }\n    return result;\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_object-to-array.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_property-desc.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_property-desc.js ***!
+  \****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+/***/ ((module) => {
+
+eval("module.exports = function (bitmap, value) {\n  return {\n    enumerable: !(bitmap & 1),\n    configurable: !(bitmap & 2),\n    writable: !(bitmap & 4),\n    value: value\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_property-desc.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_redefine-all.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_redefine-all.js ***!
+  \***************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nmodule.exports = function (target, src, safe) {\n  for (var key in src) {\n    if (safe && target[key]) target[key] = src[key];\n    else hide(target, key, src[key]);\n  } return target;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_redefine-all.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_redefine.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_redefine.js ***!
+  \***********************************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] -> ./node_modules/core-js/library/modules/_hide.js */
+/*! runtime requirements: module, __webpack_require__ */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_redefine.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-collection-from.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-collection-from.js ***!
+  \**********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 8:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\n// https://tc39.github.io/proposal-setmap-offrom/\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar aFunction = __webpack_require__(/*! ./_a-function */ \"./node_modules/core-js/library/modules/_a-function.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\n\nmodule.exports = function (COLLECTION) {\n  $export($export.S, COLLECTION, { from: function from(source /* , mapFn, thisArg */) {\n    var mapFn = arguments[1];\n    var mapping, A, n, cb;\n    aFunction(this);\n    mapping = mapFn !== undefined;\n    if (mapping) aFunction(mapFn);\n    if (source == undefined) return new this();\n    A = [];\n    if (mapping) {\n      n = 0;\n      cb = ctx(mapFn, arguments[2], 2);\n      forOf(source, false, function (nextItem) {\n        A.push(cb(nextItem, n++));\n      });\n    } else {\n      forOf(source, false, A.push, A);\n    }\n    return new this(A);\n  } });\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_set-collection-from.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-collection-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-collection-of.js ***!
+  \********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\n// https://tc39.github.io/proposal-setmap-offrom/\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n\nmodule.exports = function (COLLECTION) {\n  $export($export.S, COLLECTION, { of: function of() {\n    var length = arguments.length;\n    var A = new Array(length);\n    while (length--) A[length] = arguments[length];\n    return new this(A);\n  } });\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_set-collection-of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-proto.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-proto.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// Works with __proto__ only. Old v8 can't work with null proto objects.\n/* eslint-disable no-proto */\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar check = function (O, proto) {\n  anObject(O);\n  if (!isObject(proto) && proto !== null) throw TypeError(proto + \": can't set as prototype!\");\n};\nmodule.exports = {\n  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line\n    function (test, buggy, set) {\n      try {\n        set = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\")(Function.call, __webpack_require__(/*! ./_object-gopd */ \"./node_modules/core-js/library/modules/_object-gopd.js\").f(Object.prototype, '__proto__').set, 2);\n        set(test, []);\n        buggy = !(test instanceof Array);\n      } catch (e) { buggy = true; }\n      return function setPrototypeOf(O, proto) {\n        check(O, proto);\n        if (buggy) O.__proto__ = proto;\n        else set(O, proto);\n        return O;\n      };\n    }({}, false) : undefined),\n  check: check\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_set-proto.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-to-string-tag.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-to-string-tag.js ***!
+  \********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var def = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n\nmodule.exports = function (it, tag, stat) {\n  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_set-to-string-tag.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_shared-key.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_shared-key.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var shared = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\")('keys');\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nmodule.exports = function (key) {\n  return shared[key] || (shared[key] = uid(key));\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_shared-key.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_shared.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_shared.js ***!
+  \*********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 6:1-15 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar SHARED = '__core-js_shared__';\nvar store = global[SHARED] || (global[SHARED] = {});\n\n(module.exports = function (key, value) {\n  return store[key] || (store[key] = value !== undefined ? value : {});\n})('versions', []).push({\n  version: core.version,\n  mode: __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\") ? 'pure' : 'global',\n  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_shared.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-at.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-at.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\n// true  -> String#at\n// false -> String#codePointAt\nmodule.exports = function (TO_STRING) {\n  return function (that, pos) {\n    var s = String(defined(that));\n    var i = toInteger(pos);\n    var l = s.length;\n    var a, b;\n    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;\n    a = s.charCodeAt(i);\n    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff\n      ? TO_STRING ? s.charAt(i) : a\n      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;\n  };\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_string-at.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-absolute-index.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-absolute-index.js ***!
+  \********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar max = Math.max;\nvar min = Math.min;\nmodule.exports = function (index, length) {\n  index = toInteger(index);\n  return index < 0 ? max(index + length, 0) : min(index, length);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-absolute-index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-integer.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-integer.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module) => {
+
+eval("// 7.1.4 ToInteger\nvar ceil = Math.ceil;\nvar floor = Math.floor;\nmodule.exports = function (it) {\n  return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-integer.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-iobject.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-iobject.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// to indexed object, toObject with fallback for non-array-like ES3 strings\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\nmodule.exports = function (it) {\n  return IObject(defined(it));\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-iobject.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-length.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-length.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 7.1.15 ToLength\nvar toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar min = Math.min;\nmodule.exports = function (it) {\n  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-length.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-object.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-object.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 7.1.13 ToObject(argument)\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\nmodule.exports = function (it) {\n  return Object(defined(it));\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-object.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_to-primitive.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_to-primitive.js ***!
+  \***************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 5:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 7.1.1 ToPrimitive(input [, PreferredType])\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\n// instead of the ES6 spec version, we didn't implement @@toPrimitive case\n// and the second argument - flag - preferred type is a string\nmodule.exports = function (it, S) {\n  if (!isObject(it)) return it;\n  var fn, val;\n  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  throw TypeError(\"Can't convert object to primitive value\");\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_to-primitive.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_uid.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_uid.js ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 3:0-14 */
+/***/ ((module) => {
+
+eval("var id = 0;\nvar px = Math.random();\nmodule.exports = function (key) {\n  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_uid.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_validate-collection.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_validate-collection.js ***!
+  \**********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 2:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nmodule.exports = function (it, TYPE) {\n  if (!isObject(it) || it._t !== TYPE) throw TypeError('Incompatible receiver, ' + TYPE + ' required!');\n  return it;\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_validate-collection.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks-define.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks-define.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar LIBRARY = __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\");\nvar wksExt = __webpack_require__(/*! ./_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\");\nvar defineProperty = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nmodule.exports = function (name) {\n  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});\n  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_wks-define.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks-ext.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks-ext.js ***!
+  \**********************************************************/
+/*! default exports */
+/*! export f [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/core-js/library/modules/_wks.js */
+/*!   exports [maybe provided (runtime-defined)] [no usage info] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("exports.f = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\");\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_wks-ext.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks.js ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__, module */
+/*! CommonJS bailout: module.exports is used directly at 6:15-29 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var store = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\")('wks');\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nvar Symbol = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").Symbol;\nvar USE_SYMBOL = typeof Symbol == 'function';\n\nvar $exports = module.exports = function (name) {\n  return store[name] || (store[name] =\n    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));\n};\n\n$exports.store = store;\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/_wks.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/core.get-iterator-method.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/core.get-iterator-method.js ***!
+  \**************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 4:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var classof = __webpack_require__(/*! ./_classof */ \"./node_modules/core-js/library/modules/_classof.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nmodule.exports = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\").getIteratorMethod = function (it) {\n  if (it != undefined) return it[ITERATOR]\n    || it['@@iterator']\n    || Iterators[classof(it)];\n};\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/core.get-iterator-method.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.array.iterator.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.array.iterator.js ***!
+  \********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 11:0-14 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ \"./node_modules/core-js/library/modules/_add-to-unscopables.js\");\nvar step = __webpack_require__(/*! ./_iter-step */ \"./node_modules/core-js/library/modules/_iter-step.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\n\n// 22.1.3.4 Array.prototype.entries()\n// 22.1.3.13 Array.prototype.keys()\n// 22.1.3.29 Array.prototype.values()\n// 22.1.3.30 Array.prototype[@@iterator]()\nmodule.exports = __webpack_require__(/*! ./_iter-define */ \"./node_modules/core-js/library/modules/_iter-define.js\")(Array, 'Array', function (iterated, kind) {\n  this._t = toIObject(iterated); // target\n  this._i = 0;                   // next index\n  this._k = kind;                // kind\n// 22.1.5.2.1 %ArrayIteratorPrototype%.next()\n}, function () {\n  var O = this._t;\n  var kind = this._k;\n  var index = this._i++;\n  if (!O || index >= O.length) {\n    this._t = undefined;\n    return step(1);\n  }\n  if (kind == 'keys') return step(0, index);\n  if (kind == 'values') return step(0, O[index]);\n  return step(0, [index, O[index]]);\n}, 'values');\n\n// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)\nIterators.Arguments = Iterators.Array;\n\naddToUnscopables('keys');\naddToUnscopables('values');\naddToUnscopables('entries');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.array.iterator.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.assign.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.3.1 Object.assign(target, source)\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n\n$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ \"./node_modules/core-js/library/modules/_object-assign.js\") });\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.assign.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.create.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.create.js ***!
+  \*******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])\n$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\") });\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.create.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.define-property.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.define-property.js ***!
+  \****************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)\n$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f });\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.define-property.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ \"./node_modules/core-js/library/modules/_object-gopd.js\").f;\n\n__webpack_require__(/*! ./_object-sap */ \"./node_modules/core-js/library/modules/_object-sap.js\")('getOwnPropertyDescriptor', function () {\n  return function getOwnPropertyDescriptor(it, key) {\n    return $getOwnPropertyDescriptor(toIObject(it), key);\n  };\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.keys.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.keys.js ***!
+  \*****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.2.14 Object.keys(O)\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar $keys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\n\n__webpack_require__(/*! ./_object-sap */ \"./node_modules/core-js/library/modules/_object-sap.js\")('keys', function () {\n  return function keys(it) {\n    return $keys(toObject(it));\n  };\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.keys.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.set-prototype-of.js ***!
+  \*****************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// 19.1.3.19 Object.setPrototypeOf(O, proto)\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ \"./node_modules/core-js/library/modules/_set-proto.js\").set });\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.set-prototype-of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.to-string.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.to-string.js ***!
+  \**********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements:  */
+/***/ (() => {
+
+eval("\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.object.to-string.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.string.iterator.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.string.iterator.js ***!
+  \*********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar $at = __webpack_require__(/*! ./_string-at */ \"./node_modules/core-js/library/modules/_string-at.js\")(true);\n\n// 21.1.3.27 String.prototype[@@iterator]()\n__webpack_require__(/*! ./_iter-define */ \"./node_modules/core-js/library/modules/_iter-define.js\")(String, 'String', function (iterated) {\n  this._t = String(iterated); // target\n  this._i = 0;                // next index\n// 21.1.5.2.1 %StringIteratorPrototype%.next()\n}, function () {\n  var O = this._t;\n  var index = this._i;\n  var point;\n  if (index >= O.length) return { value: undefined, done: true };\n  point = $at(O, index);\n  this._i += point.length;\n  return { value: point, done: false };\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.string.iterator.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.symbol.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.symbol.js ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\n// ECMAScript 6 symbols shim\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar redefine = __webpack_require__(/*! ./_redefine */ \"./node_modules/core-js/library/modules/_redefine.js\");\nvar META = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\").KEY;\nvar $fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nvar shared = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nvar wks = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\");\nvar wksExt = __webpack_require__(/*! ./_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\");\nvar wksDefine = __webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\");\nvar enumKeys = __webpack_require__(/*! ./_enum-keys */ \"./node_modules/core-js/library/modules/_enum-keys.js\");\nvar isArray = __webpack_require__(/*! ./_is-array */ \"./node_modules/core-js/library/modules/_is-array.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar _create = __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\");\nvar gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ \"./node_modules/core-js/library/modules/_object-gopn-ext.js\");\nvar $GOPD = __webpack_require__(/*! ./_object-gopd */ \"./node_modules/core-js/library/modules/_object-gopd.js\");\nvar $GOPS = __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\");\nvar $DP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar $keys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPD = $GOPD.f;\nvar dP = $DP.f;\nvar gOPN = gOPNExt.f;\nvar $Symbol = global.Symbol;\nvar $JSON = global.JSON;\nvar _stringify = $JSON && $JSON.stringify;\nvar PROTOTYPE = 'prototype';\nvar HIDDEN = wks('_hidden');\nvar TO_PRIMITIVE = wks('toPrimitive');\nvar isEnum = {}.propertyIsEnumerable;\nvar SymbolRegistry = shared('symbol-registry');\nvar AllSymbols = shared('symbols');\nvar OPSymbols = shared('op-symbols');\nvar ObjectProto = Object[PROTOTYPE];\nvar USE_NATIVE = typeof $Symbol == 'function' && !!$GOPS.f;\nvar QObject = global.QObject;\n// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173\nvar setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;\n\n// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687\nvar setSymbolDesc = DESCRIPTORS && $fails(function () {\n  return _create(dP({}, 'a', {\n    get: function () { return dP(this, 'a', { value: 7 }).a; }\n  })).a != 7;\n}) ? function (it, key, D) {\n  var protoDesc = gOPD(ObjectProto, key);\n  if (protoDesc) delete ObjectProto[key];\n  dP(it, key, D);\n  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);\n} : dP;\n\nvar wrap = function (tag) {\n  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);\n  sym._k = tag;\n  return sym;\n};\n\nvar isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {\n  return typeof it == 'symbol';\n} : function (it) {\n  return it instanceof $Symbol;\n};\n\nvar $defineProperty = function defineProperty(it, key, D) {\n  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);\n  anObject(it);\n  key = toPrimitive(key, true);\n  anObject(D);\n  if (has(AllSymbols, key)) {\n    if (!D.enumerable) {\n      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));\n      it[HIDDEN][key] = true;\n    } else {\n      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;\n      D = _create(D, { enumerable: createDesc(0, false) });\n    } return setSymbolDesc(it, key, D);\n  } return dP(it, key, D);\n};\nvar $defineProperties = function defineProperties(it, P) {\n  anObject(it);\n  var keys = enumKeys(P = toIObject(P));\n  var i = 0;\n  var l = keys.length;\n  var key;\n  while (l > i) $defineProperty(it, key = keys[i++], P[key]);\n  return it;\n};\nvar $create = function create(it, P) {\n  return P === undefined ? _create(it) : $defineProperties(_create(it), P);\n};\nvar $propertyIsEnumerable = function propertyIsEnumerable(key) {\n  var E = isEnum.call(this, key = toPrimitive(key, true));\n  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;\n  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;\n};\nvar $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {\n  it = toIObject(it);\n  key = toPrimitive(key, true);\n  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;\n  var D = gOPD(it, key);\n  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;\n  return D;\n};\nvar $getOwnPropertyNames = function getOwnPropertyNames(it) {\n  var names = gOPN(toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);\n  } return result;\n};\nvar $getOwnPropertySymbols = function getOwnPropertySymbols(it) {\n  var IS_OP = it === ObjectProto;\n  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);\n  } return result;\n};\n\n// 19.4.1.1 Symbol([description])\nif (!USE_NATIVE) {\n  $Symbol = function Symbol() {\n    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');\n    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);\n    var $set = function (value) {\n      if (this === ObjectProto) $set.call(OPSymbols, value);\n      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;\n      setSymbolDesc(this, tag, createDesc(1, value));\n    };\n    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });\n    return wrap(tag);\n  };\n  redefine($Symbol[PROTOTYPE], 'toString', function toString() {\n    return this._k;\n  });\n\n  $GOPD.f = $getOwnPropertyDescriptor;\n  $DP.f = $defineProperty;\n  __webpack_require__(/*! ./_object-gopn */ \"./node_modules/core-js/library/modules/_object-gopn.js\").f = gOPNExt.f = $getOwnPropertyNames;\n  __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\").f = $propertyIsEnumerable;\n  $GOPS.f = $getOwnPropertySymbols;\n\n  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\")) {\n    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);\n  }\n\n  wksExt.f = function (name) {\n    return wrap(wks(name));\n  };\n}\n\n$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });\n\nfor (var es6Symbols = (\n  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14\n  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'\n).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);\n\nfor (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);\n\n$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {\n  // 19.4.2.1 Symbol.for(key)\n  'for': function (key) {\n    return has(SymbolRegistry, key += '')\n      ? SymbolRegistry[key]\n      : SymbolRegistry[key] = $Symbol(key);\n  },\n  // 19.4.2.5 Symbol.keyFor(sym)\n  keyFor: function keyFor(sym) {\n    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');\n    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;\n  },\n  useSetter: function () { setter = true; },\n  useSimple: function () { setter = false; }\n});\n\n$export($export.S + $export.F * !USE_NATIVE, 'Object', {\n  // 19.1.2.2 Object.create(O [, Properties])\n  create: $create,\n  // 19.1.2.4 Object.defineProperty(O, P, Attributes)\n  defineProperty: $defineProperty,\n  // 19.1.2.3 Object.defineProperties(O, Properties)\n  defineProperties: $defineProperties,\n  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)\n  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,\n  // 19.1.2.7 Object.getOwnPropertyNames(O)\n  getOwnPropertyNames: $getOwnPropertyNames,\n  // 19.1.2.8 Object.getOwnPropertySymbols(O)\n  getOwnPropertySymbols: $getOwnPropertySymbols\n});\n\n// Chrome 38 and 39 `Object.getOwnPropertySymbols` fails on primitives\n// https://bugs.chromium.org/p/v8/issues/detail?id=3443\nvar FAILS_ON_PRIMITIVES = $fails(function () { $GOPS.f(1); });\n\n$export($export.S + $export.F * FAILS_ON_PRIMITIVES, 'Object', {\n  getOwnPropertySymbols: function getOwnPropertySymbols(it) {\n    return $GOPS.f(toObject(it));\n  }\n});\n\n// 24.3.2 JSON.stringify(value [, replacer [, space]])\n$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {\n  var S = $Symbol();\n  // MS Edge converts symbol values to JSON as {}\n  // WebKit converts symbol values to JSON as null\n  // V8 throws on boxed symbols\n  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';\n})), 'JSON', {\n  stringify: function stringify(it) {\n    var args = [it];\n    var i = 1;\n    var replacer, $replacer;\n    while (arguments.length > i) args.push(arguments[i++]);\n    $replacer = replacer = args[1];\n    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined\n    if (!isArray(replacer)) replacer = function (key, value) {\n      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);\n      if (!isSymbol(value)) return value;\n    };\n    args[1] = replacer;\n    return _stringify.apply($JSON, args);\n  }\n});\n\n// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)\n$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\")($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);\n// 19.4.3.5 Symbol.prototype[@@toStringTag]\nsetToStringTag($Symbol, 'Symbol');\n// 20.2.1.9 Math[@@toStringTag]\nsetToStringTag(Math, 'Math', true);\n// 24.3.3 JSON[@@toStringTag]\nsetToStringTag(global.JSON, 'JSON', true);\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.symbol.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.weak-map.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.weak-map.js ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 40:15-29 */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar each = __webpack_require__(/*! ./_array-methods */ \"./node_modules/core-js/library/modules/_array-methods.js\")(0);\nvar redefine = __webpack_require__(/*! ./_redefine */ \"./node_modules/core-js/library/modules/_redefine.js\");\nvar meta = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\");\nvar assign = __webpack_require__(/*! ./_object-assign */ \"./node_modules/core-js/library/modules/_object-assign.js\");\nvar weak = __webpack_require__(/*! ./_collection-weak */ \"./node_modules/core-js/library/modules/_collection-weak.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar validate = __webpack_require__(/*! ./_validate-collection */ \"./node_modules/core-js/library/modules/_validate-collection.js\");\nvar NATIVE_WEAK_MAP = __webpack_require__(/*! ./_validate-collection */ \"./node_modules/core-js/library/modules/_validate-collection.js\");\nvar IS_IE11 = !global.ActiveXObject && 'ActiveXObject' in global;\nvar WEAK_MAP = 'WeakMap';\nvar getWeak = meta.getWeak;\nvar isExtensible = Object.isExtensible;\nvar uncaughtFrozenStore = weak.ufstore;\nvar InternalMap;\n\nvar wrapper = function (get) {\n  return function WeakMap() {\n    return get(this, arguments.length > 0 ? arguments[0] : undefined);\n  };\n};\n\nvar methods = {\n  // 23.3.3.3 WeakMap.prototype.get(key)\n  get: function get(key) {\n    if (isObject(key)) {\n      var data = getWeak(key);\n      if (data === true) return uncaughtFrozenStore(validate(this, WEAK_MAP)).get(key);\n      return data ? data[this._i] : undefined;\n    }\n  },\n  // 23.3.3.5 WeakMap.prototype.set(key, value)\n  set: function set(key, value) {\n    return weak.def(validate(this, WEAK_MAP), key, value);\n  }\n};\n\n// 23.3 WeakMap Objects\nvar $WeakMap = module.exports = __webpack_require__(/*! ./_collection */ \"./node_modules/core-js/library/modules/_collection.js\")(WEAK_MAP, wrapper, methods, weak, true, true);\n\n// IE11 WeakMap frozen keys fix\nif (NATIVE_WEAK_MAP && IS_IE11) {\n  InternalMap = weak.getConstructor(wrapper, WEAK_MAP);\n  assign(InternalMap.prototype, methods);\n  meta.NEED = true;\n  each(['delete', 'has', 'get', 'set'], function (key) {\n    var proto = $WeakMap.prototype;\n    var method = proto[key];\n    redefine(proto, key, function (a, b) {\n      // store frozen objects on internal weakmap shim\n      if (isObject(a) && !isExtensible(a)) {\n        if (!this._f) this._f = new InternalMap();\n        var result = this._f[key](a, b);\n        return key == 'set' ? this : result;\n      // store all the rest on native weakmap\n      } return method.call(this, a, b);\n    });\n  });\n}\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es6.weak-map.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.entries.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.entries.js ***!
+  \********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// https://github.com/tc39/proposal-object-values-entries\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar $entries = __webpack_require__(/*! ./_object-to-array */ \"./node_modules/core-js/library/modules/_object-to-array.js\")(true);\n\n$export($export.S, 'Object', {\n  entries: function entries(it) {\n    return $entries(it);\n  }\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.object.entries.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.values.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.values.js ***!
+  \*******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// https://github.com/tc39/proposal-object-values-entries\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar $values = __webpack_require__(/*! ./_object-to-array */ \"./node_modules/core-js/library/modules/_object-to-array.js\")(false);\n\n$export($export.S, 'Object', {\n  values: function values(it) {\n    return $values(it);\n  }\n});\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.object.values.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.symbol.async-iterator.js ***!
+  \***************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\")('asyncIterator');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.symbol.async-iterator.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.observable.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.symbol.observable.js ***!
+  \***********************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\")('observable');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.symbol.observable.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.weak-map.from.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.weak-map.from.js ***!
+  \*******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from\n__webpack_require__(/*! ./_set-collection-from */ \"./node_modules/core-js/library/modules/_set-collection-from.js\")('WeakMap');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.weak-map.from.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.weak-map.of.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.weak-map.of.js ***!
+  \*****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of\n__webpack_require__(/*! ./_set-collection-of */ \"./node_modules/core-js/library/modules/_set-collection-of.js\")('WeakMap');\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/es7.weak-map.of.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/web.dom.iterable.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/web.dom.iterable.js ***!
+  \******************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_require__ */
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("__webpack_require__(/*! ./es6.array.iterator */ \"./node_modules/core-js/library/modules/es6.array.iterator.js\");\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar TO_STRING_TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n\nvar DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +\n  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +\n  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +\n  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +\n  'TextTrackList,TouchList').split(',');\n\nfor (var i = 0; i < DOMIterables.length; i++) {\n  var NAME = DOMIterables[i];\n  var Collection = global[NAME];\n  var proto = Collection && Collection.prototype;\n  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);\n  Iterators[NAME] = Iterators.Array;\n}\n\n\n//# sourceURL=webpack://frontend/./node_modules/core-js/library/modules/web.dom.iterable.js?");
 
 /***/ }),
 
@@ -413,6 +2054,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("\n\nvar reactIs = __webpack_require__(/*! react-is */ \"./node_modules/react-is/index.js\");\n\n/**\n * Copyright 2015, Yahoo! Inc.\n * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.\n */\nvar REACT_STATICS = {\n  childContextTypes: true,\n  contextType: true,\n  contextTypes: true,\n  defaultProps: true,\n  displayName: true,\n  getDefaultProps: true,\n  getDerivedStateFromError: true,\n  getDerivedStateFromProps: true,\n  mixins: true,\n  propTypes: true,\n  type: true\n};\nvar KNOWN_STATICS = {\n  name: true,\n  length: true,\n  prototype: true,\n  caller: true,\n  callee: true,\n  arguments: true,\n  arity: true\n};\nvar FORWARD_REF_STATICS = {\n  '$$typeof': true,\n  render: true,\n  defaultProps: true,\n  displayName: true,\n  propTypes: true\n};\nvar MEMO_STATICS = {\n  '$$typeof': true,\n  compare: true,\n  defaultProps: true,\n  displayName: true,\n  propTypes: true,\n  type: true\n};\nvar TYPE_STATICS = {};\nTYPE_STATICS[reactIs.ForwardRef] = FORWARD_REF_STATICS;\nTYPE_STATICS[reactIs.Memo] = MEMO_STATICS;\n\nfunction getStatics(component) {\n  // React v16.11 and below\n  if (reactIs.isMemo(component)) {\n    return MEMO_STATICS;\n  } // React v16.12 and above\n\n\n  return TYPE_STATICS[component['$$typeof']] || REACT_STATICS;\n}\n\nvar defineProperty = Object.defineProperty;\nvar getOwnPropertyNames = Object.getOwnPropertyNames;\nvar getOwnPropertySymbols = Object.getOwnPropertySymbols;\nvar getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;\nvar getPrototypeOf = Object.getPrototypeOf;\nvar objectPrototype = Object.prototype;\nfunction hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {\n  if (typeof sourceComponent !== 'string') {\n    // don't hoist over string (html) components\n    if (objectPrototype) {\n      var inheritedComponent = getPrototypeOf(sourceComponent);\n\n      if (inheritedComponent && inheritedComponent !== objectPrototype) {\n        hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);\n      }\n    }\n\n    var keys = getOwnPropertyNames(sourceComponent);\n\n    if (getOwnPropertySymbols) {\n      keys = keys.concat(getOwnPropertySymbols(sourceComponent));\n    }\n\n    var targetStatics = getStatics(targetComponent);\n    var sourceStatics = getStatics(sourceComponent);\n\n    for (var i = 0; i < keys.length; ++i) {\n      var key = keys[i];\n\n      if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {\n        var descriptor = getOwnPropertyDescriptor(sourceComponent, key);\n\n        try {\n          // Avoid failures from read-only properties\n          defineProperty(targetComponent, key, descriptor);\n        } catch (e) {}\n      }\n    }\n  }\n\n  return targetComponent;\n}\n\nmodule.exports = hoistNonReactStatics;\n\n\n//# sourceURL=webpack://frontend/./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js?");
+
+/***/ }),
+
+/***/ "./node_modules/invariant/browser.js":
+/*!*******************************************!*\
+  !*** ./node_modules/invariant/browser.js ***!
+  \*******************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 49:0-14 */
+/***/ ((module) => {
+
+"use strict";
+eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n\n\n/**\n * Use invariant() to assert state which your program assumes to be true.\n *\n * Provide sprintf-style format (only %s is supported) and arguments\n * to provide information about what broke and what you were\n * expecting.\n *\n * The invariant message will be stripped in production, but the invariant\n * will remain to ensure logic does not differ in production.\n */\n\nvar invariant = function(condition, format, a, b, c, d, e, f) {\n  if (true) {\n    if (format === undefined) {\n      throw new Error('invariant requires an error message argument');\n    }\n  }\n\n  if (!condition) {\n    var error;\n    if (format === undefined) {\n      error = new Error(\n        'Minified exception occurred; use the non-minified dev environment ' +\n        'for the full error message and additional helpful warnings.'\n      );\n    } else {\n      var args = [a, b, c, d, e, f];\n      var argIndex = 0;\n      error = new Error(\n        format.replace(/%s/g, function() { return args[argIndex++]; })\n      );\n      error.name = 'Invariant Violation';\n    }\n\n    error.framesToPop = 1; // we don't care about invariant's own frame\n    throw error;\n  }\n};\n\nmodule.exports = invariant;\n\n\n//# sourceURL=webpack://frontend/./node_modules/invariant/browser.js?");
 
 /***/ }),
 
@@ -471,6 +2126,62 @@ eval("var isarray = __webpack_require__(/*! isarray */ \"./node_modules/isarray/
 
 /***/ }),
 
+/***/ "./node_modules/prop-types-extra/lib/componentOrElement.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/prop-types-extra/lib/componentOrElement.js ***!
+  \*****************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 35:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _createChainableTypeChecker = __webpack_require__(/*! ./utils/createChainableTypeChecker */ \"./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js\");\n\nvar _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction validate(props, propName, componentName, location, propFullName) {\n  var propValue = props[propName];\n  var propType = typeof propValue === 'undefined' ? 'undefined' : _typeof(propValue);\n\n  if (_react2.default.isValidElement(propValue)) {\n    return new Error('Invalid ' + location + ' `' + propFullName + '` of type ReactElement ' + ('supplied to `' + componentName + '`, expected a ReactComponent or a ') + 'DOMElement. You can usually obtain a ReactComponent or DOMElement ' + 'from a ReactElement by attaching a ref to it.');\n  }\n\n  if ((propType !== 'object' || typeof propValue.render !== 'function') && propValue.nodeType !== 1) {\n    return new Error('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected a ReactComponent or a ') + 'DOMElement.');\n  }\n\n  return null;\n}\n\nexports.default = (0, _createChainableTypeChecker2.default)(validate);\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/prop-types-extra/lib/componentOrElement.js?");
+
+/***/ }),
+
+/***/ "./node_modules/prop-types-extra/lib/deprecated.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/prop-types-extra/lib/deprecated.js ***!
+  \*********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 45:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default = deprecated;\n\nvar _warning = __webpack_require__(/*! warning */ \"./node_modules/warning/warning.js\");\n\nvar _warning2 = _interopRequireDefault(_warning);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar warned = {};\n\nfunction deprecated(validator, reason) {\n  return function validate(props, propName, componentName, location, propFullName) {\n    var componentNameSafe = componentName || '<<anonymous>>';\n    var propFullNameSafe = propFullName || propName;\n\n    if (props[propName] != null) {\n      var messageKey = componentName + '.' + propName;\n\n      (0, _warning2.default)(warned[messageKey], 'The ' + location + ' `' + propFullNameSafe + '` of ' + ('`' + componentNameSafe + '` is deprecated. ' + reason + '.'));\n\n      warned[messageKey] = true;\n    }\n\n    for (var _len = arguments.length, args = Array(_len > 5 ? _len - 5 : 0), _key = 5; _key < _len; _key++) {\n      args[_key - 5] = arguments[_key];\n    }\n\n    return validator.apply(undefined, [props, propName, componentName, location, propFullName].concat(args));\n  };\n}\n\n/* eslint-disable no-underscore-dangle */\nfunction _resetWarned() {\n  warned = {};\n}\n\ndeprecated._resetWarned = _resetWarned;\n/* eslint-enable no-underscore-dangle */\n\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/prop-types-extra/lib/deprecated.js?");
+
+/***/ }),
+
+/***/ "./node_modules/prop-types-extra/lib/elementType.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/prop-types-extra/lib/elementType.js ***!
+  \**********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 34:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactIs = __webpack_require__(/*! react-is */ \"./node_modules/react-is/index.js\");\n\nvar _createChainableTypeChecker = __webpack_require__(/*! ./utils/createChainableTypeChecker */ \"./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js\");\n\nvar _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction elementType(props, propName, componentName, location, propFullName) {\n  var propValue = props[propName];\n\n  if (_react2.default.isValidElement(propValue)) {\n    return new Error('Invalid ' + location + ' `' + propFullName + '` of type ReactElement ' + ('supplied to `' + componentName + '`,expected an element type (a string ') + ', component class, or function component).');\n  }\n\n  if (!(0, _reactIs.isValidElementType)(propValue)) {\n    return new Error('Invalid ' + location + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected an element type (a string ') + ', component class, or function component).');\n  }\n\n  return null;\n}\n\nexports.default = (0, _createChainableTypeChecker2.default)(elementType);\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/prop-types-extra/lib/elementType.js?");
+
+/***/ }),
+
+/***/ "./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js ***!
+  \*******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 43:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports.default = createChainableTypeChecker;\n/**\n * Copyright 2013-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n */\n\n// Mostly taken from ReactPropTypes.\n\nfunction createChainableTypeChecker(validate) {\n  function checkType(isRequired, props, propName, componentName, location, propFullName) {\n    var componentNameSafe = componentName || '<<anonymous>>';\n    var propFullNameSafe = propFullName || propName;\n\n    if (props[propName] == null) {\n      if (isRequired) {\n        return new Error('Required ' + location + ' `' + propFullNameSafe + '` was not specified ' + ('in `' + componentNameSafe + '`.'));\n      }\n\n      return null;\n    }\n\n    for (var _len = arguments.length, args = Array(_len > 6 ? _len - 6 : 0), _key = 6; _key < _len; _key++) {\n      args[_key - 6] = arguments[_key];\n    }\n\n    return validate.apply(undefined, [props, propName, componentNameSafe, location, propFullNameSafe].concat(args));\n  }\n\n  var chainedCheckType = checkType.bind(null, false);\n  chainedCheckType.isRequired = checkType.bind(null, true);\n\n  return chainedCheckType;\n}\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js?");
+
+/***/ }),
+
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!***************************************************!*\
   !*** ./node_modules/prop-types/checkPropTypes.js ***!
@@ -523,6 +2234,815 @@ eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source cod
 
 "use strict";
 eval("/**\n * Copyright (c) 2013-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n\n\nvar ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';\n\nmodule.exports = ReactPropTypesSecret;\n\n\n//# sourceURL=webpack://frontend/./node_modules/prop-types/lib/ReactPropTypesSecret.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/lib/Confirm.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/lib/Confirm.js ***!
+  \*************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_require__, __webpack_exports__, module */
+/*! CommonJS bailout: this is used directly at 13:3-7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {\n    if (true) {\n        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! react */ \"./node_modules/react/index.js\"), __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"), __webpack_require__(/*! react-bootstrap/lib/Button */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Button.js\"), __webpack_require__(/*! react-bootstrap/lib/Modal */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Modal.js\")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n    } else { var mod; }\n})(this, function (exports, _react, _propTypes, _Button, _Modal) {\n    'use strict';\n\n    Object.defineProperty(exports, \"__esModule\", {\n        value: true\n    });\n    exports.Confirm = undefined;\n\n    var _react2 = _interopRequireDefault(_react);\n\n    var _propTypes2 = _interopRequireDefault(_propTypes);\n\n    var _Button2 = _interopRequireDefault(_Button);\n\n    var _Modal2 = _interopRequireDefault(_Modal);\n\n    function _interopRequireDefault(obj) {\n        return obj && obj.__esModule ? obj : {\n            default: obj\n        };\n    }\n\n    function _classCallCheck(instance, Constructor) {\n        if (!(instance instanceof Constructor)) {\n            throw new TypeError(\"Cannot call a class as a function\");\n        }\n    }\n\n    var _createClass = function () {\n        function defineProperties(target, props) {\n            for (var i = 0; i < props.length; i++) {\n                var descriptor = props[i];\n                descriptor.enumerable = descriptor.enumerable || false;\n                descriptor.configurable = true;\n                if (\"value\" in descriptor) descriptor.writable = true;\n                Object.defineProperty(target, descriptor.key, descriptor);\n            }\n        }\n\n        return function (Constructor, protoProps, staticProps) {\n            if (protoProps) defineProperties(Constructor.prototype, protoProps);\n            if (staticProps) defineProperties(Constructor, staticProps);\n            return Constructor;\n        };\n    }();\n\n    function _possibleConstructorReturn(self, call) {\n        if (!self) {\n            throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n        }\n\n        return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self;\n    }\n\n    function _inherits(subClass, superClass) {\n        if (typeof superClass !== \"function\" && superClass !== null) {\n            throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass);\n        }\n\n        subClass.prototype = Object.create(superClass && superClass.prototype, {\n            constructor: {\n                value: subClass,\n                enumerable: false,\n                writable: true,\n                configurable: true\n            }\n        });\n        if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;\n    }\n\n    var Confirm = function (_React$Component) {\n        _inherits(Confirm, _React$Component);\n\n        function Confirm(props) {\n            _classCallCheck(this, Confirm);\n\n            var _this = _possibleConstructorReturn(this, (Confirm.__proto__ || Object.getPrototypeOf(Confirm)).call(this, props));\n\n            _this.state = {\n                isOpened: props.visible\n            };\n            _this.onButtonClick = _this.onButtonClick.bind(_this);\n            _this.onClose = _this.onClose.bind(_this);\n            _this.onConfirm = _this.onConfirm.bind(_this);\n            return _this;\n        }\n\n        _createClass(Confirm, [{\n            key: 'onButtonClick',\n            value: function onButtonClick() {\n                // Since the modal is inside the button click events will propagate up.\n                if (!this.state.isOpened) {\n                    this.setState({\n                        isOpened: true\n                    });\n                }\n            }\n        }, {\n            key: 'onClose',\n            value: function onClose(event) {\n                if (event) {\n                    event.stopPropagation();\n                }\n                this.setState({\n                    isOpened: false\n                });\n\n                if (typeof this.props.onClose === 'function') {\n                    this.props.onClose();\n                }\n            }\n        }, {\n            key: 'onConfirm',\n            value: function onConfirm(event) {\n                event.stopPropagation();\n                this.setState({\n                    isOpened: false\n                });\n                this.props.onConfirm();\n            }\n        }, {\n            key: 'render',\n            value: function render() {\n                var cancelButton = this.props.showCancelButton ? _react2.default.createElement(\n                    _Button2.default,\n                    { bsStyle: 'default', onClick: this.onClose },\n                    this.props.cancelText\n                ) : null;\n                var modal = _react2.default.createElement(\n                    _Modal2.default,\n                    { show: this.state.isOpened, onHide: this.onClose,\n                        className: this.props.className, dialogClassName: this.props.dialogClassName,\n                        keyboard: this.props.keyboard, backdrop: this.props.backdrop,\n                        enforceFocus: this.props.enforceFocus\n                    },\n                    _react2.default.createElement(\n                        _Modal2.default.Header,\n                        null,\n                        _react2.default.createElement(\n                            _Modal2.default.Title,\n                            null,\n                            this.props.title\n                        )\n                    ),\n                    _react2.default.createElement(\n                        _Modal2.default.Body,\n                        null,\n                        this.props.body\n                    ),\n                    _react2.default.createElement(\n                        _Modal2.default.Footer,\n                        null,\n                        cancelButton,\n                        _react2.default.createElement(\n                            _Button2.default,\n                            { bsStyle: this.props.confirmBSStyle, onClick: this.onConfirm },\n                            this.props.confirmText\n                        )\n                    )\n                );\n                var content;\n                if (this.props.children) {\n                    var btn = _react2.default.Children.only(this.props.children);\n                    content = _react2.default.cloneElement(btn, {\n                        onClick: this.onButtonClick,\n                        style: this.props.style\n                    }, btn.props.children, modal);\n                } else {\n                    content = _react2.default.createElement(\n                        _Button2.default,\n                        { onClick: this.onButtonClick, style: this.props.style },\n                        this.props.buttonText,\n                        modal\n                    );\n                }\n                return content;\n            }\n        }]);\n\n        return Confirm;\n    }(_react2.default.Component);\n\n    Confirm.propTypes = {\n        body: _propTypes2.default.node.isRequired,\n        buttonText: _propTypes2.default.node,\n        cancelText: _propTypes2.default.node,\n        className: _propTypes2.default.string,\n        confirmBSStyle: _propTypes2.default.string,\n        confirmText: _propTypes2.default.node,\n        dialogClassName: _propTypes2.default.string,\n        keyboard: _propTypes2.default.bool,\n        backdrop: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.bool]),\n        enforceFocus: _propTypes2.default.bool,\n        onConfirm: _propTypes2.default.func.isRequired,\n        onClose: _propTypes2.default.func,\n        showCancelButton: _propTypes2.default.bool.isRequired,\n        title: _propTypes2.default.node.isRequired,\n        visible: _propTypes2.default.bool\n    };\n\n    Confirm.defaultProps = {\n        cancelText: 'Cancel',\n        confirmText: 'Confirm',\n        confirmBSStyle: 'danger',\n        showCancelButton: true\n    };\n\n    exports.Confirm = Confirm;\n    exports.default = Confirm;\n});\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/lib/Confirm.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/activeElement.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/activeElement.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 22:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = activeElement;\n\nvar _ownerDocument = _interopRequireDefault(__webpack_require__(/*! ./ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js\"));\n\nfunction activeElement(doc) {\n  if (doc === void 0) {\n    doc = (0, _ownerDocument.default)();\n  }\n\n  try {\n    return doc.activeElement;\n  } catch (e) {\n    /* ie throws if no active element */\n  }\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/activeElement.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/addClass.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/addClass.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 14:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = addClass;\n\nvar _hasClass = _interopRequireDefault(__webpack_require__(/*! ./hasClass */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/hasClass.js\"));\n\nfunction addClass(element, className) {\n  if (element.classList) element.classList.add(className);else if (!(0, _hasClass.default)(element, className)) if (typeof element.className === 'string') element.className = element.className + ' ' + className;else element.setAttribute('class', (element.className && element.className.baseVal || '') + ' ' + className);\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/addClass.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/hasClass.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/hasClass.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = hasClass;\n\nfunction hasClass(element, className) {\n  if (element.classList) return !!className && element.classList.contains(className);else return (\" \" + (element.className.baseVal || element.className) + \" \").indexOf(\" \" + className + \" \") !== -1;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/hasClass.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/index.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/index.js ***!
+  \**************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export addClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export hasClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export removeClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _addClass = _interopRequireDefault(__webpack_require__(/*! ./addClass */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/addClass.js\"));\n\nexports.addClass = _addClass.default;\n\nvar _removeClass = _interopRequireDefault(__webpack_require__(/*! ./removeClass */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/removeClass.js\"));\n\nexports.removeClass = _removeClass.default;\n\nvar _hasClass = _interopRequireDefault(__webpack_require__(/*! ./hasClass */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/hasClass.js\"));\n\nexports.hasClass = _hasClass.default;\nvar _default = {\n  addClass: _addClass.default,\n  removeClass: _removeClass.default,\n  hasClass: _hasClass.default\n};\nexports.default = _default;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/removeClass.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/removeClass.js ***!
+  \********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 7:0-14 */
+/***/ ((module) => {
+
+"use strict";
+eval("\n\nfunction replaceClassName(origClass, classToRemove) {\n  return origClass.replace(new RegExp('(^|\\\\s)' + classToRemove + '(?:\\\\s|$)', 'g'), '$1').replace(/\\s+/g, ' ').replace(/^\\s*|\\s*$/g, '');\n}\n\nmodule.exports = function removeClass(element, className) {\n  if (element.classList) element.classList.remove(className);else if (typeof element.className === 'string') element.className = replaceClassName(element.className, className);else element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));\n};\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/removeClass.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/filter.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/filter.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 23:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = filterEvents;\n\nvar _contains = _interopRequireDefault(__webpack_require__(/*! ../query/contains */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/contains.js\"));\n\nvar _querySelectorAll = _interopRequireDefault(__webpack_require__(/*! ../query/querySelectorAll */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/querySelectorAll.js\"));\n\nfunction filterEvents(selector, handler) {\n  return function filterHandler(e) {\n    var top = e.currentTarget,\n        target = e.target,\n        matches = (0, _querySelectorAll.default)(top, selector);\n    if (matches.some(function (match) {\n      return (0, _contains.default)(match, target);\n    })) handler.call(this, e);\n  };\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/filter.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/index.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/index.js ***!
+  \***************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export filter [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export listen [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export off [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export on [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _on = _interopRequireDefault(__webpack_require__(/*! ./on */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js\"));\n\nexports.on = _on.default;\n\nvar _off = _interopRequireDefault(__webpack_require__(/*! ./off */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js\"));\n\nexports.off = _off.default;\n\nvar _filter = _interopRequireDefault(__webpack_require__(/*! ./filter */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/filter.js\"));\n\nexports.filter = _filter.default;\n\nvar _listen = _interopRequireDefault(__webpack_require__(/*! ./listen */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/listen.js\"));\n\nexports.listen = _listen.default;\nvar _default = {\n  on: _on.default,\n  off: _off.default,\n  filter: _filter.default,\n  listen: _listen.default\n};\nexports.default = _default;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/listen.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/listen.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ../util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar _on = _interopRequireDefault(__webpack_require__(/*! ./on */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js\"));\n\nvar _off = _interopRequireDefault(__webpack_require__(/*! ./off */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js\"));\n\nvar listen = function listen() {};\n\nif (_inDOM.default) {\n  listen = function listen(node, eventName, handler, capture) {\n    (0, _on.default)(node, eventName, handler, capture);\n    return function () {\n      (0, _off.default)(node, eventName, handler, capture);\n    };\n  };\n}\n\nvar _default = listen;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/listen.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js ***!
+  \*************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 24:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ../util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar off = function off() {};\n\nif (_inDOM.default) {\n  off = function () {\n    if (document.addEventListener) return function (node, eventName, handler, capture) {\n      return node.removeEventListener(eventName, handler, capture || false);\n    };else if (document.attachEvent) return function (node, eventName, handler) {\n      return node.detachEvent('on' + eventName, handler);\n    };\n  }();\n}\n\nvar _default = off;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js":
+/*!************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js ***!
+  \************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 29:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ../util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar on = function on() {};\n\nif (_inDOM.default) {\n  on = function () {\n    if (document.addEventListener) return function (node, eventName, handler, capture) {\n      return node.addEventListener(eventName, handler, capture || false);\n    };else if (document.attachEvent) return function (node, eventName, handler) {\n      return node.attachEvent('on' + eventName, function (e) {\n        e = e || window.event;\n        e.target = e.target || e.srcElement;\n        e.currentTarget = node;\n        handler.call(node, e);\n      });\n    };\n  }();\n}\n\nvar _default = on;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = ownerDocument;\n\nfunction ownerDocument(node) {\n  return node && node.ownerDocument || document;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/contains.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/contains.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 33:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ../util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar _default = function () {\n  // HTML DOM and SVG DOM may have different support levels,\n  // so we need to check on context instead of a document root element.\n  return _inDOM.default ? function (context, node) {\n    if (context.contains) {\n      return context.contains(node);\n    } else if (context.compareDocumentPosition) {\n      return context === node || !!(context.compareDocumentPosition(node) & 16);\n    } else {\n      return fallback(context, node);\n    }\n  } : fallback;\n}();\n\nexports.default = _default;\n\nfunction fallback(context, node) {\n  if (node) do {\n    if (node === context) return true;\n  } while (node = node.parentNode);\n  return false;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/contains.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/isWindow.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/isWindow.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = getWindow;\n\nfunction getWindow(node) {\n  return node === node.window ? node : node.nodeType === 9 ? node.defaultView || node.parentWindow : false;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/isWindow.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/querySelectorAll.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/querySelectorAll.js ***!
+  \*************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 31:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = qsa;\n// Zepto.js\n// (c) 2010-2015 Thomas Fuchs\n// Zepto.js may be freely distributed under the MIT license.\nvar simpleSelectorRE = /^[\\w-]*$/;\nvar toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);\n\nfunction qsa(element, selector) {\n  var maybeID = selector[0] === '#',\n      maybeClass = selector[0] === '.',\n      nameOnly = maybeID || maybeClass ? selector.slice(1) : selector,\n      isSimple = simpleSelectorRE.test(nameOnly),\n      found;\n\n  if (isSimple) {\n    if (maybeID) {\n      element = element.getElementById ? element : document;\n      return (found = element.getElementById(nameOnly)) ? [found] : [];\n    }\n\n    if (element.getElementsByClassName && maybeClass) return toArray(element.getElementsByClassName(nameOnly));\n    return toArray(element.getElementsByTagName(selector));\n  }\n\n  return toArray(element.querySelectorAll(selector));\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/querySelectorAll.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/getComputedStyle.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/getComputedStyle.js ***!
+  \*************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 44:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = _getComputedStyle;\n\nvar _camelizeStyle = _interopRequireDefault(__webpack_require__(/*! ../util/camelizeStyle */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelizeStyle.js\"));\n\nvar rposition = /^(top|right|bottom|left)$/;\nvar rnumnonpx = /^([+-]?(?:\\d*\\.|)\\d+(?:[eE][+-]?\\d+|))(?!px)[a-z%]+$/i;\n\nfunction _getComputedStyle(node) {\n  if (!node) throw new TypeError('No Element passed to `getComputedStyle()`');\n  var doc = node.ownerDocument;\n  return 'defaultView' in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : {\n    //ie 8 \"magic\" from: https://github.com/jquery/jquery/blob/1.11-stable/src/css/curCSS.js#L72\n    getPropertyValue: function getPropertyValue(prop) {\n      var style = node.style;\n      prop = (0, _camelizeStyle.default)(prop);\n      if (prop == 'float') prop = 'styleFloat';\n      var current = node.currentStyle[prop] || null;\n      if (current == null && style && style[prop]) current = style[prop];\n\n      if (rnumnonpx.test(current) && !rposition.test(prop)) {\n        // Remember the original values\n        var left = style.left;\n        var runStyle = node.runtimeStyle;\n        var rsLeft = runStyle && runStyle.left; // Put in the new values to get a computed value out\n\n        if (rsLeft) runStyle.left = node.currentStyle.left;\n        style.left = prop === 'fontSize' ? '1em' : current;\n        current = style.pixelLeft + 'px'; // Revert the changed values\n\n        style.left = left;\n        if (rsLeft) runStyle.left = rsLeft;\n      }\n\n      return current;\n    }\n  };\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/getComputedStyle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/index.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/index.js ***!
+  \**************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 52:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = style;\n\nvar _camelizeStyle = _interopRequireDefault(__webpack_require__(/*! ../util/camelizeStyle */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelizeStyle.js\"));\n\nvar _hyphenateStyle = _interopRequireDefault(__webpack_require__(/*! ../util/hyphenateStyle */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenateStyle.js\"));\n\nvar _getComputedStyle2 = _interopRequireDefault(__webpack_require__(/*! ./getComputedStyle */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/getComputedStyle.js\"));\n\nvar _removeStyle = _interopRequireDefault(__webpack_require__(/*! ./removeStyle */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/removeStyle.js\"));\n\nvar _properties = __webpack_require__(/*! ../transition/properties */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/properties.js\");\n\nvar _isTransform = _interopRequireDefault(__webpack_require__(/*! ../transition/isTransform */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/isTransform.js\"));\n\nfunction style(node, property, value) {\n  var css = '';\n  var transforms = '';\n  var props = property;\n\n  if (typeof property === 'string') {\n    if (value === undefined) {\n      return node.style[(0, _camelizeStyle.default)(property)] || (0, _getComputedStyle2.default)(node).getPropertyValue((0, _hyphenateStyle.default)(property));\n    } else {\n      (props = {})[property] = value;\n    }\n  }\n\n  Object.keys(props).forEach(function (key) {\n    var value = props[key];\n\n    if (!value && value !== 0) {\n      (0, _removeStyle.default)(node, (0, _hyphenateStyle.default)(key));\n    } else if ((0, _isTransform.default)(key)) {\n      transforms += key + \"(\" + value + \") \";\n    } else {\n      css += (0, _hyphenateStyle.default)(key) + \": \" + value + \";\";\n    }\n  });\n\n  if (transforms) {\n    css += _properties.transform + \": \" + transforms + \";\";\n  }\n\n  node.style.cssText += ';' + css;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/removeStyle.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/removeStyle.js ***!
+  \********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 10:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = removeStyle;\n\nfunction removeStyle(node, key) {\n  return 'removeProperty' in node.style ? node.style.removeProperty(key) : node.style.removeAttribute(key);\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/removeStyle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/isTransform.js":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/isTransform.js ***!
+  \*************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 11:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = isTransform;\nvar supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;\n\nfunction isTransform(property) {\n  return !!(property && supportedTransforms.test(property));\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/isTransform.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/properties.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/properties.js ***!
+  \************************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export animationDelay [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export animationDuration [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export animationEnd [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export animationName [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export animationTiming [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transform [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transitionDelay [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transitionDuration [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transitionEnd [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transitionProperty [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export transitionTiming [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = void 0;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ../util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar transform = 'transform';\nexports.transform = transform;\nvar prefix, transitionEnd, animationEnd;\nexports.animationEnd = animationEnd;\nexports.transitionEnd = transitionEnd;\nvar transitionProperty, transitionDuration, transitionTiming, transitionDelay;\nexports.transitionDelay = transitionDelay;\nexports.transitionTiming = transitionTiming;\nexports.transitionDuration = transitionDuration;\nexports.transitionProperty = transitionProperty;\nvar animationName, animationDuration, animationTiming, animationDelay;\nexports.animationDelay = animationDelay;\nexports.animationTiming = animationTiming;\nexports.animationDuration = animationDuration;\nexports.animationName = animationName;\n\nif (_inDOM.default) {\n  var _getTransitionPropert = getTransitionProperties();\n\n  prefix = _getTransitionPropert.prefix;\n  exports.transitionEnd = transitionEnd = _getTransitionPropert.transitionEnd;\n  exports.animationEnd = animationEnd = _getTransitionPropert.animationEnd;\n  exports.transform = transform = prefix + \"-\" + transform;\n  exports.transitionProperty = transitionProperty = prefix + \"-transition-property\";\n  exports.transitionDuration = transitionDuration = prefix + \"-transition-duration\";\n  exports.transitionDelay = transitionDelay = prefix + \"-transition-delay\";\n  exports.transitionTiming = transitionTiming = prefix + \"-transition-timing-function\";\n  exports.animationName = animationName = prefix + \"-animation-name\";\n  exports.animationDuration = animationDuration = prefix + \"-animation-duration\";\n  exports.animationTiming = animationTiming = prefix + \"-animation-delay\";\n  exports.animationDelay = animationDelay = prefix + \"-animation-timing-function\";\n}\n\nvar _default = {\n  transform: transform,\n  end: transitionEnd,\n  property: transitionProperty,\n  timing: transitionTiming,\n  delay: transitionDelay,\n  duration: transitionDuration\n};\nexports.default = _default;\n\nfunction getTransitionProperties() {\n  var style = document.createElement('div').style;\n  var vendorMap = {\n    O: function O(e) {\n      return \"o\" + e.toLowerCase();\n    },\n    Moz: function Moz(e) {\n      return e.toLowerCase();\n    },\n    Webkit: function Webkit(e) {\n      return \"webkit\" + e;\n    },\n    ms: function ms(e) {\n      return \"MS\" + e;\n    }\n  };\n  var vendors = Object.keys(vendorMap);\n  var transitionEnd, animationEnd;\n  var prefix = '';\n\n  for (var i = 0; i < vendors.length; i++) {\n    var vendor = vendors[i];\n\n    if (vendor + \"TransitionProperty\" in style) {\n      prefix = \"-\" + vendor.toLowerCase();\n      transitionEnd = vendorMap[vendor]('TransitionEnd');\n      animationEnd = vendorMap[vendor]('AnimationEnd');\n      break;\n    }\n  }\n\n  if (!transitionEnd && 'transitionProperty' in style) transitionEnd = 'transitionend';\n  if (!animationEnd && 'animationName' in style) animationEnd = 'animationend';\n  style = null;\n  return {\n    animationEnd: animationEnd,\n    transitionEnd: transitionEnd,\n    prefix: prefix\n  };\n}\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/transition/properties.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelize.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelize.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 13:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = camelize;\nvar rHyphen = /-(.)/g;\n\nfunction camelize(string) {\n  return string.replace(rHyphen, function (_, chr) {\n    return chr.toUpperCase();\n  });\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelize.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelizeStyle.js":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelizeStyle.js ***!
+  \*********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 21:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = camelizeStyleName;\n\nvar _camelize = _interopRequireDefault(__webpack_require__(/*! ./camelize */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelize.js\"));\n\n/**\n * Copyright 2014-2015, Facebook, Inc.\n * All rights reserved.\n * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/camelizeStyleName.js\n */\nvar msPattern = /^-ms-/;\n\nfunction camelizeStyleName(string) {\n  return (0, _camelize.default)(string.replace(msPattern, 'ms-'));\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/camelizeStyle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenate.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenate.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 11:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = hyphenate;\nvar rUpper = /([A-Z])/g;\n\nfunction hyphenate(string) {\n  return string.replace(rUpper, '-$1').toLowerCase();\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenate.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenateStyle.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenateStyle.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 21:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = hyphenateStyleName;\n\nvar _hyphenate = _interopRequireDefault(__webpack_require__(/*! ./hyphenate */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenate.js\"));\n\n/**\n * Copyright 2013-2014, Facebook, Inc.\n * All rights reserved.\n * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js\n */\nvar msPattern = /^ms-/;\n\nfunction hyphenateStyleName(string) {\n  return (0, _hyphenate.default)(string).replace(msPattern, '-ms-');\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/hyphenateStyle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js ***!
+  \*************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/scrollbarSize.js":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/scrollbarSize.js ***!
+  \*********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 30:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = scrollbarSize;\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! ./inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar size;\n\nfunction scrollbarSize(recalc) {\n  if (!size && size !== 0 || recalc) {\n    if (_inDOM.default) {\n      var scrollDiv = document.createElement('div');\n      scrollDiv.style.position = 'absolute';\n      scrollDiv.style.top = '-9999px';\n      scrollDiv.style.width = '50px';\n      scrollDiv.style.height = '50px';\n      scrollDiv.style.overflow = 'scroll';\n      document.body.appendChild(scrollDiv);\n      size = scrollDiv.offsetWidth - scrollDiv.clientWidth;\n      document.body.removeChild(scrollDiv);\n    }\n  }\n\n  return size;\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/scrollbarSize.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Button.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Button.js ***!
+  \*****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 111:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _values = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/values */ \"./node_modules/@babel/runtime-corejs2/core-js/object/values.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _extends3 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar _StyleConfig = __webpack_require__(/*! ./utils/StyleConfig */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js\");\n\nvar _SafeAnchor = _interopRequireDefault(__webpack_require__(/*! ./SafeAnchor */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/SafeAnchor.js\"));\n\nvar propTypes = {\n  active: _propTypes.default.bool,\n  disabled: _propTypes.default.bool,\n  block: _propTypes.default.bool,\n  onClick: _propTypes.default.func,\n  componentClass: _elementType.default,\n  href: _propTypes.default.string,\n\n  /**\n   * Defines HTML button type attribute\n   * @defaultValue 'button'\n   */\n  type: _propTypes.default.oneOf(['button', 'reset', 'submit'])\n};\nvar defaultProps = {\n  active: false,\n  block: false,\n  disabled: false\n};\n\nvar Button =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(Button, _React$Component);\n\n  function Button() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = Button.prototype;\n\n  _proto.renderAnchor = function renderAnchor(elementProps, className) {\n    return _react.default.createElement(_SafeAnchor.default, (0, _extends3.default)({}, elementProps, {\n      className: (0, _classnames.default)(className, elementProps.disabled && 'disabled')\n    }));\n  };\n\n  _proto.renderButton = function renderButton(_ref, className) {\n    var componentClass = _ref.componentClass,\n        elementProps = (0, _objectWithoutPropertiesLoose2.default)(_ref, [\"componentClass\"]);\n    var Component = componentClass || 'button';\n    return _react.default.createElement(Component, (0, _extends3.default)({}, elementProps, {\n      type: elementProps.type || 'button',\n      className: className\n    }));\n  };\n\n  _proto.render = function render() {\n    var _extends2;\n\n    var _this$props = this.props,\n        active = _this$props.active,\n        block = _this$props.block,\n        className = _this$props.className,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"active\", \"block\", \"className\"]);\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var classes = (0, _extends3.default)({}, (0, _bootstrapUtils.getClassSet)(bsProps), (_extends2 = {\n      active: active\n    }, _extends2[(0, _bootstrapUtils.prefix)(bsProps, 'block')] = block, _extends2));\n    var fullClassName = (0, _classnames.default)(className, classes);\n\n    if (elementProps.href) {\n      return this.renderAnchor(elementProps, fullClassName);\n    }\n\n    return this.renderButton(elementProps, fullClassName);\n  };\n\n  return Button;\n}(_react.default.Component);\n\nButton.propTypes = propTypes;\nButton.defaultProps = defaultProps;\n\nvar _default = (0, _bootstrapUtils.bsClass)('btn', (0, _bootstrapUtils.bsSizes)([_StyleConfig.Size.LARGE, _StyleConfig.Size.SMALL, _StyleConfig.Size.XSMALL], (0, _bootstrapUtils.bsStyles)((0, _values.default)(_StyleConfig.State).concat([_StyleConfig.Style.DEFAULT, _StyleConfig.Style.PRIMARY, _StyleConfig.Style.LINK]), _StyleConfig.Style.DEFAULT, Button)));\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Button.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/CloseButton.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/CloseButton.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 55:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar propTypes = {\n  label: _propTypes.default.string.isRequired,\n  onClick: _propTypes.default.func\n};\nvar defaultProps = {\n  label: 'Close'\n};\n\nvar CloseButton =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(CloseButton, _React$Component);\n\n  function CloseButton() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = CloseButton.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        label = _this$props.label,\n        onClick = _this$props.onClick;\n    return _react.default.createElement(\"button\", {\n      type: \"button\",\n      className: \"close\",\n      onClick: onClick\n    }, _react.default.createElement(\"span\", {\n      \"aria-hidden\": \"true\"\n    }, \"\\xD7\"), _react.default.createElement(\"span\", {\n      className: \"sr-only\"\n    }, label));\n  };\n\n  return CloseButton;\n}(_react.default.Component);\n\nCloseButton.propTypes = propTypes;\nCloseButton.defaultProps = defaultProps;\nvar _default = CloseButton;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/CloseButton.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Fade.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Fade.js ***!
+  \***************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 124:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nvar _interopRequireWildcard = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _Transition = _interopRequireWildcard(__webpack_require__(/*! react-transition-group/Transition */ \"./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/Transition.js\"));\n\nvar _fadeStyles;\n\nvar propTypes = {\n  /**\n   * Show the component; triggers the fade in or fade out animation\n   */\n  in: _propTypes.default.bool,\n\n  /**\n   * Wait until the first \"enter\" transition to mount the component (add it to the DOM)\n   */\n  mountOnEnter: _propTypes.default.bool,\n\n  /**\n   * Unmount the component (remove it from the DOM) when it is faded out\n   */\n  unmountOnExit: _propTypes.default.bool,\n\n  /**\n   * Run the fade in animation when the component mounts, if it is initially\n   * shown\n   */\n  appear: _propTypes.default.bool,\n\n  /**\n   * Duration of the fade animation in milliseconds, to ensure that finishing\n   * callbacks are fired even if the original browser transition end events are\n   * canceled\n   */\n  timeout: _propTypes.default.number,\n\n  /**\n   * Callback fired before the component fades in\n   */\n  onEnter: _propTypes.default.func,\n\n  /**\n   * Callback fired after the component starts to fade in\n   */\n  onEntering: _propTypes.default.func,\n\n  /**\n   * Callback fired after the has component faded in\n   */\n  onEntered: _propTypes.default.func,\n\n  /**\n   * Callback fired before the component fades out\n   */\n  onExit: _propTypes.default.func,\n\n  /**\n   * Callback fired after the component starts to fade out\n   */\n  onExiting: _propTypes.default.func,\n\n  /**\n   * Callback fired after the component has faded out\n   */\n  onExited: _propTypes.default.func\n};\nvar defaultProps = {\n  in: false,\n  timeout: 300,\n  mountOnEnter: false,\n  unmountOnExit: false,\n  appear: false\n};\nvar fadeStyles = (_fadeStyles = {}, _fadeStyles[_Transition.ENTERING] = 'in', _fadeStyles[_Transition.ENTERED] = 'in', _fadeStyles);\n\nvar Fade =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(Fade, _React$Component);\n\n  function Fade() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = Fade.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        className = _this$props.className,\n        children = _this$props.children,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"className\", \"children\"]);\n    return _react.default.createElement(_Transition.default, props, function (status, innerProps) {\n      return _react.default.cloneElement(children, (0, _extends2.default)({}, innerProps, {\n        className: (0, _classnames.default)('fade', className, children.props.className, fadeStyles[status])\n      }));\n    });\n  };\n\n  return Fade;\n}(_react.default.Component);\n\nFade.propTypes = propTypes;\nFade.defaultProps = defaultProps;\nvar _default = Fade;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Fade.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Modal.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Modal.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 333:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/assertThisInitialized */ \"./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js\"));\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _events = _interopRequireDefault(__webpack_require__(/*! dom-helpers/events */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/index.js\"));\n\nvar _ownerDocument = _interopRequireDefault(__webpack_require__(/*! dom-helpers/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js\"));\n\nvar _inDOM = _interopRequireDefault(__webpack_require__(/*! dom-helpers/util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\"));\n\nvar _scrollbarSize = _interopRequireDefault(__webpack_require__(/*! dom-helpers/util/scrollbarSize */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/scrollbarSize.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nvar _Modal = _interopRequireDefault(__webpack_require__(/*! react-overlays/lib/Modal */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Modal.js\"));\n\nvar _isOverflowing = _interopRequireDefault(__webpack_require__(/*! react-overlays/lib/utils/isOverflowing */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/isOverflowing.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _Fade = _interopRequireDefault(__webpack_require__(/*! ./Fade */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Fade.js\"));\n\nvar _ModalBody = _interopRequireDefault(__webpack_require__(/*! ./ModalBody */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalBody.js\"));\n\nvar _ModalDialog = _interopRequireDefault(__webpack_require__(/*! ./ModalDialog */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalDialog.js\"));\n\nvar _ModalFooter = _interopRequireDefault(__webpack_require__(/*! ./ModalFooter */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalFooter.js\"));\n\nvar _ModalHeader = _interopRequireDefault(__webpack_require__(/*! ./ModalHeader */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalHeader.js\"));\n\nvar _ModalTitle = _interopRequireDefault(__webpack_require__(/*! ./ModalTitle */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalTitle.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar _createChainedFunction = _interopRequireDefault(__webpack_require__(/*! ./utils/createChainedFunction */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js\"));\n\nvar _splitComponentProps2 = _interopRequireDefault(__webpack_require__(/*! ./utils/splitComponentProps */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/splitComponentProps.js\"));\n\nvar _StyleConfig = __webpack_require__(/*! ./utils/StyleConfig */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js\");\n\nvar propTypes = (0, _extends2.default)({}, _Modal.default.propTypes, _ModalDialog.default.propTypes, {\n  /**\n   * Include a backdrop component. Specify 'static' for a backdrop that doesn't\n   * trigger an \"onHide\" when clicked.\n   */\n  backdrop: _propTypes.default.oneOf(['static', true, false]),\n\n  /**\n   * Add an optional extra class name to .modal-backdrop\n   * It could end up looking like class=\"modal-backdrop foo-modal-backdrop in\".\n   */\n  backdropClassName: _propTypes.default.string,\n\n  /**\n   * Close the modal when escape key is pressed\n   */\n  keyboard: _propTypes.default.bool,\n\n  /**\n   * Open and close the Modal with a slide and fade animation.\n   */\n  animation: _propTypes.default.bool,\n\n  /**\n   * A Component type that provides the modal content Markup. This is a useful\n   * prop when you want to use your own styles and markup to create a custom\n   * modal component.\n   */\n  dialogComponentClass: _elementType.default,\n\n  /**\n   * When `true` The modal will automatically shift focus to itself when it\n   * opens, and replace it to the last focused element when it closes.\n   * Generally this should never be set to false as it makes the Modal less\n   * accessible to assistive technologies, like screen-readers.\n   */\n  autoFocus: _propTypes.default.bool,\n\n  /**\n   * When `true` The modal will prevent focus from leaving the Modal while\n   * open. Consider leaving the default value here, as it is necessary to make\n   * the Modal work well with assistive technologies, such as screen readers.\n   */\n  enforceFocus: _propTypes.default.bool,\n\n  /**\n   * When `true` The modal will restore focus to previously focused element once\n   * modal is hidden\n   */\n  restoreFocus: _propTypes.default.bool,\n\n  /**\n   * When `true` The modal will show itself.\n   */\n  show: _propTypes.default.bool,\n\n  /**\n   * A callback fired when the header closeButton or non-static backdrop is\n   * clicked. Required if either are specified.\n   */\n  onHide: _propTypes.default.func,\n\n  /**\n   * Callback fired before the Modal transitions in\n   */\n  onEnter: _propTypes.default.func,\n\n  /**\n   * Callback fired as the Modal begins to transition in\n   */\n  onEntering: _propTypes.default.func,\n\n  /**\n   * Callback fired after the Modal finishes transitioning in\n   */\n  onEntered: _propTypes.default.func,\n\n  /**\n   * Callback fired right before the Modal transitions out\n   */\n  onExit: _propTypes.default.func,\n\n  /**\n   * Callback fired as the Modal begins to transition out\n   */\n  onExiting: _propTypes.default.func,\n\n  /**\n   * Callback fired after the Modal finishes transitioning out\n   */\n  onExited: _propTypes.default.func,\n\n  /**\n   * @private\n   */\n  container: _Modal.default.propTypes.container\n});\nvar defaultProps = (0, _extends2.default)({}, _Modal.default.defaultProps, {\n  animation: true,\n  dialogComponentClass: _ModalDialog.default\n});\nvar childContextTypes = {\n  $bs_modal: _propTypes.default.shape({\n    onHide: _propTypes.default.func\n  })\n};\n/* eslint-disable no-use-before-define, react/no-multi-comp */\n\nfunction DialogTransition(props) {\n  return _react.default.createElement(_Fade.default, (0, _extends2.default)({}, props, {\n    timeout: Modal.TRANSITION_DURATION\n  }));\n}\n\nfunction BackdropTransition(props) {\n  return _react.default.createElement(_Fade.default, (0, _extends2.default)({}, props, {\n    timeout: Modal.BACKDROP_TRANSITION_DURATION\n  }));\n}\n/* eslint-enable no-use-before-define */\n\n\nvar Modal =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(Modal, _React$Component);\n\n  function Modal(props, context) {\n    var _this;\n\n    _this = _React$Component.call(this, props, context) || this;\n\n    _this.handleDialogBackdropMouseDown = function () {\n      _this._waitingForMouseUp = true;\n    };\n\n    _this.handleMouseUp = function (ev) {\n      var dialogNode = _this._modal.getDialogElement();\n\n      if (_this._waitingForMouseUp && ev.target === dialogNode) {\n        _this._ignoreBackdropClick = true;\n      }\n\n      _this._waitingForMouseUp = false;\n    };\n\n    _this.handleEntering = _this.handleEntering.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.handleExited = _this.handleExited.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.handleWindowResize = _this.handleWindowResize.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.handleDialogClick = _this.handleDialogClick.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.setModalRef = _this.setModalRef.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.state = {\n      style: {}\n    };\n    return _this;\n  }\n\n  var _proto = Modal.prototype;\n\n  _proto.getChildContext = function getChildContext() {\n    return {\n      $bs_modal: {\n        onHide: this.props.onHide\n      }\n    };\n  };\n\n  _proto.componentWillUnmount = function componentWillUnmount() {\n    // Clean up the listener if we need to.\n    this.handleExited();\n  };\n\n  _proto.setModalRef = function setModalRef(ref) {\n    this._modal = ref;\n  };\n\n  _proto.handleDialogClick = function handleDialogClick(e) {\n    if (this._ignoreBackdropClick || e.target !== e.currentTarget) {\n      this._ignoreBackdropClick = false;\n      return;\n    }\n\n    this.props.onHide();\n  };\n\n  _proto.handleEntering = function handleEntering() {\n    // FIXME: This should work even when animation is disabled.\n    _events.default.on(window, 'resize', this.handleWindowResize);\n\n    this.updateStyle();\n  };\n\n  _proto.handleExited = function handleExited() {\n    // FIXME: This should work even when animation is disabled.\n    _events.default.off(window, 'resize', this.handleWindowResize);\n  };\n\n  _proto.handleWindowResize = function handleWindowResize() {\n    this.updateStyle();\n  };\n\n  _proto.updateStyle = function updateStyle() {\n    if (!_inDOM.default) {\n      return;\n    }\n\n    var dialogNode = this._modal.getDialogElement();\n\n    var dialogHeight = dialogNode.scrollHeight;\n    var document = (0, _ownerDocument.default)(dialogNode);\n    var bodyIsOverflowing = (0, _isOverflowing.default)(_reactDom.default.findDOMNode(this.props.container || document.body));\n    var modalIsOverflowing = dialogHeight > document.documentElement.clientHeight;\n    this.setState({\n      style: {\n        paddingRight: bodyIsOverflowing && !modalIsOverflowing ? (0, _scrollbarSize.default)() : undefined,\n        paddingLeft: !bodyIsOverflowing && modalIsOverflowing ? (0, _scrollbarSize.default)() : undefined\n      }\n    });\n  };\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        backdrop = _this$props.backdrop,\n        backdropClassName = _this$props.backdropClassName,\n        animation = _this$props.animation,\n        show = _this$props.show,\n        Dialog = _this$props.dialogComponentClass,\n        className = _this$props.className,\n        style = _this$props.style,\n        children = _this$props.children,\n        onEntering = _this$props.onEntering,\n        onExited = _this$props.onExited,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"backdrop\", \"backdropClassName\", \"animation\", \"show\", \"dialogComponentClass\", \"className\", \"style\", \"children\", \"onEntering\", \"onExited\"]);\n\n    var _splitComponentProps = (0, _splitComponentProps2.default)(props, _Modal.default),\n        baseModalProps = _splitComponentProps[0],\n        dialogProps = _splitComponentProps[1];\n\n    var inClassName = show && !animation && 'in';\n    return _react.default.createElement(_Modal.default, (0, _extends2.default)({}, baseModalProps, {\n      ref: this.setModalRef,\n      show: show,\n      containerClassName: (0, _bootstrapUtils.prefix)(props, 'open'),\n      transition: animation ? DialogTransition : undefined,\n      backdrop: backdrop,\n      backdropTransition: animation ? BackdropTransition : undefined,\n      backdropClassName: (0, _classnames.default)((0, _bootstrapUtils.prefix)(props, 'backdrop'), backdropClassName, inClassName),\n      onEntering: (0, _createChainedFunction.default)(onEntering, this.handleEntering),\n      onExited: (0, _createChainedFunction.default)(onExited, this.handleExited),\n      onMouseUp: this.handleMouseUp\n    }), _react.default.createElement(Dialog, (0, _extends2.default)({}, dialogProps, {\n      style: (0, _extends2.default)({}, this.state.style, style),\n      className: (0, _classnames.default)(className, inClassName),\n      onClick: backdrop === true ? this.handleDialogClick : null,\n      onMouseDownDialog: this.handleDialogBackdropMouseDown\n    }), children));\n  };\n\n  return Modal;\n}(_react.default.Component);\n\nModal.propTypes = propTypes;\nModal.defaultProps = defaultProps;\nModal.childContextTypes = childContextTypes;\nModal.Body = _ModalBody.default;\nModal.Header = _ModalHeader.default;\nModal.Title = _ModalTitle.default;\nModal.Footer = _ModalFooter.default;\nModal.Dialog = _ModalDialog.default;\nModal.TRANSITION_DURATION = 300;\nModal.BACKDROP_TRANSITION_DURATION = 150;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal', (0, _bootstrapUtils.bsSizes)([_StyleConfig.Size.LARGE, _StyleConfig.Size.SMALL], Modal));\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/Modal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalBody.js":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalBody.js ***!
+  \********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar propTypes = {\n  componentClass: _elementType.default\n};\nvar defaultProps = {\n  componentClass: 'div'\n};\n\nvar ModalBody =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(ModalBody, _React$Component);\n\n  function ModalBody() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = ModalBody.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        Component = _this$props.componentClass,\n        className = _this$props.className,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"componentClass\", \"className\"]);\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);\n    return _react.default.createElement(Component, (0, _extends2.default)({}, elementProps, {\n      className: (0, _classnames.default)(className, classes)\n    }));\n  };\n\n  return ModalBody;\n}(_react.default.Component);\n\nModalBody.propTypes = propTypes;\nModalBody.defaultProps = defaultProps;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal-body', ModalBody);\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalBody.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalDialog.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalDialog.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 84:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends3 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar _StyleConfig = __webpack_require__(/*! ./utils/StyleConfig */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js\");\n\nvar propTypes = {\n  /**\n   * A css class to apply to the Modal dialog DOM node.\n   */\n  dialogClassName: _propTypes.default.string\n};\n\nvar ModalDialog =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(ModalDialog, _React$Component);\n\n  function ModalDialog() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = ModalDialog.prototype;\n\n  _proto.render = function render() {\n    var _extends2;\n\n    var _this$props = this.props,\n        dialogClassName = _this$props.dialogClassName,\n        className = _this$props.className,\n        style = _this$props.style,\n        children = _this$props.children,\n        onMouseDownDialog = _this$props.onMouseDownDialog,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"dialogClassName\", \"className\", \"style\", \"children\", \"onMouseDownDialog\"]);\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var bsClassName = (0, _bootstrapUtils.prefix)(bsProps);\n    var modalStyle = (0, _extends3.default)({\n      display: 'block'\n    }, style);\n    var dialogClasses = (0, _extends3.default)({}, (0, _bootstrapUtils.getClassSet)(bsProps), (_extends2 = {}, _extends2[bsClassName] = false, _extends2[(0, _bootstrapUtils.prefix)(bsProps, 'dialog')] = true, _extends2));\n    return _react.default.createElement(\"div\", (0, _extends3.default)({}, elementProps, {\n      tabIndex: \"-1\",\n      role: \"dialog\",\n      style: modalStyle,\n      className: (0, _classnames.default)(className, bsClassName)\n    }), _react.default.createElement(\"div\", {\n      className: (0, _classnames.default)(dialogClassName, dialogClasses),\n      onMouseDown: onMouseDownDialog\n    }, _react.default.createElement(\"div\", {\n      className: (0, _bootstrapUtils.prefix)(bsProps, 'content'),\n      role: \"document\"\n    }, children)));\n  };\n\n  return ModalDialog;\n}(_react.default.Component);\n\nModalDialog.propTypes = propTypes;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal', (0, _bootstrapUtils.bsSizes)([_StyleConfig.Size.LARGE, _StyleConfig.Size.SMALL], ModalDialog));\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalDialog.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalFooter.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalFooter.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar propTypes = {\n  componentClass: _elementType.default\n};\nvar defaultProps = {\n  componentClass: 'div'\n};\n\nvar ModalFooter =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(ModalFooter, _React$Component);\n\n  function ModalFooter() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = ModalFooter.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        Component = _this$props.componentClass,\n        className = _this$props.className,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"componentClass\", \"className\"]);\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);\n    return _react.default.createElement(Component, (0, _extends2.default)({}, elementProps, {\n      className: (0, _classnames.default)(className, classes)\n    }));\n  };\n\n  return ModalFooter;\n}(_react.default.Component);\n\nModalFooter.propTypes = propTypes;\nModalFooter.defaultProps = defaultProps;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal-footer', ModalFooter);\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalFooter.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalHeader.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalHeader.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 101:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar _createChainedFunction = _interopRequireDefault(__webpack_require__(/*! ./utils/createChainedFunction */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js\"));\n\nvar _CloseButton = _interopRequireDefault(__webpack_require__(/*! ./CloseButton */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/CloseButton.js\"));\n\n// TODO: `aria-label` should be `closeLabel`.\nvar propTypes = {\n  /**\n   * Provides an accessible label for the close\n   * button. It is used for Assistive Technology when the label text is not\n   * readable.\n   */\n  closeLabel: _propTypes.default.string,\n\n  /**\n   * Specify whether the Component should contain a close button\n   */\n  closeButton: _propTypes.default.bool,\n\n  /**\n   * A Callback fired when the close button is clicked. If used directly inside\n   * a Modal component, the onHide will automatically be propagated up to the\n   * parent Modal `onHide`.\n   */\n  onHide: _propTypes.default.func\n};\nvar defaultProps = {\n  closeLabel: 'Close',\n  closeButton: false\n};\nvar contextTypes = {\n  $bs_modal: _propTypes.default.shape({\n    onHide: _propTypes.default.func\n  })\n};\n\nvar ModalHeader =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(ModalHeader, _React$Component);\n\n  function ModalHeader() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = ModalHeader.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        closeLabel = _this$props.closeLabel,\n        closeButton = _this$props.closeButton,\n        onHide = _this$props.onHide,\n        className = _this$props.className,\n        children = _this$props.children,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"closeLabel\", \"closeButton\", \"onHide\", \"className\", \"children\"]);\n    var modal = this.context.$bs_modal;\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);\n    return _react.default.createElement(\"div\", (0, _extends2.default)({}, elementProps, {\n      className: (0, _classnames.default)(className, classes)\n    }), closeButton && _react.default.createElement(_CloseButton.default, {\n      label: closeLabel,\n      onClick: (0, _createChainedFunction.default)(modal && modal.onHide, onHide)\n    }), children);\n  };\n\n  return ModalHeader;\n}(_react.default.Component);\n\nModalHeader.propTypes = propTypes;\nModalHeader.defaultProps = defaultProps;\nModalHeader.contextTypes = contextTypes;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal-header', ModalHeader);\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalHeader.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalTitle.js":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalTitle.js ***!
+  \*********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _bootstrapUtils = __webpack_require__(/*! ./utils/bootstrapUtils */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js\");\n\nvar propTypes = {\n  componentClass: _elementType.default\n};\nvar defaultProps = {\n  componentClass: 'h4'\n};\n\nvar ModalTitle =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(ModalTitle, _React$Component);\n\n  function ModalTitle() {\n    return _React$Component.apply(this, arguments) || this;\n  }\n\n  var _proto = ModalTitle.prototype;\n\n  _proto.render = function render() {\n    var _this$props = this.props,\n        Component = _this$props.componentClass,\n        className = _this$props.className,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props, [\"componentClass\", \"className\"]);\n\n    var _splitBsProps = (0, _bootstrapUtils.splitBsProps)(props),\n        bsProps = _splitBsProps[0],\n        elementProps = _splitBsProps[1];\n\n    var classes = (0, _bootstrapUtils.getClassSet)(bsProps);\n    return _react.default.createElement(Component, (0, _extends2.default)({}, elementProps, {\n      className: (0, _classnames.default)(className, classes)\n    }));\n  };\n\n  return ModalTitle;\n}(_react.default.Component);\n\nModalTitle.propTypes = propTypes;\nModalTitle.defaultProps = defaultProps;\n\nvar _default = (0, _bootstrapUtils.bsClass)('modal-title', ModalTitle);\n\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/ModalTitle.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/SafeAnchor.js":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/SafeAnchor.js ***!
+  \*********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 130:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = void 0;\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _objectWithoutPropertiesLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/objectWithoutPropertiesLoose.js\"));\n\nvar _inheritsLoose2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inheritsLoose */ \"./node_modules/@babel/runtime-corejs2/helpers/inheritsLoose.js\"));\n\nvar _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/assertThisInitialized */ \"./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _elementType = _interopRequireDefault(__webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\"));\n\nvar _createChainedFunction = _interopRequireDefault(__webpack_require__(/*! ./utils/createChainedFunction */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js\"));\n\nvar propTypes = {\n  href: _propTypes.default.string,\n  onClick: _propTypes.default.func,\n  onKeyDown: _propTypes.default.func,\n  disabled: _propTypes.default.bool,\n  role: _propTypes.default.string,\n  tabIndex: _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.string]),\n\n  /**\n   * this is sort of silly but needed for Button\n   */\n  componentClass: _elementType.default\n};\nvar defaultProps = {\n  componentClass: 'a'\n};\n\nfunction isTrivialHref(href) {\n  return !href || href.trim() === '#';\n}\n/**\n * There are situations due to browser quirks or Bootstrap CSS where\n * an anchor tag is needed, when semantically a button tag is the\n * better choice. SafeAnchor ensures that when an anchor is used like a\n * button its accessible. It also emulates input `disabled` behavior for\n * links, which is usually desirable for Buttons, NavItems, MenuItems, etc.\n */\n\n\nvar SafeAnchor =\n/*#__PURE__*/\nfunction (_React$Component) {\n  (0, _inheritsLoose2.default)(SafeAnchor, _React$Component);\n\n  function SafeAnchor(props, context) {\n    var _this;\n\n    _this = _React$Component.call(this, props, context) || this;\n    _this.handleClick = _this.handleClick.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    _this.handleKeyDown = _this.handleKeyDown.bind((0, _assertThisInitialized2.default)((0, _assertThisInitialized2.default)(_this)));\n    return _this;\n  }\n\n  var _proto = SafeAnchor.prototype;\n\n  _proto.handleClick = function handleClick(event) {\n    var _this$props = this.props,\n        disabled = _this$props.disabled,\n        href = _this$props.href,\n        onClick = _this$props.onClick;\n\n    if (disabled || isTrivialHref(href)) {\n      event.preventDefault();\n    }\n\n    if (disabled) {\n      event.stopPropagation();\n      return;\n    }\n\n    if (onClick) {\n      onClick(event);\n    }\n  };\n\n  _proto.handleKeyDown = function handleKeyDown(event) {\n    if (event.key === ' ') {\n      event.preventDefault();\n      this.handleClick(event);\n    }\n  };\n\n  _proto.render = function render() {\n    var _this$props2 = this.props,\n        Component = _this$props2.componentClass,\n        disabled = _this$props2.disabled,\n        onKeyDown = _this$props2.onKeyDown,\n        props = (0, _objectWithoutPropertiesLoose2.default)(_this$props2, [\"componentClass\", \"disabled\", \"onKeyDown\"]);\n\n    if (isTrivialHref(props.href)) {\n      props.role = props.role || 'button'; // we want to make sure there is a href attribute on the node\n      // otherwise, the cursor incorrectly styled (except with role='button')\n\n      props.href = props.href || '#';\n    }\n\n    if (disabled) {\n      props.tabIndex = -1;\n      props.style = (0, _extends2.default)({\n        pointerEvents: 'none'\n      }, props.style);\n    }\n\n    return _react.default.createElement(Component, (0, _extends2.default)({}, props, {\n      onClick: this.handleClick,\n      onKeyDown: (0, _createChainedFunction.default)(this.handleKeyDown, onKeyDown)\n    }));\n  };\n\n  return SafeAnchor;\n}(_react.default.Component);\n\nSafeAnchor.propTypes = propTypes;\nSafeAnchor.defaultProps = defaultProps;\nvar _default = SafeAnchor;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/SafeAnchor.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js ***!
+  \****************************************************************************************************/
+/*! flagged exports */
+/*! export DEVICE_SIZES [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export SIZE_MAP [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export Size [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export State [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export Style [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.Style = exports.State = exports.DEVICE_SIZES = exports.SIZE_MAP = exports.Size = void 0;\nvar Size = {\n  LARGE: 'large',\n  SMALL: 'small',\n  XSMALL: 'xsmall'\n};\nexports.Size = Size;\nvar SIZE_MAP = {\n  large: 'lg',\n  medium: 'md',\n  small: 'sm',\n  xsmall: 'xs',\n  lg: 'lg',\n  md: 'md',\n  sm: 'sm',\n  xs: 'xs'\n};\nexports.SIZE_MAP = SIZE_MAP;\nvar DEVICE_SIZES = ['lg', 'md', 'sm', 'xs'];\nexports.DEVICE_SIZES = DEVICE_SIZES;\nvar State = {\n  SUCCESS: 'success',\n  WARNING: 'warning',\n  DANGER: 'danger',\n  INFO: 'info'\n};\nexports.State = State;\nvar Style = {\n  DEFAULT: 'default',\n  PRIMARY: 'primary',\n  LINK: 'link',\n  INVERSE: 'inverse'\n};\nexports.Style = Style;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js ***!
+  \*******************************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export _curry [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export addStyle [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export bsClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export bsSizes [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export bsStyles [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export getClassSet [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export prefix [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export splitBsProps [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export splitBsPropsAndOmit [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.prefix = prefix;\nexports.getClassSet = getClassSet;\nexports.splitBsProps = splitBsProps;\nexports.splitBsPropsAndOmit = splitBsPropsAndOmit;\nexports.addStyle = addStyle;\nexports._curry = exports.bsSizes = exports.bsStyles = exports.bsClass = void 0;\n\nvar _entries = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/entries */ \"./node_modules/@babel/runtime-corejs2/core-js/object/entries.js\"));\n\nvar _extends2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ \"./node_modules/@babel/runtime-corejs2/helpers/extends.js\"));\n\nvar _invariant = _interopRequireDefault(__webpack_require__(/*! invariant */ \"./node_modules/invariant/browser.js\"));\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _StyleConfig = __webpack_require__(/*! ./StyleConfig */ \"./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/StyleConfig.js\");\n\n// TODO: The publicly exposed parts of this should be in lib/BootstrapUtils.\nfunction curry(fn) {\n  return function () {\n    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    var last = args[args.length - 1];\n\n    if (typeof last === 'function') {\n      return fn.apply(void 0, args);\n    }\n\n    return function (Component) {\n      return fn.apply(void 0, args.concat([Component]));\n    };\n  };\n}\n\nfunction prefix(props, variant) {\n  var bsClass = (props.bsClass || '').trim();\n  !(bsClass != null) ?  true ? (0, _invariant.default)(false, 'A `bsClass` prop is required for this component') : 0 : void 0;\n  return bsClass + (variant ? \"-\" + variant : '');\n}\n\nvar bsClass = curry(function (defaultClass, Component) {\n  var propTypes = Component.propTypes || (Component.propTypes = {});\n  var defaultProps = Component.defaultProps || (Component.defaultProps = {});\n  propTypes.bsClass = _propTypes.default.string;\n  defaultProps.bsClass = defaultClass;\n  return Component;\n});\nexports.bsClass = bsClass;\nvar bsStyles = curry(function (styles, defaultStyle, Component) {\n  if (typeof defaultStyle !== 'string') {\n    Component = defaultStyle;\n    defaultStyle = undefined;\n  }\n\n  var existing = Component.STYLES || [];\n  var propTypes = Component.propTypes || {};\n  styles.forEach(function (style) {\n    if (existing.indexOf(style) === -1) {\n      existing.push(style);\n    }\n  });\n\n  var propType = _propTypes.default.oneOf(existing); // expose the values on the propType function for documentation\n\n\n  Component.STYLES = existing;\n  propType._values = existing;\n  Component.propTypes = (0, _extends2.default)({}, propTypes, {\n    bsStyle: propType\n  });\n\n  if (defaultStyle !== undefined) {\n    var defaultProps = Component.defaultProps || (Component.defaultProps = {});\n    defaultProps.bsStyle = defaultStyle;\n  }\n\n  return Component;\n});\nexports.bsStyles = bsStyles;\nvar bsSizes = curry(function (sizes, defaultSize, Component) {\n  if (typeof defaultSize !== 'string') {\n    Component = defaultSize;\n    defaultSize = undefined;\n  }\n\n  var existing = Component.SIZES || [];\n  var propTypes = Component.propTypes || {};\n  sizes.forEach(function (size) {\n    if (existing.indexOf(size) === -1) {\n      existing.push(size);\n    }\n  });\n  var values = [];\n  existing.forEach(function (size) {\n    var mappedSize = _StyleConfig.SIZE_MAP[size];\n\n    if (mappedSize && mappedSize !== size) {\n      values.push(mappedSize);\n    }\n\n    values.push(size);\n  });\n\n  var propType = _propTypes.default.oneOf(values);\n\n  propType._values = values; // expose the values on the propType function for documentation\n\n  Component.SIZES = existing;\n  Component.propTypes = (0, _extends2.default)({}, propTypes, {\n    bsSize: propType\n  });\n\n  if (defaultSize !== undefined) {\n    if (!Component.defaultProps) {\n      Component.defaultProps = {};\n    }\n\n    Component.defaultProps.bsSize = defaultSize;\n  }\n\n  return Component;\n});\nexports.bsSizes = bsSizes;\n\nfunction getClassSet(props) {\n  var _classes;\n\n  var classes = (_classes = {}, _classes[prefix(props)] = true, _classes);\n\n  if (props.bsSize) {\n    var bsSize = _StyleConfig.SIZE_MAP[props.bsSize] || props.bsSize;\n    classes[prefix(props, bsSize)] = true;\n  }\n\n  if (props.bsStyle) {\n    classes[prefix(props, props.bsStyle)] = true;\n  }\n\n  return classes;\n}\n\nfunction getBsProps(props) {\n  return {\n    bsClass: props.bsClass,\n    bsSize: props.bsSize,\n    bsStyle: props.bsStyle,\n    bsRole: props.bsRole\n  };\n}\n\nfunction isBsProp(propName) {\n  return propName === 'bsClass' || propName === 'bsSize' || propName === 'bsStyle' || propName === 'bsRole';\n}\n\nfunction splitBsProps(props) {\n  var elementProps = {};\n  (0, _entries.default)(props).forEach(function (_ref) {\n    var propName = _ref[0],\n        propValue = _ref[1];\n\n    if (!isBsProp(propName)) {\n      elementProps[propName] = propValue;\n    }\n  });\n  return [getBsProps(props), elementProps];\n}\n\nfunction splitBsPropsAndOmit(props, omittedPropNames) {\n  var isOmittedProp = {};\n  omittedPropNames.forEach(function (propName) {\n    isOmittedProp[propName] = true;\n  });\n  var elementProps = {};\n  (0, _entries.default)(props).forEach(function (_ref2) {\n    var propName = _ref2[0],\n        propValue = _ref2[1];\n\n    if (!isBsProp(propName) && !isOmittedProp[propName]) {\n      elementProps[propName] = propValue;\n    }\n  });\n  return [getBsProps(props), elementProps];\n}\n/**\n * Add a style variant to a Component. Mutates the propTypes of the component\n * in order to validate the new variant.\n */\n\n\nfunction addStyle(Component) {\n  for (var _len2 = arguments.length, styleVariant = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {\n    styleVariant[_key2 - 1] = arguments[_key2];\n  }\n\n  bsStyles(styleVariant)(Component);\n}\n\nvar _curry = curry;\nexports._curry = _curry;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/bootstrapUtils.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js":
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js ***!
+  \**************************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 44:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = void 0;\n\n/**\n * Safe chained function\n *\n * Will only create a new function if needed,\n * otherwise will pass back existing functions or null.\n *\n * @param {function} functions to chain\n * @returns {function|null}\n */\nfunction createChainedFunction() {\n  for (var _len = arguments.length, funcs = new Array(_len), _key = 0; _key < _len; _key++) {\n    funcs[_key] = arguments[_key];\n  }\n\n  return funcs.filter(function (f) {\n    return f != null;\n  }).reduce(function (acc, f) {\n    if (typeof f !== 'function') {\n      throw new Error('Invalid Argument Type, must only provide functions, undefined, or null.');\n    }\n\n    if (acc === null) {\n      return f;\n    }\n\n    return function chainedFunction() {\n      for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {\n        args[_key2] = arguments[_key2];\n      }\n\n      acc.apply(this, args);\n      f.apply(this, args);\n    };\n  }, null);\n}\n\nvar _default = createChainedFunction;\nexports.default = _default;\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/createChainedFunction.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/splitComponentProps.js":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/splitComponentProps.js ***!
+  \************************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 27:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js\");\n\nexports.__esModule = true;\nexports.default = splitComponentProps;\n\nvar _entries = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/entries */ \"./node_modules/@babel/runtime-corejs2/core-js/object/entries.js\"));\n\nfunction splitComponentProps(props, Component) {\n  var componentPropTypes = Component.propTypes;\n  var parentProps = {};\n  var childProps = {};\n  (0, _entries.default)(props).forEach(function (_ref) {\n    var propName = _ref[0],\n        propValue = _ref[1];\n\n    if (componentPropTypes[propName]) {\n      parentProps[propName] = propValue;\n    } else {\n      childProps[propName] = propValue;\n    }\n  });\n  return [parentProps, childProps];\n}\n\nmodule.exports = exports[\"default\"];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-bootstrap/lib/utils/splitComponentProps.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/LegacyPortal.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/LegacyPortal.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 136:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nvar _propTypes = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _componentOrElement = __webpack_require__(/*! prop-types-extra/lib/componentOrElement */ \"./node_modules/prop-types-extra/lib/componentOrElement.js\");\n\nvar _componentOrElement2 = _interopRequireDefault(_componentOrElement);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _getContainer = __webpack_require__(/*! ./utils/getContainer */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js\");\n\nvar _getContainer2 = _interopRequireDefault(_getContainer);\n\nvar _ownerDocument = __webpack_require__(/*! ./utils/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js\");\n\nvar _ownerDocument2 = _interopRequireDefault(_ownerDocument);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/**\n * The `<Portal/>` component renders its children into a new \"subtree\" outside of current component hierarchy.\n * You can think of it as a declarative `appendChild()`, or jQuery's `$.fn.appendTo()`.\n * The children of `<Portal/>` component will be appended to the `container` specified.\n */\nvar Portal = function (_React$Component) {\n  _inherits(Portal, _React$Component);\n\n  function Portal() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Portal);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this._mountOverlayTarget = function () {\n      if (!_this._overlayTarget) {\n        _this._overlayTarget = document.createElement('div');\n        _this._portalContainerNode = (0, _getContainer2.default)(_this.props.container, (0, _ownerDocument2.default)(_this).body);\n        _this._portalContainerNode.appendChild(_this._overlayTarget);\n      }\n    }, _this._unmountOverlayTarget = function () {\n      if (_this._overlayTarget) {\n        _this._portalContainerNode.removeChild(_this._overlayTarget);\n        _this._overlayTarget = null;\n      }\n      _this._portalContainerNode = null;\n    }, _this._renderOverlay = function () {\n      var overlay = !_this.props.children ? null : _react2.default.Children.only(_this.props.children);\n\n      // Save reference for future access.\n      if (overlay !== null) {\n        _this._mountOverlayTarget();\n\n        var initialRender = !_this._overlayInstance;\n\n        _this._overlayInstance = _reactDom2.default.unstable_renderSubtreeIntoContainer(_this, overlay, _this._overlayTarget, function () {\n          if (initialRender && _this.props.onRendered) {\n            _this.props.onRendered();\n          }\n        });\n      } else {\n        // Unrender if the component is null for transitions to null\n        _this._unrenderOverlay();\n        _this._unmountOverlayTarget();\n      }\n    }, _this._unrenderOverlay = function () {\n      if (_this._overlayTarget) {\n        _reactDom2.default.unmountComponentAtNode(_this._overlayTarget);\n        _this._overlayInstance = null;\n      }\n    }, _this.getMountNode = function () {\n      return _this._overlayTarget;\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Portal.prototype.componentDidMount = function componentDidMount() {\n    this._isMounted = true;\n    this._renderOverlay();\n  };\n\n  Portal.prototype.componentDidUpdate = function componentDidUpdate() {\n    this._renderOverlay();\n  };\n\n  Portal.prototype.UNSAFE_componentWillReceiveProps = function UNSAFE_componentWillReceiveProps(nextProps) {\n    if (this._overlayTarget && nextProps.container !== this.props.container) {\n      this._portalContainerNode.removeChild(this._overlayTarget);\n      this._portalContainerNode = (0, _getContainer2.default)(nextProps.container, (0, _ownerDocument2.default)(this).body);\n      this._portalContainerNode.appendChild(this._overlayTarget);\n    }\n  };\n\n  Portal.prototype.componentWillUnmount = function componentWillUnmount() {\n    this._isMounted = false;\n    this._unrenderOverlay();\n    this._unmountOverlayTarget();\n  };\n\n  Portal.prototype.render = function render() {\n    return null;\n  };\n\n  return Portal;\n}(_react2.default.Component);\n\nPortal.displayName = 'Portal';\nPortal.propTypes = {\n  /**\n   * A Node, Component instance, or function that returns either. The `container` will have the Portal children\n   * appended to it.\n   */\n  container: _propTypes2.default.oneOfType([_componentOrElement2.default, _propTypes2.default.func]),\n\n  onRendered: _propTypes2.default.func\n};\nexports.default = Portal;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/LegacyPortal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Modal.js":
+/*!***************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Modal.js ***!
+  \***************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 619:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _activeElement = __webpack_require__(/*! dom-helpers/activeElement */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/activeElement.js\");\n\nvar _activeElement2 = _interopRequireDefault(_activeElement);\n\nvar _contains = __webpack_require__(/*! dom-helpers/query/contains */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/contains.js\");\n\nvar _contains2 = _interopRequireDefault(_contains);\n\nvar _inDOM = __webpack_require__(/*! dom-helpers/util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\");\n\nvar _inDOM2 = _interopRequireDefault(_inDOM);\n\nvar _propTypes = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _componentOrElement = __webpack_require__(/*! prop-types-extra/lib/componentOrElement */ \"./node_modules/prop-types-extra/lib/componentOrElement.js\");\n\nvar _componentOrElement2 = _interopRequireDefault(_componentOrElement);\n\nvar _deprecated = __webpack_require__(/*! prop-types-extra/lib/deprecated */ \"./node_modules/prop-types-extra/lib/deprecated.js\");\n\nvar _deprecated2 = _interopRequireDefault(_deprecated);\n\nvar _elementType = __webpack_require__(/*! prop-types-extra/lib/elementType */ \"./node_modules/prop-types-extra/lib/elementType.js\");\n\nvar _elementType2 = _interopRequireDefault(_elementType);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _warning = __webpack_require__(/*! warning */ \"./node_modules/react-confirm-bootstrap/node_modules/warning/browser.js\");\n\nvar _warning2 = _interopRequireDefault(_warning);\n\nvar _ModalManager = __webpack_require__(/*! ./ModalManager */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/ModalManager.js\");\n\nvar _ModalManager2 = _interopRequireDefault(_ModalManager);\n\nvar _Portal = __webpack_require__(/*! ./Portal */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Portal.js\");\n\nvar _Portal2 = _interopRequireDefault(_Portal);\n\nvar _RefHolder = __webpack_require__(/*! ./RefHolder */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/RefHolder.js\");\n\nvar _RefHolder2 = _interopRequireDefault(_RefHolder);\n\nvar _addEventListener = __webpack_require__(/*! ./utils/addEventListener */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addEventListener.js\");\n\nvar _addEventListener2 = _interopRequireDefault(_addEventListener);\n\nvar _addFocusListener = __webpack_require__(/*! ./utils/addFocusListener */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addFocusListener.js\");\n\nvar _addFocusListener2 = _interopRequireDefault(_addFocusListener);\n\nvar _getContainer = __webpack_require__(/*! ./utils/getContainer */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js\");\n\nvar _getContainer2 = _interopRequireDefault(_getContainer);\n\nvar _ownerDocument = __webpack_require__(/*! ./utils/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js\");\n\nvar _ownerDocument2 = _interopRequireDefault(_ownerDocument);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable react/prop-types */\n\nvar modalManager = new _ModalManager2.default();\n\n/**\n * Love them or hate them, `<Modal/>` provides a solid foundation for creating dialogs, lightboxes, or whatever else.\n * The Modal component renders its `children` node in front of a backdrop component.\n *\n * The Modal offers a few helpful features over using just a `<Portal/>` component and some styles:\n *\n * - Manages dialog stacking when one-at-a-time just isn't enough.\n * - Creates a backdrop, for disabling interaction below the modal.\n * - It properly manages focus; moving to the modal content, and keeping it there until the modal is closed.\n * - It disables scrolling of the page content while open.\n * - Adds the appropriate ARIA roles are automatically.\n * - Easily pluggable animations via a `<Transition/>` component.\n *\n * Note that, in the same way the backdrop element prevents users from clicking or interacting\n * with the page content underneath the Modal, Screen readers also need to be signaled to not to\n * interact with page content while the Modal is open. To do this, we use a common technique of applying\n * the `aria-hidden='true'` attribute to the non-Modal elements in the Modal `container`. This means that for\n * a Modal to be truly modal, it should have a `container` that is _outside_ your app's\n * React hierarchy (such as the default: document.body).\n */\n\nvar Modal = function (_React$Component) {\n  _inherits(Modal, _React$Component);\n\n  function Modal() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Modal);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _initialiseProps.call(_this), _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Modal.prototype.omitProps = function omitProps(props, propTypes) {\n\n    var keys = Object.keys(props);\n    var newProps = {};\n    keys.map(function (prop) {\n      if (!Object.prototype.hasOwnProperty.call(propTypes, prop)) {\n        newProps[prop] = props[prop];\n      }\n    });\n\n    return newProps;\n  };\n\n  Modal.prototype.render = function render() {\n    var _props = this.props,\n        show = _props.show,\n        container = _props.container,\n        children = _props.children,\n        Transition = _props.transition,\n        backdrop = _props.backdrop,\n        className = _props.className,\n        style = _props.style,\n        onExit = _props.onExit,\n        onExiting = _props.onExiting,\n        onEnter = _props.onEnter,\n        onEntering = _props.onEntering,\n        onEntered = _props.onEntered;\n\n\n    var dialog = _react2.default.Children.only(children);\n    var filteredProps = this.omitProps(this.props, Modal.propTypes);\n\n    var mountModal = show || Transition && !this.state.exited;\n    if (!mountModal) {\n      return null;\n    }\n\n    var _dialog$props = dialog.props,\n        role = _dialog$props.role,\n        tabIndex = _dialog$props.tabIndex;\n\n\n    if (role === undefined || tabIndex === undefined) {\n      dialog = (0, _react.cloneElement)(dialog, {\n        role: role === undefined ? 'document' : role,\n        tabIndex: tabIndex == null ? '-1' : tabIndex\n      });\n    }\n\n    if (Transition) {\n      dialog = _react2.default.createElement(\n        Transition,\n        {\n          appear: true,\n          unmountOnExit: true,\n          'in': show,\n          onExit: onExit,\n          onExiting: onExiting,\n          onExited: this.handleHidden,\n          onEnter: onEnter,\n          onEntering: onEntering,\n          onEntered: onEntered\n        },\n        dialog\n      );\n    }\n\n    return _react2.default.createElement(\n      _Portal2.default,\n      {\n        ref: this.setMountNode,\n        container: container,\n        onRendered: this.onPortalRendered\n      },\n      _react2.default.createElement(\n        'div',\n        _extends({\n          ref: this.setModalNodeRef,\n          role: role || 'dialog'\n        }, filteredProps, {\n          style: style,\n          className: className\n        }),\n        backdrop && this.renderBackdrop(),\n        _react2.default.createElement(\n          _RefHolder2.default,\n          { ref: this.setDialogRef },\n          dialog\n        )\n      )\n    );\n  };\n\n  Modal.prototype.UNSAFE_componentWillReceiveProps = function UNSAFE_componentWillReceiveProps(nextProps) {\n    if (nextProps.show) {\n      this.setState({ exited: false });\n    } else if (!nextProps.transition) {\n      // Otherwise let handleHidden take care of marking exited.\n      this.setState({ exited: true });\n    }\n  };\n\n  Modal.prototype.UNSAFE_componentWillUpdate = function UNSAFE_componentWillUpdate(nextProps) {\n    if (!this.props.show && nextProps.show) {\n      this.checkForFocus();\n    }\n  };\n\n  Modal.prototype.componentDidMount = function componentDidMount() {\n    this._isMounted = true;\n    if (this.props.show) {\n      this.onShow();\n    }\n  };\n\n  Modal.prototype.componentDidUpdate = function componentDidUpdate(prevProps) {\n    var transition = this.props.transition;\n\n\n    if (prevProps.show && !this.props.show && !transition) {\n      // Otherwise handleHidden will call this.\n      this.onHide();\n    } else if (!prevProps.show && this.props.show) {\n      this.onShow();\n    }\n  };\n\n  Modal.prototype.componentWillUnmount = function componentWillUnmount() {\n    var _props2 = this.props,\n        show = _props2.show,\n        transition = _props2.transition;\n\n\n    this._isMounted = false;\n\n    if (show || transition && !this.state.exited) {\n      this.onHide();\n    }\n  };\n\n  Modal.prototype.autoFocus = function autoFocus() {\n    if (!this.props.autoFocus) {\n      return;\n    }\n\n    var dialogElement = this.getDialogElement();\n    var currentActiveElement = (0, _activeElement2.default)((0, _ownerDocument2.default)(this));\n\n    if (dialogElement && !(0, _contains2.default)(dialogElement, currentActiveElement)) {\n      this.lastFocus = currentActiveElement;\n\n      if (!dialogElement.hasAttribute('tabIndex')) {\n        (0, _warning2.default)(false, 'The modal content node does not accept focus. For the benefit of ' + 'assistive technologies, the tabIndex of the node is being set ' + 'to \"-1\".');\n\n        dialogElement.setAttribute('tabIndex', -1);\n      }\n\n      dialogElement.focus();\n    }\n  };\n\n  Modal.prototype.restoreLastFocus = function restoreLastFocus() {\n    // Support: <=IE11 doesn't support `focus()` on svg elements (RB: #917)\n    if (this.lastFocus && this.lastFocus.focus) {\n      this.lastFocus.focus();\n      this.lastFocus = null;\n    }\n  };\n\n  Modal.prototype.getDialogElement = function getDialogElement() {\n    return _reactDom2.default.findDOMNode(this.dialog);\n  };\n\n  Modal.prototype.isTopModal = function isTopModal() {\n    return this.props.manager.isTopModal(this);\n  };\n\n  return Modal;\n}(_react2.default.Component);\n\nModal.propTypes = _extends({}, _Portal2.default.propTypes, {\n\n  /**\n   * Set the visibility of the Modal\n   */\n  show: _propTypes2.default.bool,\n\n  /**\n   * A Node, Component instance, or function that returns either. The Modal is appended to it's container element.\n   *\n   * For the sake of assistive technologies, the container should usually be the document body, so that the rest of the\n   * page content can be placed behind a virtual backdrop as well as a visual one.\n   */\n  container: _propTypes2.default.oneOfType([_componentOrElement2.default, _propTypes2.default.func]),\n\n  /**\n   * A callback fired when the Modal is opening.\n   */\n  onShow: _propTypes2.default.func,\n\n  /**\n   * A callback fired when either the backdrop is clicked, or the escape key is pressed.\n   *\n   * The `onHide` callback only signals intent from the Modal,\n   * you must actually set the `show` prop to `false` for the Modal to close.\n   */\n  onHide: _propTypes2.default.func,\n\n  /**\n   * Include a backdrop component.\n   */\n  backdrop: _propTypes2.default.oneOfType([_propTypes2.default.bool, _propTypes2.default.oneOf(['static'])]),\n\n  /**\n   * A function that returns a backdrop component. Useful for custom\n   * backdrop rendering.\n   *\n   * ```js\n   *  renderBackdrop={props => <MyBackdrop {...props} />}\n   * ```\n   */\n  renderBackdrop: _propTypes2.default.func,\n\n  /**\n   * A callback fired when the escape key, if specified in `keyboard`, is pressed.\n   */\n  onEscapeKeyDown: _propTypes2.default.func,\n\n  /**\n   * Support for this function will be deprecated. Please use `onEscapeKeyDown` instead\n   * A callback fired when the escape key, if specified in `keyboard`, is pressed.\n   * @deprecated\n   */\n  onEscapeKeyUp: (0, _deprecated2.default)(_propTypes2.default.func, 'Please use onEscapeKeyDown instead for consistency'),\n\n  /**\n   * A callback fired when the backdrop, if specified, is clicked.\n   */\n  onBackdropClick: _propTypes2.default.func,\n\n  /**\n   * A style object for the backdrop component.\n   */\n  backdropStyle: _propTypes2.default.object,\n\n  /**\n   * A css class or classes for the backdrop component.\n   */\n  backdropClassName: _propTypes2.default.string,\n\n  /**\n   * A css class or set of classes applied to the modal container when the modal is open,\n   * and removed when it is closed.\n   */\n  containerClassName: _propTypes2.default.string,\n\n  /**\n   * Close the modal when escape key is pressed\n   */\n  keyboard: _propTypes2.default.bool,\n\n  /**\n   * A `react-transition-group@2.0.0` `<Transition/>` component used\n   * to control animations for the dialog component.\n   */\n  transition: _elementType2.default,\n\n  /**\n   * A `react-transition-group@2.0.0` `<Transition/>` component used\n   * to control animations for the backdrop components.\n   */\n  backdropTransition: _elementType2.default,\n\n  /**\n   * When `true` The modal will automatically shift focus to itself when it opens, and\n   * replace it to the last focused element when it closes. This also\n   * works correctly with any Modal children that have the `autoFocus` prop.\n   *\n   * Generally this should never be set to `false` as it makes the Modal less\n   * accessible to assistive technologies, like screen readers.\n   */\n  autoFocus: _propTypes2.default.bool,\n\n  /**\n   * When `true` The modal will prevent focus from leaving the Modal while open.\n   *\n   * Generally this should never be set to `false` as it makes the Modal less\n   * accessible to assistive technologies, like screen readers.\n   */\n  enforceFocus: _propTypes2.default.bool,\n\n  /**\n   * When `true` The modal will restore focus to previously focused element once\n   * modal is hidden\n   */\n  restoreFocus: _propTypes2.default.bool,\n\n  /**\n   * Callback fired before the Modal transitions in\n   */\n  onEnter: _propTypes2.default.func,\n\n  /**\n   * Callback fired as the Modal begins to transition in\n   */\n  onEntering: _propTypes2.default.func,\n\n  /**\n   * Callback fired after the Modal finishes transitioning in\n   */\n  onEntered: _propTypes2.default.func,\n\n  /**\n   * Callback fired right before the Modal transitions out\n   */\n  onExit: _propTypes2.default.func,\n\n  /**\n   * Callback fired as the Modal begins to transition out\n   */\n  onExiting: _propTypes2.default.func,\n\n  /**\n   * Callback fired after the Modal finishes transitioning out\n   */\n  onExited: _propTypes2.default.func,\n\n  /**\n   * A ModalManager instance used to track and manage the state of open\n   * Modals. Useful when customizing how modals interact within a container\n   */\n  manager: _propTypes2.default.object.isRequired\n});\nModal.defaultProps = {\n  show: false,\n  backdrop: true,\n  keyboard: true,\n  autoFocus: true,\n  enforceFocus: true,\n  restoreFocus: true,\n  onHide: function onHide() {},\n  manager: modalManager,\n  renderBackdrop: function renderBackdrop(props) {\n    return _react2.default.createElement('div', props);\n  }\n};\n\nvar _initialiseProps = function _initialiseProps() {\n  var _this2 = this;\n\n  this.state = { exited: !this.props.show };\n\n  this.renderBackdrop = function () {\n    var _props3 = _this2.props,\n        backdropStyle = _props3.backdropStyle,\n        backdropClassName = _props3.backdropClassName,\n        renderBackdrop = _props3.renderBackdrop,\n        Transition = _props3.backdropTransition;\n\n\n    var backdropRef = function backdropRef(ref) {\n      return _this2.backdrop = ref;\n    };\n\n    var backdrop = renderBackdrop({\n      ref: backdropRef,\n      style: backdropStyle,\n      className: backdropClassName,\n      onClick: _this2.handleBackdropClick\n    });\n\n    if (Transition) {\n      backdrop = _react2.default.createElement(\n        Transition,\n        {\n          appear: true,\n          'in': _this2.props.show\n        },\n        backdrop\n      );\n    }\n\n    return backdrop;\n  };\n\n  this.onPortalRendered = function () {\n    _this2.autoFocus();\n\n    if (_this2.props.onShow) {\n      _this2.props.onShow();\n    }\n  };\n\n  this.onShow = function () {\n    var doc = (0, _ownerDocument2.default)(_this2);\n    var container = (0, _getContainer2.default)(_this2.props.container, doc.body);\n\n    _this2.props.manager.add(_this2, container, _this2.props.containerClassName);\n\n    _this2._onDocumentKeydownListener = (0, _addEventListener2.default)(doc, 'keydown', _this2.handleDocumentKeyDown);\n\n    _this2._onDocumentKeyupListener = (0, _addEventListener2.default)(doc, 'keyup', _this2.handleDocumentKeyUp);\n\n    _this2._onFocusinListener = (0, _addFocusListener2.default)(_this2.enforceFocus);\n  };\n\n  this.onHide = function () {\n    _this2.props.manager.remove(_this2);\n\n    _this2._onDocumentKeydownListener.remove();\n\n    _this2._onDocumentKeyupListener.remove();\n\n    _this2._onFocusinListener.remove();\n\n    if (_this2.props.restoreFocus) {\n      _this2.restoreLastFocus();\n    }\n  };\n\n  this.setMountNode = function (ref) {\n    _this2.mountNode = ref ? ref.getMountNode() : ref;\n  };\n\n  this.setModalNodeRef = function (ref) {\n    _this2.modalNode = ref;\n  };\n\n  this.setDialogRef = function (ref) {\n    _this2.dialog = ref;\n  };\n\n  this.handleHidden = function () {\n    _this2.setState({ exited: true });\n    _this2.onHide();\n\n    if (_this2.props.onExited) {\n      var _props4;\n\n      (_props4 = _this2.props).onExited.apply(_props4, arguments);\n    }\n  };\n\n  this.handleBackdropClick = function (e) {\n    if (e.target !== e.currentTarget) {\n      return;\n    }\n\n    if (_this2.props.onBackdropClick) {\n      _this2.props.onBackdropClick(e);\n    }\n\n    if (_this2.props.backdrop === true) {\n      _this2.props.onHide();\n    }\n  };\n\n  this.handleDocumentKeyDown = function (e) {\n    if (_this2.props.keyboard && e.keyCode === 27 && _this2.isTopModal()) {\n      if (_this2.props.onEscapeKeyDown) {\n        _this2.props.onEscapeKeyDown(e);\n      }\n\n      _this2.props.onHide();\n    }\n  };\n\n  this.handleDocumentKeyUp = function (e) {\n    if (_this2.props.keyboard && e.keyCode === 27 && _this2.isTopModal()) {\n      if (_this2.props.onEscapeKeyUp) {\n        _this2.props.onEscapeKeyUp(e);\n      }\n    }\n  };\n\n  this.checkForFocus = function () {\n    if (_inDOM2.default) {\n      _this2.lastFocus = (0, _activeElement2.default)();\n    }\n  };\n\n  this.enforceFocus = function () {\n    if (!_this2.props.enforceFocus || !_this2._isMounted || !_this2.isTopModal()) {\n      return;\n    }\n\n    var dialogElement = _this2.getDialogElement();\n    var currentActiveElement = (0, _activeElement2.default)((0, _ownerDocument2.default)(_this2));\n\n    if (dialogElement && !(0, _contains2.default)(dialogElement, currentActiveElement)) {\n      dialogElement.focus();\n    }\n  };\n};\n\nModal.Manager = _ModalManager2.default;\n\nexports.default = Modal;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Modal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/ModalManager.js":
+/*!**********************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/ModalManager.js ***!
+  \**********************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 175:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nvar _class = __webpack_require__(/*! dom-helpers/class */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/class/index.js\");\n\nvar _class2 = _interopRequireDefault(_class);\n\nvar _style = __webpack_require__(/*! dom-helpers/style */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/style/index.js\");\n\nvar _style2 = _interopRequireDefault(_style);\n\nvar _scrollbarSize = __webpack_require__(/*! dom-helpers/util/scrollbarSize */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/scrollbarSize.js\");\n\nvar _scrollbarSize2 = _interopRequireDefault(_scrollbarSize);\n\nvar _isOverflowing = __webpack_require__(/*! ./utils/isOverflowing */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/isOverflowing.js\");\n\nvar _isOverflowing2 = _interopRequireDefault(_isOverflowing);\n\nvar _manageAriaHidden = __webpack_require__(/*! ./utils/manageAriaHidden */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/manageAriaHidden.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction findIndexOf(arr, cb) {\n  var idx = -1;\n  arr.some(function (d, i) {\n    if (cb(d, i)) {\n      idx = i;\n      return true;\n    }\n  });\n  return idx;\n}\n\nfunction findContainer(data, modal) {\n  return findIndexOf(data, function (d) {\n    return d.modals.indexOf(modal) !== -1;\n  });\n}\n\nfunction setContainerStyle(state, container) {\n  var style = { overflow: 'hidden' };\n\n  // we are only interested in the actual `style` here\n  // becasue we will override it\n  state.style = {\n    overflow: container.style.overflow,\n    paddingRight: container.style.paddingRight\n  };\n\n  if (state.overflowing) {\n    // use computed style, here to get the real padding\n    // to add our scrollbar width\n    style.paddingRight = parseInt((0, _style2.default)(container, 'paddingRight') || 0, 10) + (0, _scrollbarSize2.default)() + 'px';\n  }\n\n  (0, _style2.default)(container, style);\n}\n\nfunction removeContainerStyle(_ref, container) {\n  var style = _ref.style;\n\n\n  Object.keys(style).forEach(function (key) {\n    return container.style[key] = style[key];\n  });\n}\n/**\n * Proper state managment for containers and the modals in those containers.\n *\n * @internal Used by the Modal to ensure proper styling of containers.\n */\n\nvar ModalManager = function ModalManager() {\n  var _this = this;\n\n  var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},\n      _ref2$hideSiblingNode = _ref2.hideSiblingNodes,\n      hideSiblingNodes = _ref2$hideSiblingNode === undefined ? true : _ref2$hideSiblingNode,\n      _ref2$handleContainer = _ref2.handleContainerOverflow,\n      handleContainerOverflow = _ref2$handleContainer === undefined ? true : _ref2$handleContainer;\n\n  _classCallCheck(this, ModalManager);\n\n  this.add = function (modal, container, className) {\n    var modalIdx = _this.modals.indexOf(modal);\n    var containerIdx = _this.containers.indexOf(container);\n\n    if (modalIdx !== -1) {\n      return modalIdx;\n    }\n\n    modalIdx = _this.modals.length;\n    _this.modals.push(modal);\n\n    if (_this.hideSiblingNodes) {\n      (0, _manageAriaHidden.hideSiblings)(container, modal.modalNode);\n    }\n\n    if (containerIdx !== -1) {\n      _this.data[containerIdx].modals.push(modal);\n      return modalIdx;\n    }\n\n    var data = {\n      modals: [modal],\n      //right now only the first modal of a container will have its classes applied\n      classes: className ? className.split(/\\s+/) : [],\n\n      overflowing: (0, _isOverflowing2.default)(container)\n    };\n\n    if (_this.handleContainerOverflow) {\n      setContainerStyle(data, container);\n    }\n\n    data.classes.forEach(_class2.default.addClass.bind(null, container));\n\n    _this.containers.push(container);\n    _this.data.push(data);\n\n    return modalIdx;\n  };\n\n  this.remove = function (modal) {\n    var modalIdx = _this.modals.indexOf(modal);\n\n    if (modalIdx === -1) {\n      return;\n    }\n\n    var containerIdx = findContainer(_this.data, modal);\n    var data = _this.data[containerIdx];\n    var container = _this.containers[containerIdx];\n\n    data.modals.splice(data.modals.indexOf(modal), 1);\n\n    _this.modals.splice(modalIdx, 1);\n\n    // if that was the last modal in a container,\n    // clean up the container\n    if (data.modals.length === 0) {\n      data.classes.forEach(_class2.default.removeClass.bind(null, container));\n\n      if (_this.handleContainerOverflow) {\n        removeContainerStyle(data, container);\n      }\n\n      if (_this.hideSiblingNodes) {\n        (0, _manageAriaHidden.showSiblings)(container, modal.modalNode);\n      }\n      _this.containers.splice(containerIdx, 1);\n      _this.data.splice(containerIdx, 1);\n    } else if (_this.hideSiblingNodes) {\n      //otherwise make sure the next top modal is visible to a SR\n      (0, _manageAriaHidden.ariaHidden)(false, data.modals[data.modals.length - 1].modalNode);\n    }\n  };\n\n  this.isTopModal = function (modal) {\n    return !!_this.modals.length && _this.modals[_this.modals.length - 1] === modal;\n  };\n\n  this.hideSiblingNodes = hideSiblingNodes;\n  this.handleContainerOverflow = handleContainerOverflow;\n  this.modals = [];\n  this.containers = [];\n  this.data = [];\n};\n\nexports.default = ModalManager;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/ModalManager.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Portal.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Portal.js ***!
+  \****************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 128:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nvar _inDOM = __webpack_require__(/*! dom-helpers/util/inDOM */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/util/inDOM.js\");\n\nvar _inDOM2 = _interopRequireDefault(_inDOM);\n\nvar _propTypes = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _componentOrElement = __webpack_require__(/*! prop-types-extra/lib/componentOrElement */ \"./node_modules/prop-types-extra/lib/componentOrElement.js\");\n\nvar _componentOrElement2 = _interopRequireDefault(_componentOrElement);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _getContainer = __webpack_require__(/*! ./utils/getContainer */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js\");\n\nvar _getContainer2 = _interopRequireDefault(_getContainer);\n\nvar _ownerDocument = __webpack_require__(/*! ./utils/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js\");\n\nvar _ownerDocument2 = _interopRequireDefault(_ownerDocument);\n\nvar _LegacyPortal = __webpack_require__(/*! ./LegacyPortal */ \"./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/LegacyPortal.js\");\n\nvar _LegacyPortal2 = _interopRequireDefault(_LegacyPortal);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n/**\n * The `<Portal/>` component renders its children into a new \"subtree\" outside of current component hierarchy.\n * You can think of it as a declarative `appendChild()`, or jQuery's `$.fn.appendTo()`.\n * The children of `<Portal/>` component will be appended to the `container` specified.\n */\nvar Portal = function (_React$Component) {\n  _inherits(Portal, _React$Component);\n\n  function Portal() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Portal);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.getMountNode = function () {\n      return _this._portalContainerNode;\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Portal.prototype.UNSAFE_componentWillMount = function UNSAFE_componentWillMount() {\n    if (!_inDOM2.default) {\n      return;\n    }\n\n    var container = this.props.container;\n\n    if (typeof container === 'function') {\n      container = container();\n    }\n\n    if (container && !_reactDom2.default.findDOMNode(container)) {\n      // The container is a React component that has not yet been rendered.\n      // Don't set the container node yet.\n      return;\n    }\n\n    this.setContainer(container);\n  };\n\n  Portal.prototype.componentDidMount = function componentDidMount() {\n    if (!this._portalContainerNode) {\n      this.setContainer(this.props.container);\n      this.forceUpdate(this.props.onRendered);\n    } else if (this.props.onRendered) {\n      this.props.onRendered();\n    }\n  };\n\n  Portal.prototype.UNSAFE_componentWillReceiveProps = function UNSAFE_componentWillReceiveProps(nextProps) {\n    if (nextProps.container !== this.props.container) {\n      this.setContainer(nextProps.container);\n    }\n  };\n\n  Portal.prototype.componentWillUnmount = function componentWillUnmount() {\n    this._portalContainerNode = null;\n  };\n\n  Portal.prototype.setContainer = function setContainer(container) {\n    this._portalContainerNode = (0, _getContainer2.default)(container, (0, _ownerDocument2.default)(this).body);\n  };\n\n  Portal.prototype.render = function render() {\n    return this.props.children && this._portalContainerNode ? _reactDom2.default.createPortal(this.props.children, this._portalContainerNode) : null;\n  };\n\n  return Portal;\n}(_react2.default.Component);\n\nPortal.displayName = 'Portal';\nPortal.propTypes = {\n  /**\n   * A Node, Component instance, or function that returns either. The `container` will have the Portal children\n   * appended to it.\n   */\n  container: _propTypes2.default.oneOfType([_componentOrElement2.default, _propTypes2.default.func]),\n\n  onRendered: _propTypes2.default.func\n};\nexports.default = _reactDom2.default.createPortal ? Portal : _LegacyPortal2.default;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/Portal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/RefHolder.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/RefHolder.js ***!
+  \*******************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 49:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nvar _propTypes = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar propTypes = {\n  children: _propTypes2.default.node\n};\n\n/**\n * Internal helper component to allow attaching a non-conflicting ref to a\n * child element that may not accept refs.\n */\n\nvar RefHolder = function (_React$Component) {\n  _inherits(RefHolder, _React$Component);\n\n  function RefHolder() {\n    _classCallCheck(this, RefHolder);\n\n    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n  }\n\n  RefHolder.prototype.render = function render() {\n    return this.props.children;\n  };\n\n  return RefHolder;\n}(_react2.default.Component);\n\nRefHolder.propTypes = propTypes;\n\nexports.default = RefHolder;\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/RefHolder.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addEventListener.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addEventListener.js ***!
+  \********************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 25:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nexports.default = function (node, event, handler, capture) {\n  (0, _on2.default)(node, event, handler, capture);\n\n  return {\n    remove: function remove() {\n      (0, _off2.default)(node, event, handler, capture);\n    }\n  };\n};\n\nvar _on = __webpack_require__(/*! dom-helpers/events/on */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/on.js\");\n\nvar _on2 = _interopRequireDefault(_on);\n\nvar _off = __webpack_require__(/*! dom-helpers/events/off */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/events/off.js\");\n\nvar _off2 = _interopRequireDefault(_off);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addEventListener.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addFocusListener.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addFocusListener.js ***!
+  \********************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module */
+/*! CommonJS bailout: module.exports is used directly at 29:0-14 */
+/***/ ((module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = addFocusListener;\n/**\n * Firefox doesn't have a focusin event so using capture is easiest way to get bubbling\n * IE8 can't do addEventListener, but does have onfocusin, so we use that in ie8\n *\n * We only allow one Listener at a time to avoid stack overflows\n */\nfunction addFocusListener(handler) {\n  var useFocusin = !document.addEventListener;\n  var remove = void 0;\n\n  if (useFocusin) {\n    document.attachEvent('onfocusin', handler);\n    remove = function remove() {\n      return document.detachEvent('onfocusin', handler);\n    };\n  } else {\n    document.addEventListener('focus', handler, true);\n    remove = function remove() {\n      return document.removeEventListener('focus', handler, true);\n    };\n  }\n\n  return { remove: remove };\n}\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/addFocusListener.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js ***!
+  \****************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 16:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = getContainer;\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction getContainer(container, defaultContainer) {\n  container = typeof container === 'function' ? container() : container;\n  return _reactDom2.default.findDOMNode(container) || defaultContainer;\n}\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/getContainer.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/isOverflowing.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/isOverflowing.js ***!
+  \*****************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 39:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = isOverflowing;\n\nvar _isWindow = __webpack_require__(/*! dom-helpers/query/isWindow */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/query/isWindow.js\");\n\nvar _isWindow2 = _interopRequireDefault(_isWindow);\n\nvar _ownerDocument = __webpack_require__(/*! dom-helpers/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js\");\n\nvar _ownerDocument2 = _interopRequireDefault(_ownerDocument);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction isBody(node) {\n  return node && node.tagName.toLowerCase() === 'body';\n}\n\nfunction bodyIsOverflowing(node) {\n  var doc = (0, _ownerDocument2.default)(node);\n  var win = (0, _isWindow2.default)(doc);\n  var fullWidth = win.innerWidth;\n\n  // Support: ie8, no innerWidth\n  if (!fullWidth) {\n    var documentElementRect = doc.documentElement.getBoundingClientRect();\n    fullWidth = documentElementRect.right - Math.abs(documentElementRect.left);\n  }\n\n  return doc.body.clientWidth < fullWidth;\n}\n\nfunction isOverflowing(container) {\n  var win = (0, _isWindow2.default)(container);\n\n  return win || isBody(container) ? bodyIsOverflowing(container) : container.scrollHeight > container.clientHeight;\n}\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/isOverflowing.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/manageAriaHidden.js":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/manageAriaHidden.js ***!
+  \********************************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export ariaHidden [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export hideSiblings [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export showSiblings [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.ariaHidden = ariaHidden;\nexports.hideSiblings = hideSiblings;\nexports.showSiblings = showSiblings;\n\nvar BLACKLIST = ['template', 'script', 'style'];\n\nvar isHidable = function isHidable(_ref) {\n  var nodeType = _ref.nodeType,\n      tagName = _ref.tagName;\n  return nodeType === 1 && BLACKLIST.indexOf(tagName.toLowerCase()) === -1;\n};\n\nvar siblings = function siblings(container, mount, cb) {\n  mount = [].concat(mount);\n\n  [].forEach.call(container.children, function (node) {\n    if (mount.indexOf(node) === -1 && isHidable(node)) {\n      cb(node);\n    }\n  });\n};\n\nfunction ariaHidden(show, node) {\n  if (!node) {\n    return;\n  }\n  if (show) {\n    node.setAttribute('aria-hidden', 'true');\n  } else {\n    node.removeAttribute('aria-hidden');\n  }\n}\n\nfunction hideSiblings(container, mountNode) {\n  siblings(container, mountNode, function (node) {\n    return ariaHidden(true, node);\n  });\n}\n\nfunction showSiblings(container, mountNode) {\n  siblings(container, mountNode, function (node) {\n    return ariaHidden(false, node);\n  });\n}\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/manageAriaHidden.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js ***!
+  \*****************************************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__ */
+/*! CommonJS bailout: module.exports is used directly at 19:0-14 */
+/***/ ((module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\n\nexports.default = function (componentOrElement) {\n  return (0, _ownerDocument2.default)(_reactDom2.default.findDOMNode(componentOrElement));\n};\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _ownerDocument = __webpack_require__(/*! dom-helpers/ownerDocument */ \"./node_modules/react-confirm-bootstrap/node_modules/dom-helpers/ownerDocument.js\");\n\nvar _ownerDocument2 = _interopRequireDefault(_ownerDocument);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nmodule.exports = exports['default'];\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-overlays/lib/utils/ownerDocument.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/Transition.js":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/Transition.js ***!
+  \************************************************************************************************/
+/*! flagged exports */
+/*! export ENTERED [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export ENTERING [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export EXITED [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export EXITING [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export UNMOUNTED [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.default = exports.EXITING = exports.ENTERED = exports.ENTERING = exports.EXITED = exports.UNMOUNTED = void 0;\n\nvar PropTypes = _interopRequireWildcard(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nvar _react = _interopRequireDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n\nvar _reactDom = _interopRequireDefault(__webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\"));\n\nvar _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ \"./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js\");\n\nvar _PropTypes = __webpack_require__(/*! ./utils/PropTypes */ \"./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/utils/PropTypes.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\nfunction _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }\n\nvar UNMOUNTED = 'unmounted';\nexports.UNMOUNTED = UNMOUNTED;\nvar EXITED = 'exited';\nexports.EXITED = EXITED;\nvar ENTERING = 'entering';\nexports.ENTERING = ENTERING;\nvar ENTERED = 'entered';\nexports.ENTERED = ENTERED;\nvar EXITING = 'exiting';\n/**\n * The Transition component lets you describe a transition from one component\n * state to another _over time_ with a simple declarative API. Most commonly\n * it's used to animate the mounting and unmounting of a component, but can also\n * be used to describe in-place transition states as well.\n *\n * ---\n *\n * **Note**: `Transition` is a platform-agnostic base component. If you're using\n * transitions in CSS, you'll probably want to use\n * [`CSSTransition`](https://reactcommunity.org/react-transition-group/css-transition)\n * instead. It inherits all the features of `Transition`, but contains\n * additional features necessary to play nice with CSS transitions (hence the\n * name of the component).\n *\n * ---\n *\n * By default the `Transition` component does not alter the behavior of the\n * component it renders, it only tracks \"enter\" and \"exit\" states for the\n * components. It's up to you to give meaning and effect to those states. For\n * example we can add styles to a component when it enters or exits:\n *\n * ```jsx\n * import { Transition } from 'react-transition-group';\n *\n * const duration = 300;\n *\n * const defaultStyle = {\n *   transition: `opacity ${duration}ms ease-in-out`,\n *   opacity: 0,\n * }\n *\n * const transitionStyles = {\n *   entering: { opacity: 0 },\n *   entered:  { opacity: 1 },\n * };\n *\n * const Fade = ({ in: inProp }) => (\n *   <Transition in={inProp} timeout={duration}>\n *     {state => (\n *       <div style={{\n *         ...defaultStyle,\n *         ...transitionStyles[state]\n *       }}>\n *         I'm a fade Transition!\n *       </div>\n *     )}\n *   </Transition>\n * );\n * ```\n *\n * There are 4 main states a Transition can be in:\n *  - `'entering'`\n *  - `'entered'`\n *  - `'exiting'`\n *  - `'exited'`\n *\n * Transition state is toggled via the `in` prop. When `true` the component\n * begins the \"Enter\" stage. During this stage, the component will shift from\n * its current transition state, to `'entering'` for the duration of the\n * transition and then to the `'entered'` stage once it's complete. Let's take\n * the following example (we'll use the\n * [useState](https://reactjs.org/docs/hooks-reference.html#usestate) hook):\n *\n * ```jsx\n * function App() {\n *   const [inProp, setInProp] = useState(false);\n *   return (\n *     <div>\n *       <Transition in={inProp} timeout={500}>\n *         {state => (\n *           // ...\n *         )}\n *       </Transition>\n *       <button onClick={() => setInProp(true)}>\n *         Click to Enter\n *       </button>\n *     </div>\n *   );\n * }\n * ```\n *\n * When the button is clicked the component will shift to the `'entering'` state\n * and stay there for 500ms (the value of `timeout`) before it finally switches\n * to `'entered'`.\n *\n * When `in` is `false` the same thing happens except the state moves from\n * `'exiting'` to `'exited'`.\n */\n\nexports.EXITING = EXITING;\n\nvar Transition =\n/*#__PURE__*/\nfunction (_React$Component) {\n  _inheritsLoose(Transition, _React$Component);\n\n  function Transition(props, context) {\n    var _this;\n\n    _this = _React$Component.call(this, props, context) || this;\n    var parentGroup = context.transitionGroup; // In the context of a TransitionGroup all enters are really appears\n\n    var appear = parentGroup && !parentGroup.isMounting ? props.enter : props.appear;\n    var initialStatus;\n    _this.appearStatus = null;\n\n    if (props.in) {\n      if (appear) {\n        initialStatus = EXITED;\n        _this.appearStatus = ENTERING;\n      } else {\n        initialStatus = ENTERED;\n      }\n    } else {\n      if (props.unmountOnExit || props.mountOnEnter) {\n        initialStatus = UNMOUNTED;\n      } else {\n        initialStatus = EXITED;\n      }\n    }\n\n    _this.state = {\n      status: initialStatus\n    };\n    _this.nextCallback = null;\n    return _this;\n  }\n\n  var _proto = Transition.prototype;\n\n  _proto.getChildContext = function getChildContext() {\n    return {\n      transitionGroup: null // allows for nested Transitions\n\n    };\n  };\n\n  Transition.getDerivedStateFromProps = function getDerivedStateFromProps(_ref, prevState) {\n    var nextIn = _ref.in;\n\n    if (nextIn && prevState.status === UNMOUNTED) {\n      return {\n        status: EXITED\n      };\n    }\n\n    return null;\n  }; // getSnapshotBeforeUpdate(prevProps) {\n  //   let nextStatus = null\n  //   if (prevProps !== this.props) {\n  //     const { status } = this.state\n  //     if (this.props.in) {\n  //       if (status !== ENTERING && status !== ENTERED) {\n  //         nextStatus = ENTERING\n  //       }\n  //     } else {\n  //       if (status === ENTERING || status === ENTERED) {\n  //         nextStatus = EXITING\n  //       }\n  //     }\n  //   }\n  //   return { nextStatus }\n  // }\n\n\n  _proto.componentDidMount = function componentDidMount() {\n    this.updateStatus(true, this.appearStatus);\n  };\n\n  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {\n    var nextStatus = null;\n\n    if (prevProps !== this.props) {\n      var status = this.state.status;\n\n      if (this.props.in) {\n        if (status !== ENTERING && status !== ENTERED) {\n          nextStatus = ENTERING;\n        }\n      } else {\n        if (status === ENTERING || status === ENTERED) {\n          nextStatus = EXITING;\n        }\n      }\n    }\n\n    this.updateStatus(false, nextStatus);\n  };\n\n  _proto.componentWillUnmount = function componentWillUnmount() {\n    this.cancelNextCallback();\n  };\n\n  _proto.getTimeouts = function getTimeouts() {\n    var timeout = this.props.timeout;\n    var exit, enter, appear;\n    exit = enter = appear = timeout;\n\n    if (timeout != null && typeof timeout !== 'number') {\n      exit = timeout.exit;\n      enter = timeout.enter; // TODO: remove fallback for next major\n\n      appear = timeout.appear !== undefined ? timeout.appear : enter;\n    }\n\n    return {\n      exit: exit,\n      enter: enter,\n      appear: appear\n    };\n  };\n\n  _proto.updateStatus = function updateStatus(mounting, nextStatus) {\n    if (mounting === void 0) {\n      mounting = false;\n    }\n\n    if (nextStatus !== null) {\n      // nextStatus will always be ENTERING or EXITING.\n      this.cancelNextCallback();\n\n      var node = _reactDom.default.findDOMNode(this);\n\n      if (nextStatus === ENTERING) {\n        this.performEnter(node, mounting);\n      } else {\n        this.performExit(node);\n      }\n    } else if (this.props.unmountOnExit && this.state.status === EXITED) {\n      this.setState({\n        status: UNMOUNTED\n      });\n    }\n  };\n\n  _proto.performEnter = function performEnter(node, mounting) {\n    var _this2 = this;\n\n    var enter = this.props.enter;\n    var appearing = this.context.transitionGroup ? this.context.transitionGroup.isMounting : mounting;\n    var timeouts = this.getTimeouts();\n    var enterTimeout = appearing ? timeouts.appear : timeouts.enter; // no enter animation skip right to ENTERED\n    // if we are mounting and running this it means appear _must_ be set\n\n    if (!mounting && !enter) {\n      this.safeSetState({\n        status: ENTERED\n      }, function () {\n        _this2.props.onEntered(node);\n      });\n      return;\n    }\n\n    this.props.onEnter(node, appearing);\n    this.safeSetState({\n      status: ENTERING\n    }, function () {\n      _this2.props.onEntering(node, appearing);\n\n      _this2.onTransitionEnd(node, enterTimeout, function () {\n        _this2.safeSetState({\n          status: ENTERED\n        }, function () {\n          _this2.props.onEntered(node, appearing);\n        });\n      });\n    });\n  };\n\n  _proto.performExit = function performExit(node) {\n    var _this3 = this;\n\n    var exit = this.props.exit;\n    var timeouts = this.getTimeouts(); // no exit animation skip right to EXITED\n\n    if (!exit) {\n      this.safeSetState({\n        status: EXITED\n      }, function () {\n        _this3.props.onExited(node);\n      });\n      return;\n    }\n\n    this.props.onExit(node);\n    this.safeSetState({\n      status: EXITING\n    }, function () {\n      _this3.props.onExiting(node);\n\n      _this3.onTransitionEnd(node, timeouts.exit, function () {\n        _this3.safeSetState({\n          status: EXITED\n        }, function () {\n          _this3.props.onExited(node);\n        });\n      });\n    });\n  };\n\n  _proto.cancelNextCallback = function cancelNextCallback() {\n    if (this.nextCallback !== null) {\n      this.nextCallback.cancel();\n      this.nextCallback = null;\n    }\n  };\n\n  _proto.safeSetState = function safeSetState(nextState, callback) {\n    // This shouldn't be necessary, but there are weird race conditions with\n    // setState callbacks and unmounting in testing, so always make sure that\n    // we can cancel any pending setState callbacks after we unmount.\n    callback = this.setNextCallback(callback);\n    this.setState(nextState, callback);\n  };\n\n  _proto.setNextCallback = function setNextCallback(callback) {\n    var _this4 = this;\n\n    var active = true;\n\n    this.nextCallback = function (event) {\n      if (active) {\n        active = false;\n        _this4.nextCallback = null;\n        callback(event);\n      }\n    };\n\n    this.nextCallback.cancel = function () {\n      active = false;\n    };\n\n    return this.nextCallback;\n  };\n\n  _proto.onTransitionEnd = function onTransitionEnd(node, timeout, handler) {\n    this.setNextCallback(handler);\n    var doesNotHaveTimeoutOrListener = timeout == null && !this.props.addEndListener;\n\n    if (!node || doesNotHaveTimeoutOrListener) {\n      setTimeout(this.nextCallback, 0);\n      return;\n    }\n\n    if (this.props.addEndListener) {\n      this.props.addEndListener(node, this.nextCallback);\n    }\n\n    if (timeout != null) {\n      setTimeout(this.nextCallback, timeout);\n    }\n  };\n\n  _proto.render = function render() {\n    var status = this.state.status;\n\n    if (status === UNMOUNTED) {\n      return null;\n    }\n\n    var _this$props = this.props,\n        children = _this$props.children,\n        childProps = _objectWithoutPropertiesLoose(_this$props, [\"children\"]); // filter props for Transtition\n\n\n    delete childProps.in;\n    delete childProps.mountOnEnter;\n    delete childProps.unmountOnExit;\n    delete childProps.appear;\n    delete childProps.enter;\n    delete childProps.exit;\n    delete childProps.timeout;\n    delete childProps.addEndListener;\n    delete childProps.onEnter;\n    delete childProps.onEntering;\n    delete childProps.onEntered;\n    delete childProps.onExit;\n    delete childProps.onExiting;\n    delete childProps.onExited;\n\n    if (typeof children === 'function') {\n      return children(status, childProps);\n    }\n\n    var child = _react.default.Children.only(children);\n\n    return _react.default.cloneElement(child, childProps);\n  };\n\n  return Transition;\n}(_react.default.Component);\n\nTransition.contextTypes = {\n  transitionGroup: PropTypes.object\n};\nTransition.childContextTypes = {\n  transitionGroup: function transitionGroup() {}\n};\nTransition.propTypes =  true ? {\n  /**\n   * A `function` child can be used instead of a React element. This function is\n   * called with the current transition status (`'entering'`, `'entered'`,\n   * `'exiting'`, `'exited'`, `'unmounted'`), which can be used to apply context\n   * specific props to a component.\n   *\n   * ```jsx\n   * <Transition in={this.state.in} timeout={150}>\n   *   {state => (\n   *     <MyComponent className={`fade fade-${state}`} />\n   *   )}\n   * </Transition>\n   * ```\n   */\n  children: PropTypes.oneOfType([PropTypes.func.isRequired, PropTypes.element.isRequired]).isRequired,\n\n  /**\n   * Show the component; triggers the enter or exit states\n   */\n  in: PropTypes.bool,\n\n  /**\n   * By default the child component is mounted immediately along with\n   * the parent `Transition` component. If you want to \"lazy mount\" the component on the\n   * first `in={true}` you can set `mountOnEnter`. After the first enter transition the component will stay\n   * mounted, even on \"exited\", unless you also specify `unmountOnExit`.\n   */\n  mountOnEnter: PropTypes.bool,\n\n  /**\n   * By default the child component stays mounted after it reaches the `'exited'` state.\n   * Set `unmountOnExit` if you'd prefer to unmount the component after it finishes exiting.\n   */\n  unmountOnExit: PropTypes.bool,\n\n  /**\n   * Normally a component is not transitioned if it is shown when the `<Transition>` component mounts.\n   * If you want to transition on the first mount set `appear` to `true`, and the\n   * component will transition in as soon as the `<Transition>` mounts.\n   *\n   * > Note: there are no specific \"appear\" states. `appear` only adds an additional `enter` transition.\n   */\n  appear: PropTypes.bool,\n\n  /**\n   * Enable or disable enter transitions.\n   */\n  enter: PropTypes.bool,\n\n  /**\n   * Enable or disable exit transitions.\n   */\n  exit: PropTypes.bool,\n\n  /**\n   * The duration of the transition, in milliseconds.\n   * Required unless `addEndListener` is provided.\n   *\n   * You may specify a single timeout for all transitions:\n   *\n   * ```jsx\n   * timeout={500}\n   * ```\n   *\n   * or individually:\n   *\n   * ```jsx\n   * timeout={{\n   *  appear: 500,\n   *  enter: 300,\n   *  exit: 500,\n   * }}\n   * ```\n   *\n   * - `appear` defaults to the value of `enter`\n   * - `enter` defaults to `0`\n   * - `exit` defaults to `0`\n   *\n   * @type {number | { enter?: number, exit?: number, appear?: number }}\n   */\n  timeout: function timeout(props) {\n    var pt = _PropTypes.timeoutsShape;\n    if (!props.addEndListener) pt = pt.isRequired;\n\n    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {\n      args[_key - 1] = arguments[_key];\n    }\n\n    return pt.apply(void 0, [props].concat(args));\n  },\n\n  /**\n   * Add a custom transition end trigger. Called with the transitioning\n   * DOM node and a `done` callback. Allows for more fine grained transition end\n   * logic. **Note:** Timeouts are still used as a fallback if provided.\n   *\n   * ```jsx\n   * addEndListener={(node, done) => {\n   *   // use the css transitionend event to mark the finish of a transition\n   *   node.addEventListener('transitionend', done, false);\n   * }}\n   * ```\n   */\n  addEndListener: PropTypes.func,\n\n  /**\n   * Callback fired before the \"entering\" status is applied. An extra parameter\n   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount\n   *\n   * @type Function(node: HtmlElement, isAppearing: bool) -> void\n   */\n  onEnter: PropTypes.func,\n\n  /**\n   * Callback fired after the \"entering\" status is applied. An extra parameter\n   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount\n   *\n   * @type Function(node: HtmlElement, isAppearing: bool)\n   */\n  onEntering: PropTypes.func,\n\n  /**\n   * Callback fired after the \"entered\" status is applied. An extra parameter\n   * `isAppearing` is supplied to indicate if the enter stage is occurring on the initial mount\n   *\n   * @type Function(node: HtmlElement, isAppearing: bool) -> void\n   */\n  onEntered: PropTypes.func,\n\n  /**\n   * Callback fired before the \"exiting\" status is applied.\n   *\n   * @type Function(node: HtmlElement) -> void\n   */\n  onExit: PropTypes.func,\n\n  /**\n   * Callback fired after the \"exiting\" status is applied.\n   *\n   * @type Function(node: HtmlElement) -> void\n   */\n  onExiting: PropTypes.func,\n\n  /**\n   * Callback fired after the \"exited\" status is applied.\n   *\n   * @type Function(node: HtmlElement) -> void\n   */\n  onExited: PropTypes.func // Name the function so it is clearer in the documentation\n\n} : 0;\n\nfunction noop() {}\n\nTransition.defaultProps = {\n  in: false,\n  mountOnEnter: false,\n  unmountOnExit: false,\n  appear: false,\n  enter: true,\n  exit: true,\n  onEnter: noop,\n  onEntering: noop,\n  onEntered: noop,\n  onExit: noop,\n  onExiting: noop,\n  onExited: noop\n};\nTransition.UNMOUNTED = 0;\nTransition.EXITED = 1;\nTransition.ENTERING = 2;\nTransition.ENTERED = 3;\nTransition.EXITING = 4;\n\nvar _default = (0, _reactLifecyclesCompat.polyfill)(Transition);\n\nexports.default = _default;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/Transition.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/utils/PropTypes.js":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/utils/PropTypes.js ***!
+  \*****************************************************************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export classNamesShape [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export timeoutsShape [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nexports.__esModule = true;\nexports.classNamesShape = exports.timeoutsShape = void 0;\n\nvar _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\"));\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar timeoutsShape =  true ? _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({\n  enter: _propTypes.default.number,\n  exit: _propTypes.default.number,\n  appear: _propTypes.default.number\n}).isRequired]) : 0;\nexports.timeoutsShape = timeoutsShape;\nvar classNamesShape =  true ? _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.shape({\n  enter: _propTypes.default.string,\n  exit: _propTypes.default.string,\n  active: _propTypes.default.string\n}), _propTypes.default.shape({\n  enter: _propTypes.default.string,\n  enterDone: _propTypes.default.string,\n  enterActive: _propTypes.default.string,\n  exit: _propTypes.default.string,\n  exitDone: _propTypes.default.string,\n  exitActive: _propTypes.default.string\n})]) : 0;\nexports.classNamesShape = classNamesShape;\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/react-transition-group/utils/PropTypes.js?");
+
+/***/ }),
+
+/***/ "./node_modules/react-confirm-bootstrap/node_modules/warning/browser.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/react-confirm-bootstrap/node_modules/warning/browser.js ***!
+  \******************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 60:0-14 */
+/***/ ((module) => {
+
+"use strict";
+eval("/**\n * Copyright 2014-2015, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n */\n\n\n\n/**\n * Similar to invariant but only logs a warning if the condition is not met.\n * This can be used to log issues in development environments in critical\n * paths. Removing the logging code for production environments will keep the\n * same logic and follow the same code paths.\n */\n\nvar warning = function() {};\n\nif (true) {\n  warning = function(condition, format, args) {\n    var len = arguments.length;\n    args = new Array(len > 2 ? len - 2 : 0);\n    for (var key = 2; key < len; key++) {\n      args[key - 2] = arguments[key];\n    }\n    if (format === undefined) {\n      throw new Error(\n        '`warning(condition, format, ...args)` requires a warning ' +\n        'message argument'\n      );\n    }\n\n    if (format.length < 10 || (/^[s\\W]*$/).test(format)) {\n      throw new Error(\n        'The warning format should be able to uniquely identify this ' +\n        'warning. Please, use a more descriptive format than: ' + format\n      );\n    }\n\n    if (!condition) {\n      var argIndex = 0;\n      var message = 'Warning: ' +\n        format.replace(/%s/g, function() {\n          return args[argIndex++];\n        });\n      if (typeof console !== 'undefined') {\n        console.error(message);\n      }\n      try {\n        // This error was thrown as a convenience so that you can use this stack\n        // to find the callsite that caused this warning to fire.\n        throw new Error(message);\n      } catch(x) {}\n    }\n  };\n}\n\nmodule.exports = warning;\n\n\n//# sourceURL=webpack://frontend/./node_modules/react-confirm-bootstrap/node_modules/warning/browser.js?");
 
 /***/ }),
 
@@ -1618,6 +4138,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => __WEBPACK_DEFAULT_EXPORT__\n/* harmony export */ });\nfunction valueOf(obj) {\n  return obj.valueOf ? obj.valueOf() : Object.prototype.valueOf.call(obj);\n}\n\nfunction valueEqual(a, b) {\n  // Test for strict equality first.\n  if (a === b) return true;\n\n  // Otherwise, if either of them == null they are not equal.\n  if (a == null || b == null) return false;\n\n  if (Array.isArray(a)) {\n    return (\n      Array.isArray(b) &&\n      a.length === b.length &&\n      a.every(function(item, index) {\n        return valueEqual(item, b[index]);\n      })\n    );\n  }\n\n  if (typeof a === 'object' || typeof b === 'object') {\n    var aValue = valueOf(a);\n    var bValue = valueOf(b);\n\n    if (aValue !== a || bValue !== b) return valueEqual(aValue, bValue);\n\n    return Object.keys(Object.assign({}, a, b)).every(function(key) {\n      return valueEqual(a[key], b[key]);\n    });\n  }\n\n  return false;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (valueEqual);\n\n\n//# sourceURL=webpack://frontend/./node_modules/value-equal/esm/value-equal.js?");
+
+/***/ }),
+
+/***/ "./node_modules/warning/warning.js":
+/*!*****************************************!*\
+  !*** ./node_modules/warning/warning.js ***!
+  \*****************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: module */
+/*! CommonJS bailout: module.exports is used directly at 62:0-14 */
+/***/ ((module) => {
+
+"use strict";
+eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n */\n\n\n\n/**\n * Similar to invariant but only logs a warning if the condition is not met.\n * This can be used to log issues in development environments in critical\n * paths. Removing the logging code for production environments will keep the\n * same logic and follow the same code paths.\n */\n\nvar __DEV__ = \"development\" !== 'production';\n\nvar warning = function() {};\n\nif (__DEV__) {\n  var printWarning = function printWarning(format, args) {\n    var len = arguments.length;\n    args = new Array(len > 1 ? len - 1 : 0);\n    for (var key = 1; key < len; key++) {\n      args[key - 1] = arguments[key];\n    }\n    var argIndex = 0;\n    var message = 'Warning: ' +\n      format.replace(/%s/g, function() {\n        return args[argIndex++];\n      });\n    if (typeof console !== 'undefined') {\n      console.error(message);\n    }\n    try {\n      // --- Welcome to debugging React ---\n      // This error was thrown as a convenience so that you can use this stack\n      // to find the callsite that caused this warning to fire.\n      throw new Error(message);\n    } catch (x) {}\n  }\n\n  warning = function(condition, format, args) {\n    var len = arguments.length;\n    args = new Array(len > 2 ? len - 2 : 0);\n    for (var key = 2; key < len; key++) {\n      args[key - 2] = arguments[key];\n    }\n    if (format === undefined) {\n      throw new Error(\n          '`warning(condition, format, ...args)` requires a warning ' +\n          'message argument'\n      );\n    }\n    if (!condition) {\n      printWarning.apply(null, [format].concat(args));\n    }\n  };\n}\n\nmodule.exports = warning;\n\n\n//# sourceURL=webpack://frontend/./node_modules/warning/warning.js?");
 
 /***/ })
 

@@ -104,7 +104,6 @@ export class ArticleViewPage extends Component {
 
     renderArticle() {
         const article = this.state.data;
-        console.log("Открываю статью", article);
         return (
             <Form>
                 <fieldset disabled={this.state.deleted}> 
@@ -170,7 +169,7 @@ export class ArticleViewPage extends Component {
     renderTags() {
         const contents = this.state.loadingTags
             ? <ReactLoading type="cylon" color="black" height={66} width={37} />
-            : this.state.tags.map(x => <TagViewItem tag={x} />);
+            : this.state.tags.map(x => <TagViewItem tag={x} canDelete={this.state.editing} />);
 
         return contents;
     }
@@ -199,6 +198,7 @@ export class ArticleViewPage extends Component {
         this.state.loading = false;
         this.state.data = data;
         this.setState(this.state);
+        console.log("Открываю статью", data);
     }
 
     async populateTags() {
