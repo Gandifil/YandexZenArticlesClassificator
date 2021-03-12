@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from django.http import HttpResponseNotFound
 from django.core import serializers
 from .models import Article
+from .models import Keyword
 from django.http.response import JsonResponse
 import json
 
@@ -53,6 +54,22 @@ class ArticleView(APIView):
                 return HttpResponse(status=200)
             else:
                 return HttpResponseNotFound('Article not found')
+
+class TagsView(APIView):
+
+    def get(self, request):
+        if request.method == 'GET':
+            keywords = Keyword.objects.all();
+
+            results = list();
+            for x in keywords:
+                obj = dict()
+                ibj["id"] = x.id
+                obj["name"] = x.name
+                obj["countTags"] = Article.objects.filter(keywords__name=x.name).count()
+                obj["countClasskeys"] = Article.objects.filter(classkey=x.name).count()
+                results.append(obj)
+            return JsonResponse(results, safe=False)
 
         
 class ArticleTagsView(APIView):
