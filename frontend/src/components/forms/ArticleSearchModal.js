@@ -52,16 +52,16 @@ export class ArticleSearchModal extends Component {
     <ModalHeader>Настройка фильтра</ModalHeader>
     <ModalBody>
         <FormGroup>
-            <Label>Название статьи</Label>
-            <Input name="title" onChange={this.handleTitle} />
+                        <Label>Название статьи</Label>
+                        <Input name="title" value={this.state.item.title} onChange={this.handleTitle} />
         </FormGroup>
         <FormGroup>
-            <Label>Автор</Label>
-            <Input name="author" onChange={this.handleAuthor} />
+                        <Label>Автор</Label>
+                        <Input name="author" value={this.state.item.author} onChange={this.handleAuthor} />
         </FormGroup>
         <FormGroup>
             <Label>Тег</Label>
-            <Input name="tag" onChange={this.handleTag} />
+                        <Input name="tag" value={this.state.item.tag} onChange={this.handleTag} />
         </FormGroup>
     </ModalBody>
                 <ModalFooter>

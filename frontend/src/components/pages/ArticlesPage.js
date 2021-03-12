@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button } from 'reactstrap';
 import { ArticleTable } from '../forms/ArticleTable';
 import ReactLoading from 'react-loading';
 import { ArticleSearchModal } from '../forms/ArticleSearchModal';
@@ -11,6 +10,7 @@ export class ArticlesPage extends Component {
         this.state = { articles: [], loading: true };
         this.modal = React.createRef();
 
+        this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData(e)
     }
 
@@ -29,6 +29,7 @@ export class ArticlesPage extends Component {
 
         return (
             <div>
+                <Button color="primary" size="lg" block onClick={this.handleClick}>Фильтрация</Button>
                 <ArticleSearchModal ref={this.modal} />
                 {contents}
             </div>
