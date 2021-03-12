@@ -11,15 +11,83 @@ export class ArticleViewPage extends Component {
     constructor(props) {
         super(props);
         this.id = this.props.match.params.id;
-        this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false };
+        this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false, editing: false};
 
         this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
         this.handleDelete = (e) => this.delete();
+        this.handleSave = (e) => this.save();
+        this.handleEdit = (e) => {
+            this.state.editing = true;
+            this.setState(this.state);
+        };
+
+        // variables
+        this.handleTitle = (e) => this.setTitle(e.target.value);
+        this.handleAuthor= (e) => this.setAuthor(e.target.value);
+        this.handleClasskey = (e) => this.setClasskey(e.target.value);
+        this.handleText = (e) => this.setText(e.target.value);
+        this.handleMiddleReadingTime = (e) => this.setMiddleReadingTime(e.target.value);
+        this.handleLikeCount = (e) => this.setLikeCount(e.target.value);
+    }
+
+    setTitle(value) {
+        if (this.state.editing) {
+            this.state.data.title = value;
+            this.setState(this.state);
+        }
+    }
+
+    setAuthor(value) {
+        if (this.state.editing) {
+            this.state.data.author = value;
+            this.setState(this.state);
+        }
+    }
+
+    setClasskey(value) {
+        if (this.state.editing) {
+            this.state.data.classkey = value;
+            this.setState(this.state);
+        }
+    }
+
+    setText(value) {
+        if (this.state.editing) {
+            this.state.data.text = value;
+            this.setState(this.state);
+        }
+    }
+
+    setMiddleReadingTime(value) {
+        if (this.state.editing) {
+            this.state.data.middleReadingTime = value;
+            this.setState(this.state);
+        }
+    }
+
+    setLikeCount(value) {
+        if (this.state.editing) {
+            this.state.data.likeCount = value;
+            this.setState(this.state);
+        }
     }
 
     componentDidMount() {
         this.populateData();
+    }
+
+    save() {
+        const article = this.state.data;
+        console.log("Редактируем статью", article)
+        const url = 'api/article/' + this.id;
+        const response = fetch(url, {
+            method: 'PATCH',
+            body: article,
+        });
+
+        this.state.editing = false;
+        this.setState(this.state);
     }
 
     delete() {
@@ -46,32 +114,32 @@ export class ArticleViewPage extends Component {
                 </FormGroup>
                 <FormGroup row>
                     <Label  sm={2}>Название</Label>
-                    <Col sm={10}>
-                        <Input value={article.title} />
+                        <Col sm={10}>
+                            <Input value={article.title} onChange={this.handleTitle} />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Автор</Label>
                     <Col sm={10}>
-                        <Input value={article.author} />
+                            <Input value={article.author} onChange={this.handleAuthor} />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Класс</Label>
                     <Col sm={10}>
-                        <Input value={article.classkey} />
+                            <Input value={article.classkey} onChange={this.handleClasskey} />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Среднее время чтения</Label>
                     <Col sm={10}>
-                        <Input value={article.middleReadingTime} />
+                            <Input value={article.middleReadingTime} onChange={this.handleMiddleReadingTime} />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Количество лайков</Label>
-                    <Col sm={10}>
-                        <Input value={article.likeCount} />
+                        <Col sm={10}>
+                            <Input type="number" value={article.likeCount} onChange={this.handleLikeCount} />
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -83,14 +151,14 @@ export class ArticleViewPage extends Component {
                 <FormGroup row>
                     <Label sm={2}>Текст</Label>
                     <Col sm={10}>
-                        <textarea value={article.text} rows="20" cols="130" />
+                            <textarea value={article.text} onChange={this.handleText} rows="20" cols="130" />
                     </Col>
                     </FormGroup>
                     </fieldset> 
                 <Link to={'/articles'} className="btn btn-secondary btn-lg m-2">Назад</Link>
-                <Button color="danger" size="lg" className="m-2" disabled={this.state.deleted} onClick={this.handleDelete }>Удалить</Button>
-                <Button color="warning" size="lg" className="m-2" disabled={this.state.deleted}>Изменить</Button>
-                <Button color="primary" size="lg" className="m-2" disabled={this.state.deleted}>Сохранить</Button>
+                <Button color="danger" size="lg" className="m-2" disabled={this.state.deleted} onClick={this.handleDelete}>Удалить</Button>
+                <Button color="warning" size="lg" className="m-2" disabled={this.state.deleted || this.state.editing} onClick={this.handleEdit}>Изменить</Button>
+                <Button color="primary" size="lg" className="m-2" disabled={!this.state.editing} onClick={this.handleSave }>Сохранить</Button>
         </Form>);
     }
     
