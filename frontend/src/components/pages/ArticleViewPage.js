@@ -2,12 +2,15 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 import ReactLoading from 'react-loading';
 import { TagViewItem } from '../rows/TagViewItem';
+import { browserHistory } from 'react-router';
+import { useHistory } from "react-router-dom";
 
 export class ArticleViewPage extends Component {
+
     constructor(props) {
         super(props);
         this.id = this.props.match.params.id;
-        this.state = { loading: true, data: null, loadingTags: true, tags: null};
+        this.state = { loading: true, data: null, loadingTags: true, tags: null };
 
         this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
@@ -61,7 +64,7 @@ export class ArticleViewPage extends Component {
                 <FormGroup row>
                     <Label sm={2}>Теги</Label>
                     <Col>
-                        {this.renderTags()}
+                            {this.renderTags()}
                     </Col>
                 </FormGroup>
                 <FormGroup row>
@@ -73,6 +76,8 @@ export class ArticleViewPage extends Component {
             <Button>Submit</Button>
         </Form>);
     }
+    
+              //  <Button color="secondary" size="lg" onClick={useHistory().goBack}>Назад</Button>
 
     renderTags() {
         const contents = this.state.loadingTags

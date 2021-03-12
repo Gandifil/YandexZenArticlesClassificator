@@ -9,7 +9,7 @@ export class TagViewItem extends Component {
 
     render() {
         const tag = this.props.tag;
-        return (<Button outline color="danger">{ tag.name }</Button>);
+        return (<div><Button outline color="danger">{tag.name}</Button>{' '}</div>);
     }
 }
 //<td><Button color="danger">Удалить</Button></td>

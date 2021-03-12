@@ -4,6 +4,7 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { ArticlesPage } from './components/pages/ArticlesPage';
 import { ArticleViewPage } from './components/pages/ArticleViewPage';
+import { withRouter } from "react-router-dom";
 
 export default class App extends React.Component {
   render() {
