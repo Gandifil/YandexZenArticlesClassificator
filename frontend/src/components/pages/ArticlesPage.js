@@ -1,12 +1,47 @@
 import React, { Component } from 'react';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 export class ArticlesPage extends Component {
-  render () {
-    return (
-      <div>
-        <h1>Articles</h1>
-        <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
-      </div>
-    );
-  }
+    constructor(props) {
+        super(props);
+        this.state = { articles: [], loading: true};
+    }
+
+    componentDidMount() {
+        this.populateData("");
+    }
+
+    search(value, event) {
+        this.populateData(value);
+    }
+
+    render() {
+        let contents = this.state.loading
+            ? <p><em>Loading...</em></p>
+            : <p><em>Loaded...</em></p>;
+
+            ////    <SearchField
+            //        placeholder='Имя'
+            //        onEnter={this.search}
+            //        onSearchClick={this.search}
+            //        onBlur={this.search}
+            //    />
+            //    <CreateEquipment ref={this.modal} onHide={this.search} />
+            //    <Button variant="outline-primary" onClick={() => this.openModal()}>Добавить</Button>
+        return (
+            <div>
+                    {contents}
+            </div>
+        );
+    }
+
+    async populateData(value) {
+        this.setState({ articles: [], loading: true});
+        let url = 'api/articles';
+        if (value)
+            url = url + '?name=' + value;
+        const response = await fetch(url);
+        const data = await response.json();
+        this.setState({ articles: data, loading: false});
+    }
 }

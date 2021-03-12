@@ -1,4 +1,5 @@
 const path = require('path');
+require('babel-polyfill');
 
 module.exports = {
   entry: './src/index.js',
@@ -6,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
   },
+  entry: {
+    app: ['babel-polyfill']
+  }, 
   module: {
     rules: [
       {
