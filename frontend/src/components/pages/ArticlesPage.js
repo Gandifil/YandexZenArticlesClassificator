@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { ArticleTable } from '../tables/ArticleTable';
+import { ArticleTable } from '../forms/ArticleTable';
 import ReactLoading from 'react-loading';
+import { ArticleSearchModal } from '../forms/ArticleSearchModal';
 
 export class ArticlesPage extends Component {
     constructor(props) {
         super(props);
-        this.state = { articles: [], loading: true};
+        this.state = { articles: [], loading: true };
+        this.modal = React.createRef();
+
+        this.handleModalSubmit = (e) => this.populateData(e)
     }
 
     componentDidMount() {
@@ -19,11 +23,16 @@ export class ArticlesPage extends Component {
     }
 
     render() {
-        const isLoading = this.state.loading;
-        if (isLoading)
-            return (<ReactLoading type="cylon" color="black" height={667} width={375} />);
-        else
-            return (<ArticleTable articles={this.state.articles} />);
+        const contents = this.state.loading
+            ? <ReactLoading type="cylon" color="black" height={667} width={375} />
+            : <ArticleTable articles={this.state.articles} />;
+
+        return (
+            <div>
+                <ArticleSearchModal ref={this.modal} />
+                {contents}
+            </div>
+            );
     }
 
     async populateData(value) {
