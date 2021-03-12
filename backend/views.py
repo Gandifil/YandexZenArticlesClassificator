@@ -20,7 +20,16 @@ class ArticleView(APIView):
             articles = Article.objects.filter(pk=id).values();
             return JsonResponse(list(articles)[0], safe=False)
 
-# Create your views here.
+
+        
+class ArticleTagsView(APIView):
+
+    def get(self, request, id):
+        if request.method == 'GET':
+            keys = Article.objects.get(pk=id).keywords.values();
+            return JsonResponse(list(keys), safe=False)
+
+
 class ArticlesView(APIView):
     """API endpoint /api/model/ для обработки запросов на определение класса для передаваемого текста"""
 
