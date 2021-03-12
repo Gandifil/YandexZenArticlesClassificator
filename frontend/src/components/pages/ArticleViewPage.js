@@ -11,14 +11,24 @@ export class ArticleViewPage extends Component {
     constructor(props) {
         super(props);
         this.id = this.props.match.params.id;
-        this.state = { loading: true, data: null, loadingTags: true, tags: null };
+        this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false };
 
         this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
+        this.handleDelete = (e) => this.delete();
     }
 
     componentDidMount() {
         this.populateData();
+    }
+
+    delete() {
+        const url = 'api/article/' + this.id;
+        const response = fetch(url, {
+            method: 'DELETE'
+        });
+        this.state.deleted = true;
+        this.setState(this.state);
     }
 
     renderArticle() {
@@ -26,6 +36,8 @@ export class ArticleViewPage extends Component {
         console.log("Открываю статью", article);
         return (
             <Form>
+                <fieldset disabled={this.state.deleted}> 
+                <header className="modal-title">Статья</header>
                 <FormGroup row>
                     <Label sm={2}>ID</Label>
                     <Col sm={10}>
@@ -73,11 +85,12 @@ export class ArticleViewPage extends Component {
                     <Col sm={10}>
                         <textarea value={article.text} rows="20" cols="130" />
                     </Col>
-                </FormGroup>
+                    </FormGroup>
+                    </fieldset> 
                 <Link to={'/articles'} className="btn btn-secondary btn-lg m-2">Назад</Link>
-                <Button color="danger" size="lg" className="m-2">Удалить</Button>
-                <Button color="warning" size="lg" className="m-2">Изменить</Button>
-                <Button color="primary" size="lg" className="m-2">Сохранить</Button>
+                <Button color="danger" size="lg" className="m-2" disabled={this.state.deleted} onClick={this.handleDelete }>Удалить</Button>
+                <Button color="warning" size="lg" className="m-2" disabled={this.state.deleted}>Изменить</Button>
+                <Button color="primary" size="lg" className="m-2" disabled={this.state.deleted}>Сохранить</Button>
         </Form>);
     }
     

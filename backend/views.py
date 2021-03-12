@@ -3,6 +3,7 @@ from rest_framework import generics
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from django.http import HttpResponse
+from django.http import HttpResponseNotFound
 from django.core import serializers
 from .models import Article
 from django.http.response import JsonResponse
@@ -17,8 +18,20 @@ class ArticleView(APIView):
 
     def get(self, request, id):
         if request.method == 'GET':
-            articles = Article.objects.filter(pk=id).values();
-            return JsonResponse(list(articles)[0], safe=False)
+            articles = list(Article.objects.filter(pk=id).values());
+            if articles:
+                return JsonResponse(articles[0], safe=False)
+            else:
+                return HttpResponseNotFound('Article not found')
+
+
+    def delete(self, request, id):
+        if request.method == 'DELETE':
+            deletedCount = Article.objects.filter(pk=id).delete()[0];
+            if deletedCount > 0:
+                return HttpResponse(status=200)
+            else:
+                return HttpResponseNotFound('Article not found')
 
 
         
