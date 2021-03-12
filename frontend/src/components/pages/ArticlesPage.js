@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { ArticleTable } from '../tables/ArticleTable';
+import ReactLoading from 'react-loading';
 
 export class ArticlesPage extends Component {
     constructor(props) {
@@ -16,23 +19,11 @@ export class ArticlesPage extends Component {
     }
 
     render() {
-        let contents = this.state.loading
-            ? <p><em>Loading...</em></p>
-            : <p><em>Loaded...</em></p>;
-
-            ////    <SearchField
-            //        placeholder='Имя'
-            //        onEnter={this.search}
-            //        onSearchClick={this.search}
-            //        onBlur={this.search}
-            //    />
-            //    <CreateEquipment ref={this.modal} onHide={this.search} />
-            //    <Button variant="outline-primary" onClick={() => this.openModal()}>Добавить</Button>
-        return (
-            <div>
-                    {contents}
-            </div>
-        );
+        const isLoading = this.state.loading;
+        if (isLoading)
+            return (<ReactLoading type="cylon" color="black" height={667} width={375} />);
+        else
+            return (<ArticleTable articles={this.state.articles} />);
     }
 
     async populateData(value) {
