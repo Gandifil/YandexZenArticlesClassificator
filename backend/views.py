@@ -32,7 +32,27 @@ class ArticleView(APIView):
                 return HttpResponse(status=200)
             else:
                 return HttpResponseNotFound('Article not found')
+            
 
+    def patch(self, request, id):
+        if request.method == 'PATCH':
+            articles = list(Article.objects.filter(pk=id));
+            if articles:
+                article = articles[0]
+                json_data = json.loads(request.body)
+                try:
+                    article.title = json_data["title"]
+                    article.author = json_data["author"]
+                    article.classkey = json_data["classkey"]
+                    article.text = json_data["text"]
+                    article.middleReadingTime = json_data["middleReadingTime"]
+                    article.likeCount = json_data["likeCount"]
+                    article.save()
+                except KeyError:
+                    return HttpResponseServerError("Malformed data")
+                return HttpResponse(status=200)
+            else:
+                return HttpResponseNotFound('Article not found')
 
         
 class ArticleTagsView(APIView):

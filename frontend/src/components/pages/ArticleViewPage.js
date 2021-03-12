@@ -83,7 +83,10 @@ export class ArticleViewPage extends Component {
         const url = 'api/article/' + this.id;
         const response = fetch(url, {
             method: 'PATCH',
-            body: article,
+            body: JSON.stringify(article),
+            headers: {
+                'Content-Type': 'application/json'
+            },
         });
 
         this.state.editing = false;
