@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 import ReactLoading from 'react-loading';
 import { TagViewItem } from '../rows/TagViewItem';
+import { Link } from "react-router-dom";
 import { browserHistory } from 'react-router';
 import { useHistory } from "react-router-dom";
 
@@ -73,7 +74,10 @@ export class ArticleViewPage extends Component {
                         <textarea value={article.text} rows="20" cols="130" />
                     </Col>
                 </FormGroup>
-            <Button>Submit</Button>
+                <Link to={'/articles'} className="btn btn-secondary btn-lg m-2">Назад</Link>
+                <Button color="danger" size="lg" className="m-2">Удалить</Button>
+                <Button color="warning" size="lg" className="m-2">Изменить</Button>
+                <Button color="primary" size="lg" className="m-2">Сохранить</Button>
         </Form>);
     }
     
