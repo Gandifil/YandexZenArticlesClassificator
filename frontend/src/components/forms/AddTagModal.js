@@ -47,9 +47,16 @@ export class AddTagModal extends Component {
     }
 
     submit() { 
-        this.hide();
+        if (this.state.index == -1)
+            return;
         console.log("Установлен тег с ID", this.state.index);
-
+        const name = this.state.tags.find(x => x.id == this.state.index).name
+        this.props.onAddTag({ id: this.state.index, name: name });
+        const url = 'api/article/' + this.props.id + '/tag/' + this.state.index;
+        fetch(url, {
+            method: 'POST'
+        });
+        this.hide();
     }
 
     renderTag(tag) {

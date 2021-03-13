@@ -164,8 +164,11 @@ export class ArticleViewPage extends Component {
                 <Button color="primary" size="lg" className="m-2" disabled={!this.state.editing} onClick={this.handleSave }>Сохранить</Button>
         </Form>);
     }
-    
-              //  <Button color="secondary" size="lg" onClick={useHistory().goBack}>Назад</Button>
+
+    addTag(tag) {
+        this.state.tags.push(tag);
+        this.setState(this.state);
+    }
 
     renderTags() {
         const contents = (this.state.loadingTags
@@ -176,7 +179,7 @@ export class ArticleViewPage extends Component {
             <Col>
                 {contents}
                 <Button outline color="success" className='m-1' disabled={!this.state.editing} onClick={this.handleAdd} >+</Button>
-                <AddTagModal ref={this.modal } />
+                <AddTagModal ref={this.modal} id={this.id} onAddTag={(t) => this.addTag(t)} />
             </Col>);
     }
 

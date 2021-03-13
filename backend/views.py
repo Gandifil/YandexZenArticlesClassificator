@@ -74,6 +74,12 @@ class TagsView(APIView):
             return JsonResponse(keywords, safe=False)
         
 class ArticleTagView(APIView):
+    def post(self, request, articleID, tagID):
+        if request.method == 'POST':
+            article = Article.objects.filter(pk=articleID).first();
+            article.keywords.add(Keyword.objects.get(pk=tagID));
+            article.save();
+            return HttpResponse(status=200)
 
     def delete(self, request, articleID, tagID):
         if request.method == 'DELETE':
