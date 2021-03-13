@@ -29,6 +29,7 @@ export class ArticleViewPage extends Component {
         this.handleText = (e) => this.setText(e.target.value);
         this.handleMiddleReadingTime = (e) => this.setMiddleReadingTime(e.target.value);
         this.handleLikeCount = (e) => this.setLikeCount(e.target.value);
+        this.handleAdd = (e) => this.addTag();
     }
 
     setTitle(value) {
@@ -75,6 +76,10 @@ export class ArticleViewPage extends Component {
 
     componentDidMount() {
         this.populateData();
+    }
+
+    addTag() {
+
     }
 
     save() {
@@ -146,9 +151,7 @@ export class ArticleViewPage extends Component {
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Теги</Label>
-                    <Col>
                             {this.renderTags()}
-                    </Col>
                 </FormGroup>
                 <FormGroup row>
                     <Label sm={2}>Текст</Label>
@@ -167,11 +170,15 @@ export class ArticleViewPage extends Component {
               //  <Button color="secondary" size="lg" onClick={useHistory().goBack}>Назад</Button>
 
     renderTags() {
-        const contents = this.state.loadingTags
+        const contents = (this.state.loadingTags
             ? <ReactLoading type="cylon" color="black" height={66} width={37} />
-            : this.state.tags.map(x => <TagViewItem tag={x} id={this.id} canDelete={this.state.editing} />);
+            : this.state.tags.map(x => <TagViewItem tag={x} id={this.id} canDelete={this.state.editing} />));
 
-        return contents;
+        return (
+            <Col>
+                {contents}
+                <Button outline color="success" className='m-1' disabled={!this.state.editing} onClick={this.handleAdd} >+</Button>
+            </Col>);
     }
 
     render() {
