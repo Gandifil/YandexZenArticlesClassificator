@@ -52,7 +52,7 @@ export class TagsPage extends Component {
 
     async populateData() {
         this.setState({ tags: null, loading: true });
-        const url = 'api/tags';
+        const url = 'api/tags/stat';
         fetch(url)
             .then(response => response.json())
             .then(result => this.setState({ tags: result, loading: false }))

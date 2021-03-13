@@ -50,7 +50,7 @@ class ArticleView(APIView):
             else:
                 return HttpResponseNotFound('Article not found')
 
-class TagsView(APIView):
+class TagsStatView(APIView):
 
     def get(self, request):
         if request.method == 'GET':
@@ -65,6 +65,13 @@ class TagsView(APIView):
                 obj["countClasskeys"] = Article.objects.filter(classkey=x.name).count()
                 results.append(obj)
             return JsonResponse(results, safe=False)
+
+class TagsView(APIView):
+
+    def get(self, request):
+        if request.method == 'GET':
+            keywords = list(Keyword.objects.all().values());
+            return JsonResponse(keywords, safe=False)
         
 class ArticleTagView(APIView):
 
