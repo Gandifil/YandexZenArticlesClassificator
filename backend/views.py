@@ -10,11 +10,6 @@ from .models import Keyword
 from django.http.response import JsonResponse
 import json
 
-
-#def getAll(id):
-#    return JsonResponse([Article.objects.filter(pk=id)[:1].values()], safe=False)
-
-# Create your views here.
 class ArticleView(APIView):
 
     def get(self, request, id):
@@ -70,7 +65,17 @@ class TagsView(APIView):
                 obj["countClasskeys"] = Article.objects.filter(classkey=x.name).count()
                 results.append(obj)
             return JsonResponse(results, safe=False)
+        
+class ArticleTagView(APIView):
 
+    def delete(self, request, articleID, tagID):
+        if request.method == 'DELETE':
+            article = Article.objects.filter(pk=articleID).first();
+            deletedCount = article.keywords.filter(pk=tagID).delete()[0];
+            if deletedCount > 0:
+                return HttpResponse(status=200)
+            else:
+                return HttpResponseNotFound('Article not found')
         
 class ArticleTagsView(APIView):
 

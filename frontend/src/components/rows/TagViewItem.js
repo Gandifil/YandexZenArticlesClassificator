@@ -1,50 +1,40 @@
-﻿import React, { Component } from 'react';
+﻿import React, { Component, createRef } from 'react';
 import { Link } from "react-router-dom";
 import { Button } from 'reactstrap';
 import { Confirm } from 'react-confirm-bootstrap';
+import { DeleteTagModal } from '../forms/DeleteTagModal';
 
 export class TagViewItem extends Component {
     constructor(props) {
         super(props);
-        this.state = { confirmVisible: false };
+        this.state = { visible:true  };
+        this.modal = React.createRef()
 
         this.handleClick = (e) => this.click();
-        this.handleCloseModal = (e) => this.setState({ confirmVisible: false });
-        this.handleConfirm = (e) => this.confirm();
+        this.handleResult = (e) => this.confirm(e);
     }
 
-    confirm() {
-        const url = 'api/tag/' + this.props.tag.id;
-        const response = fetch(url, {
-            method: 'DELETE'
-        });
+    confirm(value) {
+        if (value) {
+            const url = 'api/article/'+this.props.id+'/tag/' + this.props.tag.id;
+            fetch(url, {
+                method: 'DELETE'
+            });
+            this.setState({ visible: false })
+        }
     }
 
     click() {
         console.log('Попытка удалить тег', this.props.canDelete);
-        if (this.props.canDelete) {
-            this.setState({ confirmVisible: true });
-        }
-    }
-
-    renderButton() {
-        const tag = this.props.tag;
-        return (<Button outline color="danger" className='m-1'>{tag.name}</Button>)
+        if (this.props.canDelete)
+            this.modal.current.show();
     }
 
     render() {
         const tag = this.props.tag;
-        return this.props.canDelete
-            ? <Confirm
-                onConfirm={this.handleConfirm}
-                onClose={this.handleCloseModal}
-                body="Вы уверены, что хотите этого? Точно-точно?"
-                confirmText="Подтвердить"
-                visible={this.state.confirmVisible}
-                cancelText="Назад"
-                title={"Удаление " + tag.name + "из списка тегов "}>{this.renderButton()}</Confirm>
-            : this.renderButton();
-        ;
+        return this.state.visible ? (<Button outline color="danger" className='m-1' onClick={this.handleClick}>
+            {tag.name}<DeleteTagModal ref={this.modal} onClick={this.handleResult}></DeleteTagModal>
+            </Button>) : null;
     }
 }
 //<td><Button color="danger">Удалить</Button></td>

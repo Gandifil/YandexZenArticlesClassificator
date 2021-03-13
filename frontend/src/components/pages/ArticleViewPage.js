@@ -169,7 +169,7 @@ export class ArticleViewPage extends Component {
     renderTags() {
         const contents = this.state.loadingTags
             ? <ReactLoading type="cylon" color="black" height={66} width={37} />
-            : this.state.tags.map(x => <TagViewItem tag={x} canDelete={this.state.editing} />);
+            : this.state.tags.map(x => <TagViewItem tag={x} id={this.id} canDelete={this.state.editing} />);
 
         return contents;
     }
