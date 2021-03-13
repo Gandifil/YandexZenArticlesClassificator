@@ -1,17 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, createRef } from 'react';
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 import ReactLoading from 'react-loading';
 import { TagViewItem } from '../rows/TagViewItem';
 import { Link } from "react-router-dom";
 import { browserHistory } from 'react-router';
 import { useHistory } from "react-router-dom";
+import { AddTagModal } from '../forms/AddTagModal';
 
 export class ArticleViewPage extends Component {
 
     constructor(props) {
         super(props);
         this.id = this.props.match.params.id;
-        this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false, editing: false};
+        this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false, editing: false };
+        this.modal = React.createRef()
 
         this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
@@ -29,7 +31,7 @@ export class ArticleViewPage extends Component {
         this.handleText = (e) => this.setText(e.target.value);
         this.handleMiddleReadingTime = (e) => this.setMiddleReadingTime(e.target.value);
         this.handleLikeCount = (e) => this.setLikeCount(e.target.value);
-        this.handleAdd = (e) => this.addTag();
+        this.handleAdd = (e) => this.modal.current.show();
     }
 
     setTitle(value) {
@@ -76,10 +78,6 @@ export class ArticleViewPage extends Component {
 
     componentDidMount() {
         this.populateData();
-    }
-
-    addTag() {
-
     }
 
     save() {
@@ -178,6 +176,7 @@ export class ArticleViewPage extends Component {
             <Col>
                 {contents}
                 <Button outline color="success" className='m-1' disabled={!this.state.editing} onClick={this.handleAdd} >+</Button>
+                <AddTagModal ref={this.modal } />
             </Col>);
     }
 

@@ -29,6 +29,7 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.5.3",
     "css-loader": "^5.1.2",
+    "react-autocomplete": "^1.8.1",
     "react-bootstrap": "^1.4.0",
     "react-confirm-bootstrap": "^5.3.1",
     "react-loading": "^2.0.3",
