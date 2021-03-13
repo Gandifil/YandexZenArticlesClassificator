@@ -38,9 +38,9 @@ model_cnn.compile(optimizer='adam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
 model_cnn.summary()
-model_cnn_save_path = 'model_cnn.h5'
-token_file = 'tokenizer.pickle'
-class_file = 'classes.txt'
+model_cnn_save_path = 'backend/model_cnn.h5'
+token_file = 'backend/tokenizer.pickle'
+class_file = 'backend/classes.txt'
 checkpoint_callback_cnn = ModelCheckpoint(model_cnn_save_path,
                                       monitor='val_accuracy',
                                       save_best_only=True,
