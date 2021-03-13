@@ -27,7 +27,7 @@ export class NavMenu extends Component {
         return (
             <header>
                 <Navbar color="dark" light expand="md">
-                            <NavbarBrand tag={Link} className="text-light" to="/">Yandex Zen Классификатор статей</NavbarBrand>
+                            <NavbarBrand tag={Link} className="text-light" to="/">Yandex Zen Классификатор текстов</NavbarBrand>
                     <Nav className="me-auto" navbar>
                     <NavItem >
                                     <NavLink tag={Link} className="text-light" to="/articles">Статьи</NavLink>
@@ -36,7 +36,7 @@ export class NavMenu extends Component {
                                     <NavLink tag={Link} className="text-light" to="/tags">Тэги</NavLink>
                     </NavItem>
                     <NavItem>
-                                    <NavLink tag={Link} className="text-light" to="/classing/">Классификация</NavLink>
+                            <NavLink tag={Link} className="text-light" to="/classify/">Классификация</NavLink>
                     </NavItem>
                     </Nav>
                     <NavbarText>0.0.1</NavbarText>
