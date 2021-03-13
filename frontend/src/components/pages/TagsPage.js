@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactLoading } from 'react-loading';
+import { Spinner, SpinnerProps, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 
 export class TagsPage extends Component {
     constructor(props) {
@@ -43,7 +43,9 @@ export class TagsPage extends Component {
 
     render() {
         if (this.state.loading)
-            return null;
+            return (<div id="center" style={{ position: 'fixed', top: '50%', left: '50%' }}>
+                <Spinner color="dark" style={{ width: '20rem', height: '20rem' }} />
+            </div>);
         else
             return this.renderTable();
     }
