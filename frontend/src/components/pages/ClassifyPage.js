@@ -7,6 +7,7 @@ export class ClassifyPage extends Component {
 
         this.state = { text: "", class: "" };
         this.handleText = (e) => this.changeText(e.target.value);
+        this.handleClick = (e) => this.populateData()
     }
 
     changeText(value) {
@@ -20,24 +21,28 @@ export class ClassifyPage extends Component {
                 <textarea value={this.state.text} onChange={this.handleText} rows="20" cols="130" />
 
                 <InputGroup>
-                    <Button color="primary" size="lg">Классифицировать</Button>
-                    <Input size="lg" value={this.state.class} />
+                    <Button color="primary" size="lg" onClick={ this.handleClick }>Классифицировать</Button>
+                    <Input size="lg" value={ this.state.class } />
                 </InputGroup>
             </div>
             
-        );//value={article.text} onChange={this.handleText}
+        );
+    }
+
+    setClass(value) {
+        const s = value.substring(1, value.length - 3)
+        this.setState({ text: this.state.text, class: s })
     }
 
     async populateData() {
-        this.setState({ tags: null, loading: true });
-        const url = 'api/tags/stat';
-        fetch(url)
-            .then(response => response.json())
-            .then(result => this.setState({ tags: result, loading: false }))
-            .catch(e => {
-                console.log(e);
+        if (this.state.text)
+            fetch('api/getclass?text=' + this.state.text)
+                .then(response => response.text())
+                .then(result => this.setClass(result))
+                .catch(e => {
+                    console.log(e);
 
-                this.setState({ tags: null, loading: false, error: e });
-           });
+                    this.setState({ text: "", class: "", error: e });
+               });
     }
 }

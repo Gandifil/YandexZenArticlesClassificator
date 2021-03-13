@@ -9,6 +9,7 @@ from .models import Article
 from .models import Keyword
 from django.http.response import JsonResponse
 import json
+from .Classificator import Classificator
 
 class ArticleView(APIView):
 
@@ -65,6 +66,22 @@ class TagsStatView(APIView):
                 obj["countClasskeys"] = Article.objects.filter(classkey=x.name).count()
                 results.append(obj)
             return JsonResponse(results, safe=False)
+
+        
+class GetClassModel(APIView):
+    """API endpoint /api/model/ для обработки запросов на определение класса для передаваемого текста"""
+
+    def get(self, request):
+        if request.method == 'GET':
+            params = request.GET.get('text')
+            if params:
+                cl = Classificator()
+                response = cl.getTextClass(str(params))
+                return Response(response)
+            else:
+                return Response(status=204)
+
+
 
 class TagsView(APIView):
 

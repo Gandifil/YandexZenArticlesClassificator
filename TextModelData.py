@@ -57,29 +57,3 @@ class TextModelData:
 
 
 
-n = 10
-data = TextModelData()
-data.harvest()
-data.extract(n)
-data.print()
-
-
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Embedding, Conv1D, GlobalMaxPooling1D
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras import utils
-import numpy as np
-import matplotlib.pyplot as plt
-import pickle
-
-
-num_words = 10000
-max_news_len = 30
-nb_classes = 4
-
-tokenizer = Tokenizer(num_words=num_words)
-tokenizer.fit_on_texts([x[1] for x in data.train]) 
-print(tokenizer.word_index)
-

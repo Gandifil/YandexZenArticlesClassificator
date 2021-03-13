@@ -15,7 +15,6 @@ export class ArticleViewPage extends Component {
         this.state = { loading: true, data: null, loadingTags: true, tags: null, deleted: false, editing: false };
         this.modal = React.createRef()
 
-        this.handleClick = (e) => this.modal.current.show();
         this.handleModalSubmit = (e) => this.populateData();
         this.handleDelete = (e) => this.delete();
         this.handleSave = (e) => this.save();

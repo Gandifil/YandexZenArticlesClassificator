@@ -23,10 +23,10 @@ export class AddTagModal extends Component {
         const url = 'api/tags';
         fetch(url)
             .then(response => response.json())
-            .then(result => this.setState({ tags: result, loading: false, visible: true }))
+            .then(result => this.setState({ tags: result, loading: false, visible: this.state.visible }))
             .catch(e => {
                 console.log(e);
-                this.setState({tags: [], visible: true, loading: false, error: e });
+                this.setState({ tags: [], loading: false, visible: his.state.visible, loading: false, error: e });
             });
     }
 
